@@ -18,19 +18,6 @@
             error:function(data);
           })
 
-
-
-          $('#output').load(url, function (responseText, status, xhr){
-            console.log(responseText);
-            console.log(status);
-            console.log(xhr);
-            if(status == 'success'){
-              $('#output').append(' _it worked');
-            }
-              if(status == 'error'){
-                $('#output').append('<br> Error');
-              }
-          }); //
         })
       </script>
 
