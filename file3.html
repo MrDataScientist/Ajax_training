@@ -10,7 +10,15 @@
         $('#mybutton').click(function(e){
           var url = 'test.php';
           e.preventDefault();
-          console.log('clicked');
+          //console.log('clicked');
+          $ajax(url, {
+            success:function(data){
+              console.log(data);
+            }
+            error:function(data);
+          })
+
+
 
           $('#output').load(url, function (responseText, status, xhr){
             console.log(responseText);
