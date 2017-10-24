@@ -1,39 +1,29 @@
-<html>
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
-      <div id="mybutton">click me </div>
-      <div id="output"></div>
-
-      <script>
-      // introduction to AJAX
-
-        $('#mybutton').click(function(e){
-          var url = 'test.php';
-          e.preventDefault();
-
-          //console.log('clicked');
-          $.ajax({
-
-            url:url,
-            type:'GET',
-            dataType:'json',
-
-            success:function(data){
-              console.log(data);
-              $('#output').append('<br> It worked');
-            }
-
-            ,error:function(data){
-              console.log(data);
-              $('#output').append('<br>'+data.statusText);
-            }
-
-          })
-
+<div id="myBtn"><a href="">Click Me</a></div>
+<div id="output"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#myBtn a').click(function (e) {
+            var url = 'https://api.myjson.com/bins/1mjba';
+            e.preventDefault();
+            $.ajax({
+                url: url
+                , type: 'GET'
+                , dataType: 'text'
+                , success: function (data) {
+                    data = JSON.parse(data);  // only if its a string value in data
+                    $.each(data, function (key, index) {
+                        console.log(data[key].email);
+                        console.log(index.email);
+                        console.log(index['email']);
+                        $('#output').append('<br>' + index.email);
+                    })
+                }
+                , error: function (data) {
+                    console.log(data);
+                    $('#output').append('<br>' + data.statusText);
+                }
+            })
         })
-      </script>
-
-  </body>
-</html>
+    })
+</script>
