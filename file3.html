@@ -7,15 +7,21 @@
       <div id="output"></div>
 
       <script>
+      // introduction to AJAX
+
         $('#mybutton').click(function(e){
           var url = 'test.php';
           e.preventDefault();
           //console.log('clicked');
-          $ajax(url, {
+          $.ajax(url, {
             success:function(data){
               console.log(data);
+              $('#output').append('<br> It worked');
             }
-            error:function(data);
+            ,error:function(data){
+              console.log(data);
+              $('#output').append('<br>'+data.statusText);
+            }
           })
 
         })
