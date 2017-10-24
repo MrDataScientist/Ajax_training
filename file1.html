@@ -8,11 +8,15 @@
 
       <script>
         $('#mybutton').click(function(e){
-          var url = 'example.php';
+          var url = 'test.php';
           e.preventDefault();
           console.log('clicked');
 
-          $('#output').load(url); //
+          $('#output').load(url, function (responseText, status, xhr){
+            console.log(responseText);
+            console.log(status);
+            console.log(xhr);
+          }); //
         })
       </script>
 
