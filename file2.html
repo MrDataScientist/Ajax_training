@@ -16,6 +16,12 @@
             console.log(responseText);
             console.log(status);
             console.log(xhr);
+            if(status == 'success'){
+              $('#output').append(' _it worked');
+            }
+              if(status == 'error'){
+                $('#output').append('<br> Error');
+              }
           }); //
         })
       </script>
