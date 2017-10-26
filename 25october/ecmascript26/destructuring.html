@@ -1,0 +1,21 @@
+<script>
+// Deep Destructuring
+
+const obj = {
+  one : {
+    eng : "one",
+    spa : "uno",
+    int : 1
+  },
+  two : {
+    eng : "two",
+    spa : "dos",
+    int : 2
+  }
+};
+
+const {
+  one : {spa:spanish},
+  two : {eng:english}
+} = obj;
+</script>
