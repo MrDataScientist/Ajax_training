@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript API tutorial</title>
+</head>
+<body>
+<div id="output"></div>
+<script>
+var output = document.getElementById("output");
+function myFunction() {
+var jsonoutput = '';
+if (this.readyState == 4 && this.status == 200) {
+var json = JSON.parse(this.responseText);
+console.log(json);
+for (var a in json) {
+jsonoutput = jsonoutput + json[a].company + '<BR>';
+}
+output.innerHTML = jsonoutput;
+}
+}
+var myRequest = new XMLHttpRequest();
+myRequest.overrideMimeType("application/json");
+myRequest.onreadystatechange = myFunction;
+myRequest.open("GET", "https://api.myjson.com/bins/4gcsf", true);
+myRequest.send(null);
+</script>
+</body>
+</html>
