@@ -13,7 +13,7 @@ if (this.readyState == 4 && this.status == 200) {
 var json = JSON.parse(this.responseText);
 console.log(json);
 for (var a in json) {
-jsonoutput = jsonoutput + json[a].firstName + '<BR>';
+jsonoutput = jsonoutput + json[a].company + '<BR>';
 }
 output.innerHTML = jsonoutput;
 }
@@ -21,7 +21,7 @@ output.innerHTML = jsonoutput;
 var myRequest = new XMLHttpRequest();
 myRequest.overrideMimeType("application/json");
 myRequest.onreadystatechange = myFunction;
-myRequest.open("GET", "https://jsonblob.com/f4ac886e-bd84-11e7-9d2d-29f623f47c50", true);
+myRequest.open("GET", "https://api.myjson.com/bins/4gcs", true);
 myRequest.send(null);
 </script>
 </body>
