@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript API tutorial</title>
+</head>
+<body>
+
+<div id="output">output</div>
+<script>
+var output = document.getElementById("output");
+var myjson ='[{"_id":"5680c1ee0cd164c329071a8c","index":0,"guid":"ad8e0f57-64c0-4f46-9b9b-f3f7af179210","age":"39","name":{"first":"Vang","last":"Burnett"},"company":"Ferrari","favoriteFruit":"apple"},{"_id":"5680c1eee6bcc6cf76197c78","index":"1","guid":"ec3592d3-d09c-44cc-802dead2ee23ecb7","age":"34","name":{"first":"Mona","last":"Flynn"},"company":"Chrysler","favoriteFruit":"orange"},{"_id":"5680c1ee85ea1bb830bed773","index":"2","guid":"3bbf3388-d750-4981-b74a-d144b6770285","age":"36","name":{"first":"Cie","last":"Morgan"},"company":"Ford","favoriteFruit":"strawberry"},{"_id":"5680c1ee566995b771c21d3f","index":"3","guid":"af360966-9add-4a37-8e5d-415a9e02928d","age":"30","name":{"first":"Dyer","last":"Ellis"},"company":"Mercedes","favoriteFruit":"watermelon"},{"_id":"5680c1ee5c5f5fa142f4eccf","index":"4","guid":"9bfc6653-98d3-43ca-8cfd-dafede5a4bfa","age":"35","name":{"first":"Benson","last":"Leon"},"company":"Bugatti","favoriteFruit":"pear"}]';
+var json = JSON.parse(myjson);
+console.log(json);
+//output.innerHTML = json[4].company;
+output.innerHTML = json[3].name.first;
+</script>
+</body>
+</html>
