@@ -13,3 +13,7 @@ console.log(a);
 
 let b = "aby";
 console.log(b);
+
+
+let a = "tarik";
+console.log(c);
