@@ -19,7 +19,17 @@ For instance, if the input had 6 values instead of 4, your code should flexibly 
 Starter Code:
 */
 
-function fromListToObject(array) {
-  // your code here
+var array = [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]];
 
+function fromListToObject() {
+  var object = {}; // out of the loop
+  for (var i = 0; i < array.length; ++i) { // iterate to last
+    var newArray = array[i];
+    object[newArray[0]] = newArray[1];
+  }
+  return object; // out of the loop
 }
+
+var obj = fromListToObject(array);
+
+console.log(obj);
