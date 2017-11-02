@@ -1,6 +1,5 @@
 /* ES7 */
 const isMomHappy = true;
-
 // Promise
 const willIGetNewPhone = new Promise(
     (resolve, reject) => {
