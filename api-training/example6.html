@@ -6,13 +6,19 @@
 <body>
 
 <div id="output"></div>
-
   <script>
+    function myFunction(){
+
+    }
+
     var myRequest = new XMLHttpRequest();
+
+    myRequest.addEventListener("Load", myFunction);
     myRequest.open('GET','api.php');
     myRequest.send();
-    console.log(myRequest);
-    </script>
 
+    console.log(myRequest);
+
+    </script>
 </body>
 </html>
