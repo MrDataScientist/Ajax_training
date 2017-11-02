@@ -7,6 +7,7 @@ function logHi(){
   console.log('hi');
 }
 //delay(2000).then(logHi);
+logHi();
 
 let a = "tarik";
 console.log(a);
