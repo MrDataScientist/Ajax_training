@@ -33,3 +33,13 @@ var askMom = function () {
 }
 
 askMom();
+
+/*
+// it will return as  result :
+
+[object Object] {
+  brand: "Samsung",
+  color: "black"
+}
+
+*/
