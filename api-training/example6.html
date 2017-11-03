@@ -8,12 +8,12 @@
 <div id="output"></div>
   <script>
     function myFunction(){
-
+      console.log(this.responseText);
     }
 
     var myRequest = new XMLHttpRequest();
 
-    myRequest.addEventListener("Load", myFunction);
+    myRequest.onload = myFunction;
     myRequest.open('GET','api.php');
     myRequest.send();
 
