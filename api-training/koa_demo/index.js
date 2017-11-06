@@ -5,7 +5,16 @@ const app = new koa(),
       router = new router();
 let users = [
   {
-    
+    name = 'jacob',
+    email: 'jacob@gmail.com'
+  },
+  {
+    name = 'moises',
+    email: 'moises@gmail.com'
+  },
+  {
+    name = 'adam',
+    email: 'adam@gmail.com'
   }
 ]
 
