@@ -1,6 +1,9 @@
 var hello = function *(name){
-  //yield.person();
+  yield 'your name is ' +name;
   return  'hello '+name;
 }
 
-console.log(hello('james'));
+var gen = hello('james');
+
+console.log(gen.next());
+console.log(gen.next());
