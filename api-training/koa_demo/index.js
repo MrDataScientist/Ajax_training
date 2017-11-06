@@ -1,8 +1,9 @@
 const Koa = require('koa'),
       Router = require('koa-router');
 
-const app = new koa(),
+const app = new Koa(),
       router = new Router();
+      
 let users = [
   {
     name : 'jacob',
@@ -13,7 +14,7 @@ let users = [
     email: 'moises@gmail.com'
   },
   {
-    name = 'adam',
+    name : 'adam',
     email: 'adam@gmail.com'
   }
 ];
