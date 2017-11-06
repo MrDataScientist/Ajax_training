@@ -22,7 +22,7 @@ app.use(async (ctx, next) => {
 // response
 
 app.use(async ctx => {
-  ctx.body = 'Hello World';
+  ctx.body = 'Servus von Bayern!';
 });
 
 app.listen(3000);
