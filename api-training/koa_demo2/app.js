@@ -2,13 +2,13 @@ var koa = require('koa');
 var router = require('koa-router');
 var app = new koa();
 
-var _ = router(); //Instantiate the router
+var _ = router();
 
-_.get('/hello', getMessage); // Define routes
+_.get('/:id', sendID);
 
-function *getMessage() {
-   this.body = "Hello world!";
-};
+function *sendID(){
+   this.body = 'The id you specified is ' + this.params.id;
+}
 
-app.use(_.routes()); //Use the routes defined using the router
+app.use(_.routes());
 app.listen(3000);
