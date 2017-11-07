@@ -1,0 +1,99 @@
+{
+  "_from": "strapi-admin@3.0.0-alpha.6.4",
+  "_id": "strapi-admin@3.0.0-alpha.6.4",
+  "_inBundle": false,
+  "_integrity": "sha512-I4ky7PtVhR7BB/v/FQ2p6KgWYIhe4PfnfvxR4BmAePkC1P5a3300K19uywsH7IbxdL14orXqowCHUybNah43OQ==",
+  "_location": "/strapi/strapi-admin",
+  "_phantomChildren": {
+    "graceful-fs": "4.1.11",
+    "klaw": "1.3.1",
+    "path-is-absolute": "1.0.1",
+    "rimraf": "2.6.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-admin@3.0.0-alpha.6.4",
+    "name": "strapi-admin",
+    "escapedName": "strapi-admin",
+    "rawSpec": "3.0.0-alpha.6.4",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-alpha.6.4"
+  },
+  "_requiredBy": [
+    "/strapi/strapi-generate-admin"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.0.0-alpha.6.4.tgz",
+  "_shasum": "602f002b2abc88dcfcf74ad592e49cfd343964bd",
+  "_spec": "strapi-admin@3.0.0-alpha.6.4",
+  "_where": "C:\\Users\\tennakdi\\AppData\\Roaming\\npm\\node_modules\\strapi\\node_modules\\strapi-generate-admin",
+  "author": {
+    "name": "Strapi"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi-admin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^0.30.0",
+    "sanitize.css": "^4.1.0",
+    "strapi-helper-plugin": "3.0.0-alpha.6.4",
+    "strapi-utils": "3.0.0-alpha.6.4"
+  },
+  "deprecated": false,
+  "description": "Strapi Admin",
+  "devDependencies": {
+    "cross-env": "^5.1.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-redux-saga": "^0.4.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "plop": "^1.9.0",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "homepage": "https://github.com/strapi/strapi-admin#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi"
+    }
+  ],
+  "name": "strapi-admin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi-admin.git"
+  },
+  "scripts": {
+    "analyze": "node ../strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "rimraf stats.json",
+    "build": "npm run build:dll && cross-env NODE_ENV=production IS_ADMIN=true webpack --config ../strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "rimraf admin/build",
+    "build:dll": "cross-env NODE_ENV=production webpack --config ../strapi-helper-plugin/lib/internals/webpack/webpack.dll.babel.js --color -p --progress",
+    "generate": "plop --plopfile ../strapi-helper-plugin/lib/internals/generators/index.js",
+    "lint": "eslint --ignore-path .gitignore --config ../strapi-helper-plugin/lib/internals/eslint/.eslintrc.json admin",
+    "postinstall": "node ../strapi-helper-plugin/lib/internals/scripts/postinstall.js",
+    "preanalyze": "npm run analyze:clean",
+    "prepublish": "npm run build",
+    "pretest": "npm run lint",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "cross-env NODE_ENV=development PORT=4000 IS_ADMIN=true node ../strapi-helper-plugin/lib/server",
+    "test": "echo Tests are not implemented."
+  },
+  "version": "3.0.0-alpha.6.4"
+}
