@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/myapi",
+      "handler": "MyApi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/myapi/:_id",
+      "handler": "MyApi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/myapi",
+      "handler": "MyApi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/myapi/:_id",
+      "handler": "MyApi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/myapi/:_id",
+      "handler": "MyApi.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

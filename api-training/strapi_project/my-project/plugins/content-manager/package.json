@@ -1,0 +1,97 @@
+{
+  "_from": "strapi-plugin-content-manager@alpha",
+  "_id": "strapi-plugin-content-manager@3.0.0-alpha.6.4",
+  "_inBundle": false,
+  "_integrity": "sha512-/XztX8xLi70d25b/NOpX4HO5K+Mrx4aBAr3oKYsP8YFXJMoC5wpRB4OLr9I3+hGtf6mxmY0qCdMEIVGNVew88Q==",
+  "_location": "/strapi-plugin-content-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "strapi-plugin-content-manager@alpha",
+    "name": "strapi-plugin-content-manager",
+    "escapedName": "strapi-plugin-content-manager",
+    "rawSpec": "alpha",
+    "saveSpec": null,
+    "fetchSpec": "alpha"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-alpha.6.4.tgz",
+  "_shasum": "43b4c8069f0166328621629ca461544b82ccf769",
+  "_spec": "strapi-plugin-content-manager@alpha",
+  "_where": "C:\\xampp\\htdocs\\Ajax_training\\api-training\\strapi_project\\my-project",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-select": "^1.0.0-rc.5",
+    "strapi-helper-plugin": "3.0.0-alpha.6.4"
+  },
+  "deprecated": false,
+  "description": "A powerful UI to easily manage your data.",
+  "devDependencies": {
+    "cross-env": "^5.1.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-redux-saga": "^0.4.0",
+    "plop": "^1.9.0",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-content-manager",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze": "node node_modules/strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "rimraf stats.json",
+    "build": "cross-env NODE_ENV=production webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "rimraf admin/build",
+    "generate": "node_modules/plop/plop.js --plopfile node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "lint": "eslint --ignore-path .gitignore --config node_modules/strapi-helper-plugin/lib/internals/eslint/.eslintrc.json admin",
+    "postinstall": "node node_modules/strapi-helper-plugin/lib/internals/scripts/postinstall.js",
+    "preanalyze": "npm run analyze:clean",
+    "prebuild": "npm run build:clean && npm run test",
+    "prepublish": "npm run build",
+    "pretest": "npm run lint",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "cross-env NODE_ENV=development PLUGIN=true node node_modules/strapi-helper-plugin/lib/server",
+    "test": "echo Tests are not implemented."
+  },
+  "strapi": {
+    "name": "Content Manager",
+    "icon": "plug"
+  },
+  "version": "3.0.0-alpha.6.4"
+}
