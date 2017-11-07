@@ -1,15 +1,10 @@
 var koa = require('koa');
-var router = require('koa-router');
-var app = new koa();
+var app = koa();
 
-var test = router();
+app.use(function* (){
+   this.body = 'Hello world!';
+});
 
-test.get('./hello', getMessage);
-
-function *getMessage(){
-   console.log(this.request);
-   this.body = 'Your request has been logged.';
-}
-
-app.use(test.routes());
-app.listen(3000);
+app.listen(3000, function(){
+   console.log('Server running on https://localhost:3000')
+});
