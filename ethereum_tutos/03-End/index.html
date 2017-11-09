@@ -40,22 +40,16 @@
        }
 
        web3.eth.defaultAccount = web3.eth.accounts[0];
+       console.log(web3.eth.accounts[0]);
 
        // Contract ABI from remix solidity
-       var CoursetroContract = web3.eth.contract(
-         [{"constant":false,"inputs":[{"name":"_fName","type":"string"},
-         {"name":"_age","type":"uint256"}],
-         "name":"setInstructor","outputs":[],
-         "payable":false,"stateMutability":"nonpayable","type":"function"},
-         {"constant":true,"inputs":[],"name":"age","outputs":[{"name":"","type":"uint256"}],
-         "payable":false,"stateMutability":"view","type":"function"},
-         {"constant":true,"inputs":[],"name":"getInstructor","outputs":[{"name":"","type":"string"},{"name":"","type":"uint256"}],
-         "payable":false,"stateMutability":"view","type":"function"},
-         {"constant":true,"inputs":[],"name":"fName","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
-       );
+       var CoursetroContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_fName","type":"string"},{"name":"_age","type":"uint256"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       {"constant":true,"inputs":[],"name":"getInstructor","outputs":[{"name":"","type":"string"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]);
 
 
       var Coursetro = CoursetroContract.at('0x692a70d2e424a56d2c6c27aa97d1a86395877b3a');
+      console.log(Coursetro);
+
 
 
        Coursetro.getInstructor(function(error, result) {
@@ -64,6 +58,7 @@
            } else
                 console.log(error);
        });
+
 
        $("#button").click(function() {
            Coursetro.setInstructor($("#name").val(), $("#age").val());
