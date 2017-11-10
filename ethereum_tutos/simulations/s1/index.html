@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CloudeoToken: Interacting with a Smart Contract</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>CloudeoToken</h1>
+        <p>Owner address: <span id="owner"></span>
+        </p>
+        <h2 id="instructor"></h2>
+
+        <label for="name" class="col-lg-2 control-label">Name</label>
+        <input id="name" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Age</label>
+        <input id="age" type="text">
+
+        <button id="button">Update</button>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script>
+        var web3 = new web3(new web3.providers.HttpProvider("http://localhost:8545"));
+
+    </script>
+
+</body>
+</html>
