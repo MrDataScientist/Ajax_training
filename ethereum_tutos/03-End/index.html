@@ -43,11 +43,12 @@
        console.log(web3.eth.accounts[0]);
 
        // Contract ABI from remix solidity
-       var CoursetroContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_fName","type":"string"},{"name":"_age","type":"uint256"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       var CoursetroContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_foo","type":"string"},{"name":"_age","type":"uint256"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
        {"constant":true,"inputs":[],"name":"getInstructor","outputs":[{"name":"","type":"string"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]);
 
 
-      var Coursetro = CoursetroContract.at('0x24b08f1b263c24784ca3f98114f968172e85e402');
+      var Coursetro = CoursetroContract.at('0xec08372158d77c3245c8aecf2b22bceed7ec0cbc');
+      //0xec08372158d77c3245c8aecf2b22bceed7ec0cbc
       console.log(Coursetro);
 
 
