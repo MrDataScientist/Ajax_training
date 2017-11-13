@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coursetro Smart Contract</title>
+    <title>CloudEO Smart Contract</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -14,7 +14,7 @@
 <body>
     <div class="container">
 
-        <h1>Coursetro Instructor</h1>
+        <h1>CloudEO Customer</h1>
         <span id="countIns"></span>
 
         <h2 id="instructor"></h2>
@@ -29,10 +29,10 @@
         <label for="lName" class="col-lg-2 control-label">Last Name</label>
         <input id="lName" type="text">
 
-        <label for="age" class="col-lg-2 control-label">Instructor Age</label>
+        <label for="age" class="col-lg-2 control-label">Customer Age</label>
         <input id="age" type="text">
 
-        <button id="button">Update Instructor</button>
+        <button id="button">Update Customer</button>
 
     </div>
 
@@ -47,9 +47,19 @@
 
        web3.eth.defaultAccount = web3.eth.accounts[0];
 
-       var CoursetroContract = web3.eth.contract([{"constant":true,"inputs":[{"name":"_address","type":"address"}],"name":"getInstructor","outputs":[{"name":"","type":"uint256"},{"name":"","type":"bytes16"},{"name":"","type":"bytes16"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getInstructors","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"instructorAccts","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"countInstructors","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"},{"name":"_age","type":"uint256"},{"name":"_fName","type":"bytes16"},{"name":"_lName","type":"bytes16"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"fName","type":"bytes16"},{"indexed":false,"name":"lName","type":"bytes16"},{"indexed":false,"name":"age","type":"uint256"}],"name":"instructorInfo","type":"event"}]);
+       var CoursetroContract = web3.eth.contract([{"constant":true,"inputs":[{"name":"_address","type":"address"}],"name":"getInstructor","outputs":[{"name":"","type":"uint256"},
+       {"name":"","type":"bytes16"},{"name":"","type":"bytes16"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":true,"inputs":[],"name":"getInstructors","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"instructorAccts","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":true,"inputs":[],"name":"countInstructors","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":false,"inputs":[{"name":"_address","type":"address"},{"name":"_age","type":"uint256"},
+       {"name":"_fName","type":"bytes16"},{"name":"_lName","type":"bytes16"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       {"constant":false,"inputs":[],"name":"owned","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       {"anonymous":false,"inputs":[{"indexed":false,"name":"fName","type":"bytes16"},{"indexed":false,"name":"lName","type":"bytes16"},
+       {"indexed":false,"name":"age","type":"uint256"}],"name":"instructorInfo","type":"event"}]);
 
-       var Coursetro = CoursetroContract.at('0x8c18cf6508b12a932c69fb44e15e8027ad133f3b');
+       var Coursetro = CoursetroContract.at('0x8094bdbb1944756dbd05194edaa3ab18ade6576a');
+       // 0xcc29bdf605aa5d75aaf8a000e5e622e0ce35b89b
 
        var instructorEvent = Coursetro.instructorInfo({}, 'latest');
 
@@ -67,7 +77,7 @@
 
        Coursetro.countInstructors((err, res) => {
            if (res)
-            $("#countIns").html(res.c + ' Instructors');
+            $("#countIns").html(res.c + ' Customers');
        })
 
        $("#button").click(function() {
