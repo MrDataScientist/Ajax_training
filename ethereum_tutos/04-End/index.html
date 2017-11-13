@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coursetro Smart Contract</title>
+    <title>CloudeoToken</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -14,21 +14,21 @@
 <body>
     <div class="container">
 
-        <h1>CloudeoToken Instructor</h1>
+        <h1>CloudEO: Smart Contracts</h1>
 
-        <h2 id="instructor"></h2>
+        <h2 id="customer"></h2>
         <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
 
-        <label for="name" class="col-lg-2 control-label">Instructor Name</label>
+        <label for="name" class="col-lg-2 control-label">Name</label>
         <input id="name" type="text">
 
-        <label for="name" class="col-lg-2 control-label">Instructor Age</label>
+        <label for="name" class="col-lg-2 control-label">Age</label>
         <input id="age" type="text">
 
-        <label for="name" class="col-lg-2 control-label">Instructor Account</label>
+        <label for="name" class="col-lg-2 control-label">Account</label>
         <p id="demo"></p>
 
-        <button id="button">Update Instructor</button>
+        <button id="button">Update Customer</button>
 
 
     </div>
@@ -44,22 +44,23 @@
 
        web3.eth.defaultAccount = web3.eth.accounts[5];
        document.getElementById("demo").innerHTML = web3.eth.accounts[5];
-//console.log(web3.eth.accounts[0]);
+       //console.log(web3.eth.accounts[0]);
 
+       var CustomerContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getCustomer","outputs":[{"name":"","type":"string"},
+       {"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":false,"inputs":[{"name":"_fName","type":"string"},
+       {"name":"_age","type":"uint256"}],"name":"setCustomer","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       {"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},
+       {"indexed":false,"name":"age","type":"uint256"}],"name":"Customer","type":"event"}]);
 
+       var Customer = CustomerContract.at('0xf45019d16e829ad2a15491c047d9969cf86d74b2');
 
-       var CoursetroContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_fName","type":"string"},{"name":"_age","type":"uint256"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
-       {"constant":true,"inputs":[],"name":"getInstructor","outputs":[{"name":"","type":"string"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},{"indexed":false,"name":"age","type":"uint256"}],"name":"Instructor","type":"event"}]);
+       var customerEvent = Customer.Customer();
 
-       var Coursetro = CoursetroContract.at('0x136d4807d865a046c232db120a51516b6bddeeff');
-
-       var instructorEvent = Coursetro.Instructor();
-
-       instructorEvent.watch(function(error, result) {
+       customerEvent.watch(function(error, result) {
            if (!error) {
                $("#loader").hide();
-               $("#instructor").html(result.args.name + ' (' + result.args.age + ' years old)');
+               $("#customer").html(result.args.name + ' (' + result.args.age + ' years old)');
            } else {
                 $("#loader").hide();
            }
@@ -67,7 +68,7 @@
 
        $("#button").click(function() {
             $("#loader").show();
-           Coursetro.setInstructor($("#name").val(), $("#age").val());
+           Customer.setCustomer($("#name").val(), $("#age").val());
        });
 
     </script>
