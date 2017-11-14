@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get multiply every element in the array with a specific number.</p>
+<p>Multiply with: <input type="number" id="multiplyWith" value="10"></p>
+<button onclick="myFunction()">Try it</button>
+
+<p>New array: <span id="demo"></span></p>
+
+<script>
+var numbers = [65, 44, 12, 4];
+
+function multiplyArrayElement(num) {
+    return num * document.getElementById("multiplyWith").value;
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = numbers.map(multiplyArrayElement);
+}
