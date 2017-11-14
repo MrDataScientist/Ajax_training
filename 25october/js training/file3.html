@@ -1,5 +1,6 @@
 <div id="output1"></div>
 <div id="output2"></div>
+<div id="output3"></div>
 
 <script>
     var output1 = document.getElementById('output1');
@@ -35,7 +36,7 @@
     console.log(myObj);
 
     for(var i=0;i<myObj.places.length;i++){
-      output3.innerHTML+="<br>"+myObj.places[i].location+""+myObj.places[i].lat;
+      output3.innerHTML+="<br>"+myObj.places[i].location++"<br>"+"Latitude: "+myObj.places[i].lat;
     }
 
     var name = 'Name';
