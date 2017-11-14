@@ -1,0 +1,12 @@
+<script>
+// map() method using node.js/ javascript
+//initially create the map without any key
+var map = {};
+
+function addValueToList(key, value) {
+    //if the list is already created for the "key", then uses it
+    //else creates new list for the "key" to store multiple values in it.
+    map[key] = map[key] || [];
+    map[key].push(value);
+}
+</script>
