@@ -34,6 +34,10 @@
 
     console.log(myObj);
 
+    for(var i=0;i<myObj.places.length;i++){
+      output3.innerHTML+="<br>"+myObj.places[i].location+""+myObj.places[i].lat;
+    }
+
     var name = 'Name';
     var i = 0;
     output1.innerHTML = myObj.people[i].firstName;
