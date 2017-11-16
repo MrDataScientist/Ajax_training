@@ -13,7 +13,7 @@
             {{ coinbase }}
           </v-list-tile-content>
         </v-list-tile>
-  
+
         <v-list-tile>
           <v-list-tile-title>
             Eth Balance
@@ -22,7 +22,7 @@
             {{ balance }}
           </v-list-tile-content>
         </v-list-tile>
-  
+
         <v-list-tile>
           <v-list-tile-title>
             Token Balance
@@ -31,13 +31,15 @@
             {{ tokens }}
           </v-list-tile-content>
         </v-list-tile>
-  
+
       </v-list>
-  
+
     </v-card>
   </v-flex>
 </template>
 <script>
+
+import { CONTRACT }  from '../contract'
 
 export default {
   data () {
@@ -49,11 +51,10 @@ export default {
   },
 
   mounted () {
-
+  this.coinbase = CONTRACT._eth.coinbase
   },
 
   methods: {
   }
 }
 </script>
-

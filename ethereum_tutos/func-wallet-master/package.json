@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "vue": "^2.3.4",
-    "vuetify": "^0.13.0"
+    "vuetify": "^0.13.0",
+    "web3": "github:ethereum/web3.js"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

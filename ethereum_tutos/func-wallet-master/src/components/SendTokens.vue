@@ -10,38 +10,36 @@
             To Address
           </v-list-tile-title>
           <v-list-tile-content>
-  
+
             <v-text-field label="0x00" single-line v-model="addr"></v-text-field>
-  
+
           </v-list-tile-content>
         </v-list-tile>
-  
+
         <v-list-tile>
           <v-list-tile-title>
             Amount
           </v-list-tile-title>
           <v-list-tile-content>
-  
+
             <v-text-field label="0.00" single-line v-model="amount"></v-text-field>
-  
+
           </v-list-tile-content>
         </v-list-tile>
-  
         <v-list-tile>
-  
           <v-spacer></v-spacer>
-  
           <v-list-tile-action>
             <v-btn primary dark>Send</v-btn>
           </v-list-tile-action>
         </v-list-tile>
-  
+
       </v-list>
-  
+
     </v-card>
   </v-flex>
 </template>
 <script>
+
 import config from '../config'
 
 export default {
@@ -57,4 +55,3 @@ export default {
   }
 }
 </script>
-
