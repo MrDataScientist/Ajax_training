@@ -52,6 +52,14 @@ export default {
 
   mounted () {
   this.coinbase = CONTRACT._eth.coinbase
+
+CONTRACT._eth.getBalance(this.coinbase,(err,bal) => {
+  if(!err){
+    this.balance = bal
+  }
+  console.log(err)
+})
+
   },
 
   methods: {

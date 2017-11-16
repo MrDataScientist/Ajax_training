@@ -15,7 +15,7 @@
       </v-container>
     </main>
     <v-footer fixed>
-      <span>&copy; 2017</span>
+      <span>CloudEOToken &copy; 2017</span>
     </v-footer>
   </v-app>
 </template>
@@ -33,7 +33,7 @@ export default {
 
   data () {
     return {
-      title: 'Func Wallet'
+      title: 'Wallet Concept:'
     }
   },
 
