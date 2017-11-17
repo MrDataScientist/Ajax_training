@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!-- Index page template for example apps to render into -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title><%= htmlWebpackPlugin.options.title || 'BigchainDB Examples' %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Typekit advanced async snippet -->
+        <script>
+            (function(d) {
+                var config = {
+                kitId: 'fih1ngo',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+
+        <% if (!htmlWebpackPlugin.options.PRODUCTION) { %>
+            <script>
+                if (window.top !== window && !window.top.__REACT_DEVTOOLS_HOLDER__) {
+                    // Pass down the react devtools hook from the parent document to this iframed document
+                    __REACT_DEVTOOLS_GLOBAL_HOOK__ = top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+                    top.__REACT_DEVTOOLS_HOLDER__ = window;
+                }
+            </script>
+        <% } %>
+        
+        <!-- Prevent search indexing -->
+        <meta name="robots" content="noindex, nofollow">
+
+    </head>
+    
+    <body>
+        <main class="app"></main>
+    </body>
+</html>

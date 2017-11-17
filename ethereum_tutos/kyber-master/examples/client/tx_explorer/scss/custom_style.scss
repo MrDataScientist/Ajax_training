@@ -1,0 +1,74 @@
+
+.app--tx_explorer {
+
+    .blink {
+        animation: blink-animation 1.5s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+    }
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+    @-webkit-keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+
+    .asset-container {
+        background: lighten($fg-color, 95%);
+        border: 1px solid lighten($fg-color, 50%);
+        border-radius: .7em;
+        margin-bottom: .5em;
+    }
+
+    .asset-container-id {
+        color: lighten($fg-color, 50%);
+    }
+
+    .transaction-list {
+        margin-top: 60px;
+    }
+
+    #transaction-history-wrapper {
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .transaction-history {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background: white;
+        z-index: 2000;
+        padding: 0 1em 5em;
+        overflow-y: auto;
+        border-left: 1px solid darken(aquamarine, 40%);
+        border-top: 1px solid #00b276;
+        .transaction-list {
+            margin-top: 3em;
+            .transaction-link:hover {
+                text-decoration: none !important;
+                cursor: default;
+            }
+        }
+        margin-top: 60px;
+    }
+
+    .transaction-history-header {
+        font-family: "Droid Sans Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+        color: darken(aquamarine, 40%);
+        padding: 0.5em 0 1em;
+        position: fixed;
+        background: white;
+        width: 100%;
+        z-index: 2001;
+        &:hover {
+            cursor: pointer;
+            color: #109;
+        }
+    }
+
+}
