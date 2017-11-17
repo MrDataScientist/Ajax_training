@@ -2,6 +2,7 @@ body {
     background-color:#0000ff;
     padding: 2em;
     font-family: 'Raleway','Source Sans Pro', 'Arial';
+    background-image: url("test.jpg");
 }
 .container {
     width: 50%;
