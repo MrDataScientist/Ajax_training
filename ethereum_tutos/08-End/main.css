@@ -1,5 +1,5 @@
 body {
-    background-color:#F0F0F0;
+    background-color:#0000ff;
     padding: 2em;
     font-family: 'Raleway','Source Sans Pro', 'Arial';
 }
@@ -22,7 +22,7 @@ button {
     display:block;
 }
 
-#instructor {
+#customer {
     padding:1em;
     background-color:#fff;
     margin: 1em 0;

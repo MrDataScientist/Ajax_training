@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CloudEO Smart Contract</title>
+
+    <img src="cloudeo.png" alt="cloudeo" style="width:100px;height:100px;">
+    <title>CloudEO : Customer registration form (Smart Contract)</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -15,10 +17,10 @@
     <div class="container">
 
         <h1>CloudEO Customer</h1>
-        <span id="countIns"></span>
+        <span id="countCustomer"></span>
 
-        <h2 id="instructor"></h2>
-        <span id="insTrans"></span>
+        <h2 id="customer"></h2>
+        <span id="transaction"></span>
         <hr>
 
         <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
@@ -29,8 +31,14 @@
         <label for="lName" class="col-lg-2 control-label">Last Name</label>
         <input id="lName" type="text">
 
-        <label for="age" class="col-lg-2 control-label">Customer Age</label>
+        <label for="age" class="col-lg-2 control-label">Age</label>
         <input id="age" type="text">
+
+        <label for="nationality" class="col-lg-2 control-label">Nationality</label>
+        <input id="nationality" type="text">
+
+        <label for="company" class="col-lg-2 control-label">Company</label>
+        <input id="company" type="text">
 
         <button id="button">Update Customer</button>
 
@@ -47,44 +55,49 @@
 
        web3.eth.defaultAccount = web3.eth.accounts[0];
 
-       var CoursetroContract = web3.eth.contract([{"constant":true,"inputs":[{"name":"_address","type":"address"}],"name":"getInstructor","outputs":[{"name":"","type":"uint256"},
+       // ABI the json representation of solidity contract
+       var CustomerContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_address","type":"address"},{"name":"_age","type":"uint256"},
+       {"name":"_fName","type":"bytes16"},{"name":"_lName","type":"bytes16"},
+       {"name":"_nationality","type":"bytes16"},{"name":"_company","type":"bytes16"}],"name":"setCustomer","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
+       {"constant":true,"inputs":[],"name":"countCustomers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"customerAccts","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"constant":true,"inputs":[{"name":"_address","type":"address"}],"name":"getCustomer","outputs":[{"name":"","type":"bytes16"},{"name":"","type":"bytes16"},{"name":"","type":"uint256"},
        {"name":"","type":"bytes16"},{"name":"","type":"bytes16"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"constant":true,"inputs":[],"name":"getInstructors","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"instructorAccts","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"constant":true,"inputs":[],"name":"countInstructors","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"constant":false,"inputs":[{"name":"_address","type":"address"},{"name":"_age","type":"uint256"},
-       {"name":"_fName","type":"bytes16"},{"name":"_lName","type":"bytes16"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
        {"constant":false,"inputs":[],"name":"owned","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
-       {"anonymous":false,"inputs":[{"indexed":false,"name":"fName","type":"bytes16"},{"indexed":false,"name":"lName","type":"bytes16"},
-       {"indexed":false,"name":"age","type":"uint256"}],"name":"instructorInfo","type":"event"}]);
+       {"constant":true,"inputs":[],"name":"getCustomers","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},
+       {"anonymous":false,"inputs":[{"indexed":false,"name":"fName","type":"bytes16"},{"indexed":false,"name":"lName","type":"bytes16"},{"indexed":false,"name":"age","type":"uint256"},
+       {"indexed":false,"name":"nationality","type":"bytes16"},
+       {"indexed":false,"name":"company","type":"bytes16"}],"name":"customerInfo","type":"event"}]);
 
-       var Coursetro = CoursetroContract.at('0x7fd3b611dc8d937e42171a5b5705cb11dbf687bc');
+       // account address
+       var Customer = CustomerContract.at('0xce1317ba7732b87526d3a99770538859ca25d591');
        // 0xcc29bdf605aa5d75aaf8a000e5e622e0ce35b89b
 
-       var instructorEvent = Coursetro.instructorInfo({}, 'latest');
+       var customerEvent = Customer.customerInfo({}, 'latest');
 
-       instructorEvent.watch(function(error, result) {
+       customerEvent.watch(function(error, result) {
            if (result) {
-               if (result.blockHash != $("#insTrans").html())
+               if (result.blockHash != $("#transaction").html())
                     $("#loader").hide();
 
-                $("#insTrans").html('Block hash: ' + result.blockHash);
-               $("#instructor").html(web3.toAscii(result.args.fName) + ' ' + web3.toAscii(result.args.lName) + ' (' + result.args.age + ' years old)');
+                $("#transaction").html('Block hash: ' + result.blockHash);
+               $("#customer").html(web3.toAscii(result.args.fName) + ' ' + web3.toAscii(result.args.lName) + ' (' + result.args.age + ' years old)'  + result.args.nationality +'_'+ result.args.company +'//' );
            } else {
                 $("#loader").hide();
            }
        });
 
-       Coursetro.countInstructors((err, res) => {
+       Customer.countCustomers((err, res) => {
            if (res)
-            $("#countIns").html(res.c + ' Customers');
+            $("#countCustomer").html(res.c + ' Customers');
        })
 
        $("#button").click(function() {
             $("#loader").show();
-           Coursetro.setInstructor(web3.eth.defaultAccount, $("#age").val(), $("#fName").val(), $("#lName").val(), (err, res) => {
+           Customer.setCustomer(web3.eth.defaultAccount, $("#fName").val(), $("#lName").val(), $("#age").val(), $("#nationality").val(), $("#company").val(), (err, res) => {
                if (err) {
                    $("#loader").hide();
+                  // console.log(err);
                }
            });
        });

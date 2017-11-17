@@ -16,45 +16,53 @@ contract Owned{
 
 }
 
-contract Courses is Owned{
+contract CloudeoToken is Owned{
 
-    struct Instructor {
-        uint age;
+    struct Customer {
+
         bytes16 fName;
         bytes16 lName;
+        uint age;
+        bytes16 nationality;
+        bytes16 company;
     }
 
-    mapping (address => Instructor) instructors;
-    address[] public instructorAccts;
+    mapping (address => Customer) customers;
+    address[] public customerAccts;
 
-    event instructorInfo(
+    event customerInfo(
       bytes16 fName,
       bytes16 lName,
-      uint age
-
+      uint age,
+      bytes16 nationality,
+      bytes16 company
       );
 
-    function setInstructor(address _address, uint _age, bytes16 _fName, bytes16 _lName) onlyOwner public {
-        var instructor = instructors[_address];
+    function setCustomer(address _address, bytes16 _fName, bytes16 _lName, uint _age, bytes16 _nationality, bytes16 _company) onlyOwner public {
+        var customer = customers[_address];
 
-        instructor.fName = _fName;
-        instructor.lName = _lName;
-        instructor.age = _age;
+        customer.fName = _fName;
+        customer.lName = _lName;
+        customer.age = _age;
+        customer.nationality = _nationality;
+        customer.company = _company;
 
-        instructorAccts.push(_address) -1;
-        instructorInfo(_fName, _lName, _age);
+        customerAccts.push(_address) -1;
+        customerInfo(_fName, _lName, _age, _nationality, _company);
     }
 
-    function getInstructors() view public returns(address[]) {
-        return instructorAccts;
+    function getCustomers() view public returns(address[]) {
+        return customerAccts;
     }
 
-    function getInstructor(address _address) view public returns (uint, bytes16, bytes16) {
-        return (instructors[_address].age, instructors[_address].fName, instructors[_address].lName);
+    function getCustomer(address _address) view public returns (bytes16, bytes16, uint, bytes16, bytes16) {
+
+        return (customers[_address].company,customers[_address].nationality,customers[_address].age, customers[_address].fName, customers[_address].lName);
+
     }
 
-    function countInstructors() view public returns (uint) {
-        return instructorAccts.length;
+    function countCustomers() view public returns (uint) {
+        return customerAccts.length;
     }
 
 }
