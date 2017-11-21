@@ -1,8 +1,8 @@
 <template>
   <v-flex xs6>
     <v-card class="card--flex-toolbar">
-      <v-toolbar card class="light-blue">
-        <v-toolbar-title class="white--text">My Wallet</v-toolbar-title>
+      <v-toolbar card class="orange">
+        <v-toolbar-title class="white--text">My Wallet محفظة</v-toolbar-title>
       </v-toolbar>
       <v-list>
         <v-list-tile>
@@ -56,6 +56,13 @@ export default {
 CONTRACT._eth.getBalance(this.coinbase,(err,bal) => {
   if(!err){
     this.balance = web3.fromWei(bal, 'ether').toNumber()
+  }
+  console.log(err)
+})
+
+CONTRACT.balanceof(this.coinbase,(err,tkns) => {
+  if(!err){
+    this.tokens = web3.fromWei(tkns, 'ether').toNumber()
   }
   console.log(err)
 })

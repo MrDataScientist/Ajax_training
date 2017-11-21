@@ -1,8 +1,8 @@
 <template>
   <v-flex xs6>
     <v-card class="card--flex-toolbar">
-      <v-toolbar card class="light-blue">
-        <v-toolbar-title class="white--text">Send Tokens</v-toolbar-title>
+      <v-toolbar card class="green">
+        <v-toolbar-title class="white--text">Send Tokens إرسال النقود</v-toolbar-title>
       </v-toolbar>
       <v-list>
         <v-list-tile>
