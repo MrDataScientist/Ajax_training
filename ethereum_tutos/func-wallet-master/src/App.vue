@@ -33,7 +33,7 @@ export default {
 
   data () {
     return {
-      title: 'Wallet Concept:'
+      title: 'Func Token'
     }
   },
 
