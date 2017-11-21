@@ -60,7 +60,7 @@ CONTRACT._eth.getBalance(this.coinbase,(err,bal) => {
   console.log(err)
 })
 
-CONTRACT.balanceof(this.coinbase,(err,tkns) => {
+CONTRACT.balanceOf(this.coinbase,(err,tkns) => {
   if(!err){
     this.tokens = web3.fromWei(tkns, 'ether').toNumber()
   }
