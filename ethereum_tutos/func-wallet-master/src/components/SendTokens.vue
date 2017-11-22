@@ -48,7 +48,6 @@ export default {
     return {
       addr: null,
       amount: null
-      //wallet: null
     }
   },
 
