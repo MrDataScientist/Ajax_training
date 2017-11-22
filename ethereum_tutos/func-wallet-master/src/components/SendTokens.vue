@@ -46,12 +46,15 @@ export default {
   data () {
     return {
       addr: null,
-      amount: null,
-      wallet: null
+      amount: null
+      //wallet: null
     }
   },
 
   methods: {
+    sendTokens(){
+
+    }
   }
 }
 </script>

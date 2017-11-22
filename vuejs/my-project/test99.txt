@@ -1,0 +1,26 @@
+ Volume in drive C is Acer
+ Volume Serial Number is 8C39-7601
+
+ Directory of C:\xampp\htdocs\Ajax_training\vuejs\my-project
+
+11/22/2017  11:58 AM    <DIR>          .
+11/22/2017  11:58 AM    <DIR>          ..
+11/22/2017  11:24 AM               269 .babelrc
+11/22/2017  11:24 AM               147 .editorconfig
+11/22/2017  11:24 AM                51 .eslintignore
+11/22/2017  11:24 AM               627 .eslintrc.js
+11/22/2017  11:24 AM               213 .gitignore
+11/22/2017  11:24 AM               223 .postcssrc.js
+11/22/2017  11:24 AM    <DIR>          build
+11/22/2017  11:24 AM    <DIR>          config
+11/22/2017  11:24 AM               272 index.html
+11/22/2017  11:28 AM    <DIR>          node_modules
+11/22/2017  11:28 AM           413,069 package-lock.json
+11/22/2017  11:24 AM             2,564 package.json
+11/22/2017  11:24 AM               553 README.md
+11/22/2017  11:24 AM    <DIR>          src
+11/22/2017  11:24 AM    <DIR>          static
+11/22/2017  11:24 AM    <DIR>          test
+11/22/2017  11:58 AM                 0 test99.txt
+              11 File(s)        417,988 bytes
+               8 Dir(s)  870,428,086,272 bytes free
