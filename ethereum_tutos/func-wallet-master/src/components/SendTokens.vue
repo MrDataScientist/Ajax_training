@@ -41,6 +41,7 @@
 <script>
 
 //import config from '../config'
+import { CONTRACT }  from '../contract'
 
 export default {
   data () {
