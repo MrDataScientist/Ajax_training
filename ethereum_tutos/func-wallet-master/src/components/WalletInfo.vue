@@ -56,13 +56,15 @@ export default {
 CONTRACT._eth.getBalance(this.coinbase,(err,bal) => {
   if(!err){
     this.balance = web3.fromWei(bal, 'ether').toNumber()
-  }
-  console.log(err)
+    console.log(this.balance)
+  }else {  console.log(err)}
+
 })
 
 CONTRACT.balanceOf(this.coinbase,(err,tkns) => {
   if(!err){
     this.tokens = web3.fromWei(tkns, 'ether').toNumber()
+    console.log(this.tokens)
   }
   console.log(err)
 })
