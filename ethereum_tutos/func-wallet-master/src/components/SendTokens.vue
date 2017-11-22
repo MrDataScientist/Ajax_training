@@ -54,7 +54,11 @@ export default {
 
   methods: {
     sendTokens(){
-      if(!web3.isAddress(this.addr))
+      if(!web3.isAddress(this.addr)){
+        alert('Invalid address!')
+        this.addr = null
+        return
+      }
     }
   }
 }
