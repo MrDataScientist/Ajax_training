@@ -65,12 +65,15 @@ export default {
         this.amount = null;
         return;
       }
-      
-      CONTRACT.transfert(this.addr, this.amount, (err, res) => {
+
+      CONTRACT.transfert(this.addr, web3.toWei(this.amount, 'ether'), (err, res) => {
         if(!err){
           console.log(res)
+          this.addr = this.amount = null
+          return
         }
         console.log(err)
+        this.addr = this.amount = null
       })
     }
   }

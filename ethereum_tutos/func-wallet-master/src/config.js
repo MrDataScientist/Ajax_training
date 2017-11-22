@@ -1,5 +1,5 @@
 export default {
-  contractAddress: '0x41dabf7a192b498be5fd2efefbf57dc536ebd6a7',
+  contractAddress: '0xfffdb0207f31fee82fb63359c52dd6ff7633380d',
   contractAbi: [{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
   {"constant":true,"inputs":[{"name":"_owner","type":"address"}],
   "name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],
