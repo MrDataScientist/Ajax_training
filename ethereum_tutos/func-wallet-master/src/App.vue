@@ -8,7 +8,7 @@
         This application requires the MetaMask Chrome Plugin
       </v-alert>
       <v-container v-if="metamask">
-        <v-layout row>
+        <v-layout list>
           <wallet-info></wallet-info>
           <send-tokens></send-tokens>
         </v-layout>
