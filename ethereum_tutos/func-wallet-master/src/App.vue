@@ -5,7 +5,7 @@
     </v-toolbar>
     <main>
       <v-alert error value="true" v-if="!metamask">
-        This application requires the MetaMask Chrome Plugin
+        This appli cation requires the MetaMask Chrome Plugin
       </v-alert>
       <v-container v-if="metamask">
         <v-layout list>
@@ -14,6 +14,8 @@
         </v-layout>
       </v-container>
     </main>
+
+    <!--The foot of the page-->
     <v-footer fixed>
       <span>CloudEOToken &copy; 2017</span>
     </v-footer>

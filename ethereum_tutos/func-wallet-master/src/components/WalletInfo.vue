@@ -46,7 +46,7 @@ export default {
     return {
       coinbase: 0x00,
       balance: 0,
-      tokens: 0
+      tokens: 1
     }
   },
 
@@ -65,8 +65,10 @@ CONTRACT.balanceOf(this.coinbase,(err,tkns) => {
   if(!err){
     this.tokens = web3.fromWei(tkns, 'ether').toNumber()
     console.log(this.tokens)
+  } else {
+      console.log(err)
   }
-  console.log(err)
+
 })
 
   },

@@ -65,11 +65,12 @@ export default {
         this.amount = null;
         return;
       }
+      
       CONTRACT.transfert(this.addr, this.amount, (err, res) => {
         if(!err){
           console.log(res)
         }
-        console.log(res)
+        console.log(err)
       })
     }
   }
