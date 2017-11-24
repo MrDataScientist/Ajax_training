@@ -2,7 +2,7 @@
   "name": "vue-data-grid",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Lucien Lee <lkiral7903@gmail.com>",
+  "author": "Tarik En-Nakdi",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

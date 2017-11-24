@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-  nav-bar(name="Lucien Lee")
+  nav-bar(name="CloudEO")
   dg-table.dataTable
 </template>
 
