@@ -1,5 +1,7 @@
 # Ajax_training
 
+keywords : js, web3, vue.js, koa.js
+
 AJAX jQuery Resources
 
 compiler for es6/7 :
