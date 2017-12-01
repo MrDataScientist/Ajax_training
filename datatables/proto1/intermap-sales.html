@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+  <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+  <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
+  <link  rel="stylesheet" type="text/css" href="style/style.css">
+<meta charset="utf-8"/>
+  <script type="text/javascript">
+      function OnMouseIn (elem) {
+          elem.style.border = "2px solid blue";
+      }
+      function OnMouseOut (elem) {
+          elem.style.border = "";
+      }
+
+      var e = document.getElementById('parent');
+      e.onmouseover = function() {
+        document.getElementById('popup').style.display = 'block';
+      }
+      e.onmouseout = function() {
+        document.getElementById('popup').style.display = '2px solid blue';
+      }
+  </script>
+
+  <style>
+  #parent #popup {
+    display: none;
+  }
+
+  #parent:hover #popup {
+    display: block;
+  }
+  </style>
+
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="intermap-sales.html">Intermap Sales</a>
+  <a href="harris-sales.html">Harris Sales</a>
+</div>
+
+<div class="main">
+
+  <table id="example" class="display nowrap" cellspacing="0" width="100%">
+      <thead>
+          <tr>
+              <th >Order Date</th>
+              <th title="Royalty from CloudEO">Royalty [€]</th>
+              <th title="This is the identification of Geo Service">SKU</th> <!--  "5-0101-101" -->
+              <th>GeoService</th> <!-- this is ENVI / bring  all examples-->
+              <th>Customer Name</th>
+              <th>Customer ID</th>
+              <th>customer type</th>
+              <th title="Country provided in billing address of customer">country</th>
+              <th title="Retail price to CloudEO customer">Price [€]</th>
+              <th>start date</th>
+              <th>end date</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          <tr>
+              <td>27/02/2017</td>
+              <td>485</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>QSC AG</td>
+              <td>1-0198-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>242</td>
+              <td>02/11/2017</td>
+              <td>11/12/2017</td>
+          </tr>
+
+          <tr>
+              <td>01/04/2017</td>
+              <td>1536</td>
+              <td>5-0101-101</td>
+              <td>viewshed</td>
+              <td>Alsatis</td>
+              <td>1-0372-100</td>
+              <td>Commercial</td>
+              <td>France</td>
+              <td>768</td>
+              <td>19/06/2017</td>
+              <td>18/08/2017</td>
+          </tr>
+
+          <tr>
+              <td>27/02/2017</td>
+              <td>375</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>Wernicke IT-Plannung</td>
+              <td>1-0730-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>187</td>
+              <td>17/05/2017</td>
+              <td>16/06/2017</td>
+          </tr>
+
+          <tr>
+              <td>27/02/2017</td>
+              <td>59</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>Wernicke IT-Plannung</td>
+              <td>1-0730-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>29</td>
+              <td>30/06/2017</td>
+              <td>29/07/2017</td>
+          </tr>
+
+          <tr>
+              <td>27/05/2017</td>
+              <td>50</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>Talent GmbH</td>
+              <td>1-0179-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>25</td>
+              <td>23/10/2017</td>
+              <td>22/11/2017</td>
+          </tr>
+
+          <tr>
+              <td>24/04/2017</td>
+              <td>50</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>WLN AG</td>
+              <td>1-0730-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>25</td>
+              <td>26/10/2017</td>
+              <td>26/11/2017</td>
+          </tr>
+
+
+          <tr>
+              <td>07/06/2017</td>
+              <td>150</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>Innofactory</td>
+              <td>479</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>75</td>
+              <td>29/11/2017</td>
+              <td>23/03/2017</td>
+          </tr>
+
+          <tr>
+              <td>07/06/2017</td>
+              <td>6400</td>
+              <td>5-0101-101</td>
+              <td>Terrain Profiles</td>
+              <td>MLL Telecom</td>
+              <td>1-0216-100</td>
+              <td>Commercial</td>
+              <td>Germany</td>
+              <td>3200</td>
+              <td>29/11/2017</td>
+              <td>23/03/2017</td>
+          </tr>
+
+
+      </tbody>
+  </table>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
+
+
+  <script type="text/javascript" src=""></script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('#example').DataTable( {
+          dom: 'Bfrtip',
+          buttons: [
+'copy', 'csv', 'excel', 'pdf', 'print'
+          ]
+      } );
+  } );
+  </script>
+
+<div id="piechart">1</div>
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Germany', 8],
+  ['France', 2],
+  ['Spain', 4],
+  ['Latvia', 2],
+  ['USA', 8]
+]);
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Customers origin', 'width':550, 'height':400};
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+<!--test2------------------------------->
+
+
+
+
+</div>
+</body>
+</html>
