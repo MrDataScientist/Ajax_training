@@ -4,7 +4,6 @@
 <head>
   <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
   <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
-  <link  rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8"/>
 
 
@@ -16,6 +15,42 @@
   #parent:hover #popup {
     display: block;
   }
+
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+  th.dateHeading {
+    position: relative;
+  }
+  .fullDate {
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+  }
+
   </style>
 
 
@@ -56,7 +91,7 @@
               <td align="center">1-0198-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">242</td>
+              <td align="left">242.00</td>
               <td align="center">02/11/2017</td>
               <td align="center">11/12/2017</td>
           </tr>
@@ -70,7 +105,7 @@
               <td align="center">1-0372-100</td>
               <td align="center">Commercial</td>
               <td align="center">France</td>
-              <td align="center">768</td>
+              <td align="left">768,00</td>
               <td align="center">19/06/2017</td>
               <td align="center">18/08/2017</td>
           </tr>
@@ -84,7 +119,7 @@
               <td align="center">1-0730-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">187</td>
+              <td align="left">187,00</td>
               <td align="center">17/05/2017</td>
               <td align="center">16/06/2017</td>
           </tr>
@@ -98,7 +133,7 @@
               <td align="center">1-0730-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">29</td>
+              <td align="left">29,00</td>
               <td align="center">30/06/2017</td>
               <td align="center">29/07/2017</td>
           </tr>
@@ -112,7 +147,7 @@
               <td align="center">1-0179-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">25</td>
+              <td align="left">25,00</td>
               <td align="center">23/10/2017</td>
               <td align="center">22/11/2017</td>
           </tr>
@@ -126,7 +161,7 @@
               <td align="center">1-0730-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">25</td>
+              <td align="left">25,00</td>
               <td align="center">26/10/2017</td>
               <td align="center">26/11/2017</td>
           </tr>
@@ -141,7 +176,7 @@
               <td align="center">1-0479-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">75</td>
+              <td align="left">75,00</td>
               <td align="center">29/11/2017</td>
               <td align="center">23/03/2017</td>
           </tr>
@@ -155,7 +190,7 @@
               <td align="center">1-0216-100</td>
               <td align="center">Commercial</td>
               <td align="center">Germany</td>
-              <td align="center">3200</td>
+              <td align="left">3200,00</td>
               <td align="center">29/11/2017</td>
               <td align="center">23/03/2017</td>
           </tr>

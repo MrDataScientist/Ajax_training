@@ -4,25 +4,6 @@
 <head>
   <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
   <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
-  <link  rel="stylesheet" type="text/css" href="style.css">
-
-  <script type="text/javascript">
-      function OnMouseIn (elem) {
-          elem.style.border = "2px solid blue";
-      }
-      function OnMouseOut (elem) {
-          elem.style.border = "";
-      }
-
-      var e = document.getElementById('parent');
-      e.onmouseover = function() {
-        document.getElementById('popup').style.display = 'block';
-      }
-      e.onmouseout = function() {
-        document.getElementById('popup').style.display = '2px solid blue';
-      }
-  </script>
-
   <style>
   #parent #popup {
     display: none;
@@ -31,6 +12,42 @@
   #parent:hover #popup {
     display: block;
   }
+
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+  th.dateHeading {
+    position: relative;
+  }
+  .fullDate {
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+  }
+
   </style>
 
 
@@ -73,7 +90,7 @@
               <td align="center">836</td>
               <td align="center">Commercial</td>
               <td align="center">USA</td>
-              <td align="center">439</td>
+              <td align="left">439,00</td>
               <td align="center">-</td>
               <td align="center">1</td>
           </tr>
@@ -88,7 +105,7 @@
               <td align="center">837</td>
               <td align="center">Commercial</td>
               <td align="center">USA</td>
-              <td align="center">199</td>
+              <td align="left">199,00</td>
               <td align="center">-</td>
               <td align="center">1</td>
           </tr>
@@ -103,7 +120,7 @@
               <td align="center">838</td>
               <td align="center">Commercial</td>
               <td align="center">Australia</td>
-              <td align="center">87</td>
+              <td align="left">87,00</td>
               <td align="center">-</td>
               <td align="center">1</td>
           </tr>
@@ -119,7 +136,7 @@
               <td align="center">839</td>
               <td align="center">Commercial</td>
               <td align="center">Australia</td>
-              <td align="center">39</td>
+              <td align="left">39,00</td>
               <td align="center">-</td>
               <td align="center">1</td>
           </tr>
@@ -134,7 +151,7 @@
               <td align="center">839</td>
               <td align="center">Academia</td>
               <td align="center">Puerto Rico</td>
-              <td align="center">39</td>
+              <td align="left">39,00</td>
               <td align="center">-</td>
               <td align="center">1</td>
           </tr>
@@ -149,7 +166,7 @@
               <td align="center">839</td>
               <td align="center">Commercial</td>
               <td align="center">USA</td>
-              <td align="center">199</td>
+              <td align="left">199,00</td>
               <td align="center">-</td>
               <td align="center">3</td>
           </tr>
@@ -164,7 +181,7 @@
               <td align="center">839</td>
               <td align="center">Commercial</td>
               <td align="center">USA</td>
-              <td align="center">40</td>
+              <td align="left">40,00</td>
               <td align="center">-</td>
               <td align="center">2</td>
           </tr>
