@@ -1,0 +1,228 @@
+<meta charset="utf-8"/>
+<!DOCTYPE html>
+<html>
+<head>
+  <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+  <link  rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
+  <link  rel="stylesheet" type="text/css" href="style/style.css">
+
+  <script type="text/javascript">
+      function OnMouseIn (elem) {
+          elem.style.border = "2px solid blue";
+      }
+      function OnMouseOut (elem) {
+          elem.style.border = "";
+      }
+
+      var e = document.getElementById('parent');
+      e.onmouseover = function() {
+        document.getElementById('popup').style.display = 'block';
+      }
+      e.onmouseout = function() {
+        document.getElementById('popup').style.display = '2px solid blue';
+      }
+  </script>
+
+  <style>
+  #parent #popup {
+    display: none;
+  }
+
+  #parent:hover #popup {
+    display: block;
+  }
+  </style>
+
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="intermap-sales.html">Intermap Sales</a>
+  <a href="harris-sales.html">Harris Sales</a>
+</div>
+
+<div class="main">
+
+  <table id="example" class="display nowrap" cellspacing="0" width="100%">
+      <thead>
+          <tr>
+              <th >Order Date</th>
+              <th title="Royalty from CloudEO">Royalty [€]</th>
+              <th title="This is the identification of GeoService">SKU</th> <!--  "5-0101-101" -->
+              <th>GeoService</th> <!-- this is ENVI / bring  all examples-->
+              <th title="Addons">Addons</th>
+              <th title="Customer">Company</th>
+              <th title="Customer ID">CID</th>
+              <th title="Commercial / Academic / NGO">Customer type</th>
+              <th title ="Country provided in billing address of customer">Country</th>
+              <th title="Retail price to CloudEO customer">Retail price [€]</th>
+              <th>Start date</th>
+              <th title="Duration in months">Duration</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          <tr>
+              <td align="center">27/02/2017</td>
+              <td align="center">439</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Atmospheric Correction</td>
+              <td align="center">mobileallies</td>
+              <td align="center">836</td>
+              <td align="center">Commercial</td>
+              <td align="center">USA</td>
+              <td align="center">439</td>
+              <td align="center">-</td>
+              <td align="center">1</td>
+          </tr>
+
+          <tr>
+              <td align="center">27/02/2017</td>
+              <td align="center">199</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Atmospheric Correction</td>
+              <td align="center">Randall Johnson</td>
+              <td align="center">837</td>
+              <td align="center">Commercial</td>
+              <td align="center">USA</td>
+              <td align="center">199</td>
+              <td align="center">-</td>
+              <td align="center">1</td>
+          </tr>
+
+          <tr>
+              <td align="center">27/02/2017</td>
+              <td align="center">87</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Feature Extraction</td>
+              <td align="center">Forsgren Associates, Inc.</td>
+              <td align="center">838</td>
+              <td align="center">Commercial</td>
+              <td align="center">Australia</td>
+              <td align="center">87</td>
+              <td align="center">-</td>
+              <td align="center">1</td>
+          </tr>
+
+
+          <tr>
+              <td align="center">27/02/2017</td>
+              <td align="center">39</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">SARscape Basic</td>
+              <td align="center">University of Canberra</td>
+              <td align="center">839</td>
+              <td align="center">Commercial</td>
+              <td align="center">Australia</td>
+              <td align="center">39</td>
+              <td align="center">-</td>
+              <td align="center">1</td>
+          </tr>
+
+          <tr>
+              <td align="center">23/06/2017</td>
+              <td align="center">39</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Feature Extraction</td>
+              <td align="center">University of Puerto Rico</td>
+              <td align="center">839</td>
+              <td align="center">Academia</td>
+              <td align="center">Puerto Rico</td>
+              <td align="center">39</td>
+              <td align="center">-</td>
+              <td align="center">1</td>
+          </tr>
+
+          <tr>
+              <td align="center">14/08/2017</td>
+              <td align="center">199</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Photogrammetry</td>
+              <td align="center">Lockhart Consulting</td>
+              <td align="center">839</td>
+              <td align="center">Commercial</td>
+              <td align="center">USA</td>
+              <td align="center">199</td>
+              <td align="center">-</td>
+              <td align="center">3</td>
+          </tr>
+
+          <tr>
+              <td align="center">06/10/2017</td>
+              <td align="center">40</td>
+              <td align="center">5-0101-101</td>
+              <td align="center">ENVI in the Cloud</td>
+              <td align="center">Photogrammetry</td>
+              <td align="center">Ocean Imaging</td>
+              <td align="center">839</td>
+              <td align="center">Commercial</td>
+              <td align="center">USA</td>
+              <td align="center">40</td>
+              <td align="center">-</td>
+              <td align="center">2</td>
+          </tr>
+
+      </tbody>
+  </table>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
+
+
+  <script type="text/javascript" src=""></script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('#example').DataTable( {
+          dom: 'Bfrtip',
+          buttons: [
+'copy', 'csv', 'excel', 'pdf', 'print'
+          ]
+      } );
+  } );
+  </script>
+
+
+<div id="piechart">1</div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Australia', 2],
+  ['Puerto Rico', 1],
+  ['Germany', 0],
+  ['USA', 4]
+]);
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Customers origin', 'width':550, 'height':400};
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+<!--test2------------------------------->
+
+</div>
+</body>
+</html>
