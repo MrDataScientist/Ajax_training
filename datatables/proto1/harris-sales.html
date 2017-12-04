@@ -75,7 +75,7 @@
               <td>USA</td>
               <td>439</td>
               <td>-</td>
-              <td>-</td>
+              <td>1</td>
           </tr>
 
           <tr>
@@ -90,7 +90,7 @@
               <td>USA</td>
               <td>199</td>
               <td>-</td>
-              <td>-</td>
+              <td>1</td>
           </tr>
 
           <tr>
@@ -105,52 +105,68 @@
               <td>Australia</td>
               <td>87</td>
               <td>-</td>
-              <td>-</td>
+              <td>1</td>
           </tr>
+
 
           <tr>
               <td>27/02/2017</td>
               <td>39</td>
+              <td>5-0101-101</td>
+              <td>ENVI in the Cloud</td>
+              <td>SARscape Basic</td>
+              <td>University of Canberra</td>
+              <td>839</td>
+              <td>Commercial</td>
+              <td>Australia</td>
+              <td>39</td>
+              <td>-</td>
+              <td>1</td>
+          </tr>
+
+          <tr>
+              <td>23/06/2017</td>
+              <td>39</td>
+              <td>5-0101-101</td>
+              <td>ENVI in the Cloud</td>
+              <td>Feature Extraction</td>
+              <td>University of Puerto Rico</td>
+              <td>839</td>
+              <td>Academia</td>
+              <td>Puerto Rico</td>
+              <td>39</td>
+              <td>-</td>
+              <td>1</td>
+          </tr>
+
+          <tr>
+              <td>14/08/2017</td>
+              <td>199</td>
               <td>5-0101-101</td>
               <td>ENVI in the Cloud</td>
               <td>Photogrammetry</td>
-              <td>University of Canberra</td>
-              <td>839</td>
-              <td>Commercial</td>
-              <td>Australia</td>
-              <td>39</td>
-              <td>-</td>
-              <td>-</td>
-          </tr>
-
-          <tr>
-              <td>27/02/2017</td>
-              <td>39</td>
-              <td>5-0101-101</td>
-              <td>ENVI in the Cloud</td>
-              <td>SARscape Basic</td>
-              <td>University of Canberra</td>
-              <td>839</td>
-              <td>Commercial</td>
-              <td>Australia</td>
-              <td>39</td>
-              <td>-</td>
-              <td>-</td>
-          </tr>
-
-          <tr>
-              <td>27/02/2017</td>
-              <td>39</td>
-              <td>5-0101-101</td>
-              <td>ENVI in the Cloud</td>
-              <td>SARscape Basic</td>
               <td>Lockhart Consulting</td>
               <td>839</td>
               <td>Commercial</td>
-              <td>Germany</td>
-              <td>39</td>
+              <td>USA</td>
+              <td>199</td>
               <td>-</td>
+              <td>3</td>
+          </tr>
+
+          <tr>
+              <td>06/10/2017</td>
+              <td>40</td>
+              <td>5-0101-101</td>
+              <td>ENVI in the Cloud</td>
+              <td>Photogrammetry</td>
+              <td>Ocean Imaging</td>
+              <td>839</td>
+              <td>Commercial</td>
+              <td>USA</td>
+              <td>40</td>
               <td>-</td>
+              <td>2</td>
           </tr>
 
       </tbody>
@@ -180,25 +196,22 @@
   } );
   </script>
 
+
 <div id="piechart">1</div>
-
-
-
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 <script type="text/javascript">
 // Load google charts
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
-
 // Draw the chart and set the chart values
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['Task', 'Hours per Day'],
-  ['Germany', 8],
-  ['France', 2],
-  ['Spain', 4],
-  ['Latvia', 2],
-  ['USA', 8]
+  ['Australia', 2],
+  ['Puerto Rico', 1],
+  ['Germany', 0],
+  ['USA', 4]
 ]);
   // Optional; add a title and set the width and height of the chart
   var options = {'title':'Customers origin', 'width':550, 'height':400};
@@ -209,9 +222,6 @@ function drawChart() {
 </script>
 
 <!--test2------------------------------->
-
-
-
 
 </div>
 </body>
