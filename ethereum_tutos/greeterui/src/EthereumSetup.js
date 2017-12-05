@@ -4,4 +4,4 @@ let greeterABI = [{}];
 let greeterAddress = '';
 const greeterContract = web3.eth.contract(greeterABI).at(greeterAddress);
 
-export(greeterContract)
+export(greeterContract);
