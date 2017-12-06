@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {greeterContract} from './EthereumSetup';
+
 class App extends Component {
 
   constructor(props){
@@ -9,6 +11,13 @@ class App extends Component {
     this.state={
       greeting:""
     }
+  }
+
+  componentWillMount(){
+    var data = greeterContract.greet()
+    this.setState({
+      
+    })
   }
 
   render() {
