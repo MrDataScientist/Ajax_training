@@ -1,6 +1,7 @@
 # Ajax_training
 
-keywords : js, web3, vue.js, koa.js
+keywords : js, web3, vue.js, koa.js, express.js, loopback
+IDE : Webstorm, Atom
 
 AJAX jQuery Resources
 
