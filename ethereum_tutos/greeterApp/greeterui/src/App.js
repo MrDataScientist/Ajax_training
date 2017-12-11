@@ -16,7 +16,7 @@ class App extends Component {
   componentWillMount(){
     var data = greeterContract.greet()
     this.setState({
-      
+      greeting: String(data)
     })
   }
 
@@ -30,7 +30,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h2>"{this.state.greeting}"</h2>
       </div>
+
     );
   }
 }
