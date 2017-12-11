@@ -1,5 +1,5 @@
-var Greeter = artifacts.require("./contracts/greeter.sol");
+var Greeter = artifacts.require("./contracts/Greeter.sol");
 
 module.exports = function(deployer){
-  deployer.deploy(greeter);
+  deployer.deploy(Greeter);
 }

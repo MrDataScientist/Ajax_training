@@ -1,1 +1,3 @@
-The “gas” is an amount of ether. If price goes up so much, the market will adjust accordingly. For example if “gas” needed for an application execution is 0.001 ether, the price can change to 0.0001 ether.
+The “gas” is an amount of ether.
+ If price goes up so much, the market will adjust accordingly.
+  For example if “gas” needed for an application execution is 0.001 ether, the price can change to 0.0001 ether.
