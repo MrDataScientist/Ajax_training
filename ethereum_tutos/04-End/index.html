@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CloudeoToken</title>
+    <title>Test</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -14,7 +14,7 @@
 <body>
     <div class="container">
 
-        <h1>CloudEO: Smart Contracts</h1>
+        <h1>Smart Contracts</h1>
 
         <h2 id="customer"></h2>
         <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
@@ -43,7 +43,7 @@
        }
 
        web3.eth.defaultAccount = web3.eth.accounts[5];
-       document.getElementById("demo").innerHTML = web3.eth.accounts[5];
+       document.getElementById("demo").innerHTML = web3.eth.accounts[0];
        //console.log(web3.eth.accounts[0]);
 
        var CustomerContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getCustomer","outputs":[{"name":"","type":"string"},
@@ -53,7 +53,7 @@
        {"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},
        {"indexed":false,"name":"age","type":"uint256"}],"name":"Customer","type":"event"}]);
 
-       var Customer = CustomerContract.at('0xf45019d16e829ad2a15491c047d9969cf86d74b2');
+       var Customer = CustomerContract.at('0x202e8751c9aa37f34e1a00b343d4b2f79623bd16');
 
        var customerEvent = Customer.Customer();
 
