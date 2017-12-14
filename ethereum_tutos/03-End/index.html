@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Interact with the solidity code</title>
+    <title>Interact</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
+    <!--call the  web3 library-->
     <script src="./node_modules/web3/dist/web3.min.js"></script>
 
 </head>
 <body>
     <div class="container">
 
-        <h1>Cloudeo Instructor</h1>
+        <h1>Customer</h1>
         <p>Owner address: <span id="owner"></span>
         </p>
-        <h2 id="instructor"></h2>
+        <h2 id="customer"></h2>
 
         <label for="name" class="col-lg-2 control-label">Instructor Name</label>
         <input id="name" type="text">
@@ -43,26 +44,62 @@
        console.log(web3.eth.accounts[0]);
 
        // Contract ABI from remix solidity
-       var CoursetroContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_foo","type":"string"},{"name":"_age","type":"uint256"}],"name":"setInstructor","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
-       {"constant":true,"inputs":[],"name":"getInstructor","outputs":[{"name":"","type":"string"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]);
+       var CoursetroContract = web3.eth.contract([
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getInstructor",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_fName",
+				"type": "string"
+			},
+			{
+				"name": "_age",
+				"type": "uint256"
+			}
+		],
+		"name": "setInstructor",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]);
 
 
-      var Coursetro = CoursetroContract.at('0x202e8751c9aa37f34e1a00b343d4b2f79623bd16');
+      var Address = CoursetroContract.at('0xf7aa86f1c716793255203cec752d8b0f89170106');
       //0xec08372158d77c3245c8aecf2b22bceed7ec0cbc
-      console.log(Coursetro);
+      console.log(Address);
 
 
 
-       Coursetro.getInstructor(function(error, result) {
+       Address.getCustomer(function(error, result) {
            if (!error) {
-               $("#instructor").html(result[0]+' ('+result[1]+' years old)');
+               $("#customer").html(result[0]+' ('+result[1]+' years old)');
            } else
                 console.log(error);
        });
 
 
        $("#button").click(function() {
-           Coursetro.setInstructor($("#name").val(), $("#age").val());
+           Coursetro.setCustomer($("#name").val(), $("#age").val());
        });
 
     </script>

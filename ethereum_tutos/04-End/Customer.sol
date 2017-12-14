@@ -1,12 +1,12 @@
 pragma solidity ^0.4.18;
 
-contract Cloudeo {
+contract Customer {
 
    string fName;
    uint age;
    address owner;
 
-   function Cloudeo() public{
+   function Owned() public{
        owner = msg.sender;
    }
 

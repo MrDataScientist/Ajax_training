@@ -14,7 +14,7 @@
 <body>
     <div class="container">
 
-        <h1>Smart Contracts</h1>
+        <h1>Customer:</h1>
 
         <h2 id="customer"></h2>
         <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
@@ -42,18 +42,76 @@
            web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
        }
 
-       web3.eth.defaultAccount = web3.eth.accounts[5];
+       web3.eth.defaultAccount = web3.eth.accounts[0];
        document.getElementById("demo").innerHTML = web3.eth.accounts[0];
        //console.log(web3.eth.accounts[0]);
 
-       var CustomerContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getCustomer","outputs":[{"name":"","type":"string"},
-       {"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},
-       {"constant":false,"inputs":[{"name":"_fName","type":"string"},
-       {"name":"_age","type":"uint256"}],"name":"setCustomer","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
-       {"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},
-       {"indexed":false,"name":"age","type":"uint256"}],"name":"Customer","type":"event"}]);
+       var CustomerContract = web3.eth.contract([
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getCustomer",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "age",
+				"type": "uint256"
+			}
+		],
+		"name": "Customer",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "Owned",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_fName",
+				"type": "string"
+			},
+			{
+				"name": "_age",
+				"type": "uint256"
+			}
+		],
+		"name": "setCustomer",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]);
 
-       var Customer = CustomerContract.at('0x202e8751c9aa37f34e1a00b343d4b2f79623bd16');
+       var Customer = CustomerContract.at('0x3a3c2b45b8019e28ea862c334d7cac8b2543fdd2');
 
        var customerEvent = Customer.Customer();
 
@@ -66,7 +124,7 @@
            }
        });
 
-       $("#button").click(function() {
+       $("#button").click(function(){
             $("#loader").show();
            Customer.setCustomer($("#name").val(), $("#age").val());
        });
