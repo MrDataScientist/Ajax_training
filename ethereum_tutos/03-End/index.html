@@ -44,11 +44,11 @@
        console.log(web3.eth.accounts[0]);
 
        // Contract ABI from remix solidity
-       var CoursetroContract = web3.eth.contract([
+       var Contract = web3.eth.contract([
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "getInstructor",
+		"name": "getCustomer",
 		"outputs": [
 			{
 				"name": "",
@@ -75,7 +75,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "setInstructor",
+		"name": "setCustomerr",
 		"outputs": [],
 		"payable": false,
 		"stateMutability": "nonpayable",
@@ -84,13 +84,13 @@
 ]);
 
 
-      var Address = CoursetroContract.at('0xf7aa86f1c716793255203cec752d8b0f89170106');
+      var Customer = Contract.at('0x4ae9380e837d30007e8c6b9d38341683825454df');
       //0xec08372158d77c3245c8aecf2b22bceed7ec0cbc
-      console.log(Address);
+      console.log(Customer);
 
 
 
-       Address.getCustomer(function(error, result) {
+       Customer.getCustomer(function(error, result) {
            if (!error) {
                $("#customer").html(result[0]+' ('+result[1]+' years old)');
            } else
@@ -99,7 +99,7 @@
 
 
        $("#button").click(function() {
-           Coursetro.setCustomer($("#name").val(), $("#age").val());
+           Customer.setCustomer($("#name").val(), $("#age").val());
        });
 
     </script>
