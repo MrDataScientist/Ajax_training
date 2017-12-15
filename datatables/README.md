@@ -2,7 +2,7 @@ Only the Workflows using Webpack and Vue CLI
 
 
 Learn by Doing: Vue JS 2.0 the Right Way
-Instructor: Dejan Stošić
+Instructor: Dejan Stošić  from Serbia
  Course Length: 3,5 h
  Number of Lectures: 32
  Number of Students: > 700
@@ -12,11 +12,31 @@ Vue CLI and Webpack
 
 
 Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
-Instructor: Maximilian Schwarzmüller
+Instructor: Maximilian Schwarzmüller  from Australia
  Course Length: 16,5 h
  Number of Lectures: 329
  Number of Students: > 8900
  Rating: 4.8 stars (ot of five)
+>> https://www.youtube.com/watch?v=2CSr2vBApSI
 
 
-Time:
+
+VUE CLI :
+https://www.youtube.com/watch?utm_campaign=Revue+newsletter&utm_medium=Newsletter&utm_source=Vue.js+Newsletter&v=mG12D07YXwk
+
+
+funcdamentals:
+https://www.youtube.com/watch?v=KT-yhTnIf_k
+
+
+Customer manager App
+https://www.youtube.com/watch?v=IUgstalu6zo
+
+----------------------------------------------------------------------------
+-------------REST API Node.js-----------------------------------------------
+----------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=WDrU305J1yw
+
+
+.
