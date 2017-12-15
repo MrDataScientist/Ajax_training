@@ -38,5 +38,8 @@ https://www.youtube.com/watch?v=IUgstalu6zo
 
 https://www.youtube.com/watch?v=WDrU305J1yw
 
+https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q
 
+promise
+https://www.youtube.com/watch?v=104J7_HyaG4
 .
