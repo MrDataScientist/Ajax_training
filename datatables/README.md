@@ -1,7 +1,7 @@
 Only the Workflows using Webpack and Vue CLI
 
 
-Learn by Doing: Vue JS 2.0 the Right Way
+Learn by Doing: Vue JS 2.0 the Right Way  DONE
 Instructor: Dejan Stošić  from Serbia
  Course Length: 3,5 h
  Number of Lectures: 32
@@ -11,7 +11,7 @@ Vue CLI and Webpack
 >>  https://www.udemy.com/learn-by-doing-vue-js-2-the-right-way/
 
 
-Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
+Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)  DONE
 Instructor: Maximilian Schwarzmüller  from Australia
  Course Length: 16,5 h
  Number of Lectures: 329
