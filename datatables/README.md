@@ -10,7 +10,6 @@ Instructor: Dejan Stošić  from Serbia
 Vue CLI and Webpack
 >>  https://www.udemy.com/learn-by-doing-vue-js-2-the-right-way/
 
-
 Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)  DONE
 Instructor: Maximilian Schwarzmüller  from Australia
  Course Length: 16,5 h
@@ -19,7 +18,7 @@ Instructor: Maximilian Schwarzmüller  from Australia
  Rating: 4.8 stars (ot of five)
 >> https://www.youtube.com/watch?v=2CSr2vBApSI
 
-
+---------------------------------------------------------------------------------------------------
 
 VUE CLI :
 https://www.youtube.com/watch?utm_campaign=Revue+newsletter&utm_medium=Newsletter&utm_source=Vue.js+Newsletter&v=mG12D07YXwk
