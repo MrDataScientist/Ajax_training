@@ -1,6 +1,6 @@
 # Ajax_training
 
-keywords : js, web3, vue.js, koa.js, express.js, loopback
+keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
 IDE : Webstorm, Atom
 
 AJAX jQuery Resources
@@ -30,11 +30,15 @@ http://beta.json-generator.com/E1sGlr91z
 
 http://www.icndb.com/api/
 
-Applications
+##Applications
 
-http://brackets.io/
+->http://brackets.io/
 
-https://www.apachefriends.org/index.html
+->https://www.apachefriends.org/index.html
+
+->https://augur.net
+
+->https://ethereum.org
 
 REMIX editor for Solidity:(smart contracts)
 http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
