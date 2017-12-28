@@ -19,12 +19,9 @@ contract Owned{
 contract Courses is Owned{
 
     struct Instructor {
-
         uint age;
         bytes16 fName;
         bytes16 lName;
-
-
     }
 
     mapping (address => Instructor) instructorss;
@@ -36,12 +33,13 @@ contract Courses is Owned{
       uint age,
       );
 
-    function setinstructor(address _address, bytes16 _fName, bytes16 _lName, uint _age) onlyOwner public {
+    function setinstructor(address _address, uint _age, bytes16 _fName, bytes16 _lName) onlyOwner public {
         var instructor = instructors[_address];
 
+        instructor.age = _age;
         instructor.fName = _fName;
         instructor.lName = _lName;
-        instructor.age = _age;
+
 
         instructorAccts.push(_address) -1;
         instructorInfo(_fName, _lName, _age);
