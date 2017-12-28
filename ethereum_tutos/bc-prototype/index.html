@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CloudeoToken</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>landsat :</h1>
+
+        <h2 id="landsat"></h2>
+        <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+
+        <label for="orderId" class="col-lg-2 control-label">OrderId</label>
+        <input id="orderId" type="text">
+
+        <label for="lineItem" class="col-lg-2 control-label">lineItem</label>
+        <input id="lineItem" type="text">
+
+        <label for="price" class="col-lg-2 control-label">price</label>
+        <input id="price" type="text">
+
+        <label for="sku" class="col-lg-2 control-label">sku</label>
+        <input id="sku" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Account</label>
+        <p id="demo"></p>
+
+        <button id="button">Update landsat</button>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script>
+       if (typeof web3 !== 'undefined') {
+           web3 = new Web3(web3.currentProvider);
+       } else {
+           web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+       }
+
+       web3.eth.defaultAccount = web3.eth.accounts[0];
+       //document.getElementById("demo").innerHTML = web3.eth.accounts[0];
+       //console.log(web3.eth.accounts[0]);
+
+      // ABI
+       var landsatContract = web3.eth.contract([
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getlandsat",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "Owned",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "orderId",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "lineItem",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "price",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "sku",
+				"type": "uint256"
+			}
+		],
+		"name": "landsat",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_orderId",
+				"type": "uint256"
+			},
+			{
+				"name": "_lineItem",
+				"type": "uint256"
+			},
+			{
+				"name": "_price",
+				"type": "uint256"
+			},
+			{
+				"name": "_sku",
+				"type": "uint256"
+			}
+		],
+		"name": "setlandsat",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]);
+       // account token
+       var landsat = landsatContract.at('0xcf29f37221d2ab5e999998f0985a49b410efdcff');
+
+       var landsatEvent = landsat.landsat();
+
+       landsatEvent.watch(function(error, result) {
+           if (!error) {
+               $("#loader").hide();
+               $("#landsat").html('_orderId_:' + result.args.orderId + ' (_lineItem_:' + result.args.lineItem + ' )' + ' _Price_: ' + result.args.price + ' _SKU_: ' + result.args.sku);
+           } else {
+                $("#loader").hide();
+           }
+       });
+
+       $("#button").click(function() {
+            $("#loader").show();
+           landsat.setlandsat($("#orderId").val(), $("#lineItem").val(), $("#price").val(), $("#sku").val() );
+       });
+
+    </script>
+
+</body>
+</html>

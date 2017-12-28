@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CloudeoToken</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>Customer :</h1>
+
+        <h2 id="customer"></h2>
+        <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+
+        <label for="name" class="col-lg-2 control-label">Name</label>
+        <input id="name" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Age</label>
+        <input id="age" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Nationality</label>
+        <input id="nationality" type="text">
+
+        <label for="name" class="col-lg-2 control-label">Account</label>
+        <p id="demo"></p>
+
+        <button id="button">Update Customer</button>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script>
+       if (typeof web3 !== 'undefined') {
+           web3 = new Web3(web3.currentProvider);
+       } else {
+           web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+       }
+
+       web3.eth.defaultAccount = web3.eth.accounts[0];
+       document.getElementById("demo").innerHTML = web3.eth.accounts[0];
+       //console.log(web3.eth.accounts[0]);
+
+      // ABI
+       var CustomerContract = web3.eth.contract([
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getCustomer",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "age",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "nationality",
+				"type": "string"
+			}
+		],
+		"name": "Customer",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "Owned",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_fName",
+				"type": "string"
+			},
+			{
+				"name": "_age",
+				"type": "uint256"
+			},
+			{
+				"name": "_nationality",
+				"type": "string"
+			}
+		],
+		"name": "setCustomer",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]);
+       // account token
+       var Customer = CustomerContract.at('0x0d835c47f6aac05b5a5592c7b9540d50f772578c');
+
+       var customerEvent = Customer.Customer();
+
+       customerEvent.watch(function(error, result) {
+           if (!error) {
+               $("#loader").hide();
+               $("#customer").html(result.args.name + ' (' + result.args.age + ' years old)' + ' from ' + result.args.nationality);
+           } else {
+                $("#loader").hide();
+           }
+       });
+
+       $("#button").click(function() {
+            $("#loader").show();
+           Customer.setCustomer($("#name").val(), $("#age").val(), $("#nationality").val()  );
+       });
+
+    </script>
+
+</body>
+</html>
