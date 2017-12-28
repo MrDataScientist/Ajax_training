@@ -49,7 +49,7 @@ contract Courses is Owned{
         return instructorAccts;
     }
 
-    function getinstructor(address _address) view public returns (bytes16, bytes16, uint) {
+    function getinstructor(address _address) view public returns (uint, bytes16, bytes16) {
 
         return (instructors[_address].age, instructors[_address].fName, instructors[_address].lName);
 
