@@ -16,7 +16,7 @@ contract Owned{
 
 }
 
-contract CloudeoToken is Owned{
+contract Courses is Owned{
 
     struct Instructor {
 
@@ -36,26 +36,24 @@ contract CloudeoToken is Owned{
       uint age,
       );
 
-    function setinstructor(address _address, bytes16 _fName, bytes16 _lName, uint _age, bytes16 _nationality, bytes16 _company) onlyOwner public {
+    function setinstructor(address _address, bytes16 _fName, bytes16 _lName, uint _age) onlyOwner public {
         var instructor = instructors[_address];
 
         instructor.fName = _fName;
         instructor.lName = _lName;
         instructor.age = _age;
-        instructor.nationality = _nationality;
-        instructor.company = _company;
 
         instructorAccts.push(_address) -1;
-        instructorInfo(_fName, _lName, _age, _nationality, _company);
+        instructorInfo(_fName, _lName, _age);
     }
 
     function getinstructors() view public returns(address[]) {
         return instructorAccts;
     }
 
-    function getinstructor(address _address) view public returns (bytes16, bytes16, uint, bytes16, bytes16) {
+    function getinstructor(address _address) view public returns (bytes16, bytes16, uint) {
 
-        return (instructors[_address].company,instructors[_address].nationality,instructors[_address].age, instructors[_address].fName, instructors[_address].lName);
+        return (instructors[_address].age, instructors[_address].fName, instructors[_address].lName);
 
     }
 

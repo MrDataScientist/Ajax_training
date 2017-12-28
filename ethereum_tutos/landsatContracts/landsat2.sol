@@ -43,12 +43,12 @@ contract Landsat is Owned{
       );
 
     function setlandsat(address _address, uint _sku, uint _price, uint _orderId, uint _lineItem) onlyOwner public {
-        var landsat = landsats[_address];
+        var landsatadd = landsats[_address];
 
-        landsat.orderId = _orderId;
-        landsat.lineItem = _lineItem;
-        landsat.price = _price;
-        landsat.sku = _sku;
+        landsatadd.orderId = _orderId;
+        landsatadd.lineItem = _lineItem;
+        landsatadd.price = _price;
+        landsatadd.sku = _sku;
 
         landsatAccts.push(_address) -1;
         landsatInfo(_orderId, _lineItem, _price, _sku);
