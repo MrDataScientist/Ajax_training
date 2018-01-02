@@ -27,8 +27,8 @@
           </thead>
           <tbody>
             <tr v-repeat="personnes">
-              <td>{ nom }</td>
-              <td>{ prenom }</td>
+              <td>{{ nom }}</td>
+              <td>{{ prenom }}</td>
               <td><button class="btn btn-info btn-block" v-on="click: modifier($index)">Modifier</button></td>
               <td><button class="btn btn-warning btn-block" v-on="click: supprimer($index)">Poubelle</button></td>
             </tr>
@@ -58,8 +58,8 @@
           </thead>
           <tbody>
             <tr v-repeat="poubelle">
-              <td>{ nom }</td>
-              <td>{ prenom }</td>
+              <td>{{ nom }}</td>
+              <td>{{ prenom }}</td>
               <td><button class="btn btn-success btn-block" v-on="click: retablir($index)">Rétablir</button></td>
               <td><button class="btn btn-danger btn-block" v-on="click: eliminer($index)">Supprimer</button></td>
             </tr>
