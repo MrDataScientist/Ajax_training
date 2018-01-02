@@ -12,6 +12,7 @@
 </template>
 
 <script>
+
     import Header from './Header.vue';
     import Footer from './Footer.vue';
     import Servers from './Servers.vue';
