@@ -45,4 +45,4 @@ http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
 
 #2018: what's going on?
 start using webstorm more often
-vue.js components / design / logic
+vue.js components / design / logic (Advancing 3 januar 2018)
