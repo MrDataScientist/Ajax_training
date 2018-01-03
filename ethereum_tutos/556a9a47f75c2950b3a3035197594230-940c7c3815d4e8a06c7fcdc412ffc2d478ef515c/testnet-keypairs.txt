@@ -1,0 +1,8 @@
+// Private Key
+23e4dfb937932332a3cf17f1fc0541e7dc2b7d0bef81289bfa04a251443b5666
+
+// Address
+0x08Cf02070Bb9F167556C677DA58e6678bbE871fc
+
+// Etherscan URI
+https://testnet.etherscan.io/address/0x08cf02070bb9f167556c677da58e6678bbe871fc
