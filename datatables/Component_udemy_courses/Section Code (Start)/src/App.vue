@@ -3,8 +3,6 @@
         <div class="row">
             <div class="col-xs-12">
                 <app-user></app-user>
-            <hr>
-                <app-tarik></app-tarik>
             </div>
         </div>
     </div>
@@ -12,12 +10,10 @@
 
 <script>
     import User from './components/User.vue';
-    import Tarik from './components/Tarik.vue';
 
     export default {
         components: {
-            appUser: User,
-            appTarik: Tarik
+            appUser: User
         }
     }
 </script>
