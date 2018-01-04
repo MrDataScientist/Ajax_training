@@ -43,6 +43,13 @@
                     }, error => {
                         console.log(error)
                     });
+            },
+            fetchData(){
+                this.$http.get('https://vuejs-http-efeb0.firebaseio.com/data.json')
+                    .then(response => {
+                        return response.json();
+                    })
+                    .then();
             }
         }
     }
