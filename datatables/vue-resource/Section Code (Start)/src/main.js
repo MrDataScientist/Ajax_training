@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
 import VueResource from 'vue-resource';
+import App from './App.vue'
 
-vue.use(VueResource);
+Vue.use(VueResource);
 
 new Vue({
   el: '#app',
