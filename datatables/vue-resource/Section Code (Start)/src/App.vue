@@ -49,7 +49,7 @@
                     .then(response => {
                         return response.json();
                     })
-                    .then();
+                    .then(data => console.log(data));
             }
         }
     }
