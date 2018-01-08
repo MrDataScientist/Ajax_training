@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blockchain Course - Development with Web3 Section</title>
+  <title>Blockchain- Development with Web3 </title>
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -192,19 +192,19 @@ pragma solidity ^0.4.6;
 contract MyContract {
 
   uint   num;
-                
+
   event NumberSetEvent(address indexed caller, bytes32 indexed oldNum, bytes32 indexed newNum);
 
    function getNum()  returns (uint n) {
      return num;
   }
-               
+
    function setNum(uint n) {
       uint old = num;
       num=n;
       NumberSetEvent(msg.sender,bytes32(old),bytes32(num));
    }
-               
+
    function MyContract(uint x){num=x;}
 }
 
@@ -294,7 +294,7 @@ contract MyContract {
 
       <span>Topics</span>
       <pre>[0=event sig,1=addr,2 &amp; 3=32byteHex]</pre>
-      <!-- The default for the 
+      <!-- The default for the
        NumberSetEvent(address indexed caller, bytes32 indexed oldNum, bytes32 indexed newNum)
        [0]=Signature of the event
        [1]=Address of the caller
@@ -314,7 +314,7 @@ contract MyContract {
     <pre id='options_filter'></pre>
   </div>
   <!-- Add a watch -->
-  
+
   <div class="sidekick">
     <h1>Watch</h1>
     <span><button onclick="doFilterWatchStart()">Watch()</button></span>
@@ -393,10 +393,6 @@ contract MyContract {
 
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
-  <script src="/bower_components/bignumber.js/bignumber.js"></script>
-  <script src="/bower_components/crypto-js/index.js"></script>
-  <script src="/bower_components/web3/dist/web3.js"></script>
-  <script src="/bower_components/web3/dist/web3.min.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
