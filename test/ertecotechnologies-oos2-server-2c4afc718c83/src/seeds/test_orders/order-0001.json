@@ -1,0 +1,34 @@
+{
+  "order": {
+    "OrderID": "0001",
+    "MerchantToken": "0100",
+    "OrderDateUTC": "2017-10-17",
+    "OrderTimeUTC": "10:38:51"
+  },
+  "user": {
+    "CloudEOCustomerID": "delyanharalanov",
+    "UserID": "5924",
+    "UserMail": "d.haralanov@erteco.de"
+  },
+  "billing": {
+    "BillOrganisation": "CloudEO AG",
+    "BillName": "Delyan Haralanov",
+    "BillLine1": "Ludwigstrasse 8",
+    "BillLine2": "",
+    "BillCity": "Munich",
+    "BillStateProvinceCode": "",
+    "BillPostalCode": "80539",
+    "BillCountryCode": "DE",
+    "PaymentMethod": "purchase_on_invoice|commerce_payment_purchase_on_invoice"
+  },
+  "line_item": {
+    "1000": {
+      "SKU": "5-0101-115",
+      "StartDate": "2017-12-01",
+      "EndDate": "2017-12-31"
+    },
+    "1001": {
+      "SKU": "product_notexisting"
+    }
+  }
+}

@@ -1,17 +1,17 @@
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #f5fff9;
 }
 
 .hero-unit {
   margin: 0px auto 0 270px;
-  
+
   width: 70%;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #777;
+  background-color: #2974ff;
   border-radius: 6px;
   padding: 10px;
   display: inline-block;
@@ -36,11 +36,11 @@ body {
   display:inline-block;
   margin-top: 50px;
   margin-left: 10px;
-  
+
   width: 45%;
   font-size: 12px;
 
-  background-color: #ccc;
+  background-color: #ccf;
   border-radius: 6px;
   padding: 10px;
   vertical-align: top;
@@ -82,10 +82,10 @@ body {
 
 .item {
     width: 250px;
-   
+
     float: left;
     margin: 5px;
-    border: 2px solid gray;
+    border: 2px solid #801654;
 }
 
 .item.top{
@@ -98,17 +98,17 @@ body {
 .item.about {
   position: absolute;
   top: 160px;
-  left: 0px;  
-  background: pink;
+  left: 0px;
+  background: #131dff;
 }
 
 .logo {
-  content: url('http://thedapps.com/images/thedappslogo1.png');
-  
-  max-width: 80%;                    
+  content: url('../images/thedappslogo1.png');
+
+  max-width: 80%;
 }
 .workbench {
   content: url('../images/ethereum-workbench.png');
-  
-  max-width: 100%;                    
+
+  max-width: 100%;
 }

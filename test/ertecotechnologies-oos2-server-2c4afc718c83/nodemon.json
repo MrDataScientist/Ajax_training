@@ -1,0 +1,14 @@
+{
+  "verbose": false,
+  "watch": ["*.js", "*.json"],
+  "ignore": [
+    "src/public/*",
+    ".git",
+    "logs",
+    "node_modules"
+  ],
+  "env": {
+
+  },
+  "execMap": {}
+}

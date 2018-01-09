@@ -1,0 +1,11 @@
+jsconfig.json
+.vscode/*
+.idea/*
+npm-debug.log
+node_modules/*
+
+logs/*
+config/local*
+src/public/*
+
+!/**/.gitkeep
