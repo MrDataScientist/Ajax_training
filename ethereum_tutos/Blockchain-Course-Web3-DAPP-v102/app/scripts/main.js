@@ -1,31 +1,20 @@
 /**
- * web3JS Sample DAPP by http://acloudfan.com
- * Version: 102     May 20th, 2017
- * 
- * Application developed as part of the course on Ethereum Blockchain
- * All Rights Reserved - Please do not share. 
- * Updated versions of the code is available on the link below:
- * APP will be updated time to time so please check back
- * 
- * http://www.acloudfan.com
- * 
- * This DAPP is available on the following link .... to use it you would need MetaMask
- * http://TheDapps.com
- * 
+ * @ autor: Tarik En-Nakdi
+ * web3JS Sample DAPP
  * Geth
  * =====
  * Application developed against Geth/ROPSTEN
- * 
+ *
  * TestRPC
  * =======
  * Some API NOT Supported in TestRPC
  * Etherscan.io links will not be supported for TestRPC
- * 
+ *
  * META MASK
  * =========
  * MetaMask will work - except some for some functions coded SYNCHRONOUSLY
  * You may change it to work with MetaMask
- * 
+ *
  */
 
 
@@ -79,7 +68,6 @@ window.addEventListener('load', function() {
  * This method gets invoked when document is ready
  */
 function    startApp(){
-
     // If the app is reconnected we should reset the watch
     doFilterStopWatching();
     doContractEventWatchStop();
@@ -97,7 +85,7 @@ function    startApp(){
         setData('connect_status','Not Connected', true);
     }
 
-    // no action to be taken if this flag is OFF  
+    // no action to be taken if this flag is OFF
     // during development for convinience you may set autoRetrieveFlag=true
     if(!autoRetrieveFlag)  return;
 
@@ -115,7 +103,7 @@ function    startApp(){
 
 /**
  * This method is called for connecting to the node
- * The Provider URL is provided in a Document element with the 
+ * The Provider URL is provided in a Document element with the
  * id = provider_url
  */
 
@@ -152,7 +140,7 @@ function    setWeb3Version() {
                 nodeType = 'geth';
             }
 
-            
+
             // set up UI elements based on the node type
             setUIBasedOnNodeType();
         }
@@ -185,13 +173,13 @@ function    doGetNodeStatus()  {
 
 /**
  * Gets the accounts under the node
- * 
+ *
  */
 
 function    doGetAccounts() {
     // This is the synch call for getting the accounts
     // var accounts = web3.eth.accounts
-    
+
     // Asynchronous call to get the accounts
     // result = [Array of accounts]
     // MetaMask returns 1 account in the array - that is the currently selected account
@@ -215,7 +203,7 @@ function    doGetAccounts() {
             for (var i = 0; i < result.length; i++) {
                 addAccountsToList('accounts_list',i,result[i])
             }
-            
+
             var coinbase = web3.eth.coinbase;
             // trim it so as to fit in the window/UI
             if(coinbase) coinbase = coinbase.substring(0,25)+'...'
@@ -245,7 +233,7 @@ function    doGetBalances(accounts) {
 
     // Remove the balances if they already exist
     removeAllChildItems('account_balances_list');
-    
+
     // Add the balances as the list items
     for (var i = 0; i < accounts.length; i++) {
 
@@ -296,7 +284,7 @@ function    doUnlockAccount()  {
     // synchronous flavor
     // web3.personal.unlockAccount(account, password, duration)
     // web3.personal.unlockAccount(account, password)
-    
+
 
     web3.personal.unlockAccount(account, password,function(error, result)  {
 
@@ -313,8 +301,8 @@ function    doUnlockAccount()  {
                 str = 'Incorrect Password???';
                 setData('lock_unlock_result',str,true);
             }
-            
-            
+
+
         }
     });
 }
@@ -324,7 +312,7 @@ function    doUnlockAccount()  {
  */
 function    doLockAccount() {
 
-    
+
 
     setData('lock_unlock_result','...',true);
     var account = document.getElementById('select_to_unlock_account').value;
@@ -348,7 +336,7 @@ function    doLockAccount() {
  */
 function doGetCompilers()  {
 
-    
+
 
     web3.eth.getCompilers(function(error, result){
         if(error){
@@ -372,7 +360,7 @@ function    doCompileSolidityContract()  {
 
 
     var source = document.getElementById('sourcecode').value;
-  
+
     console.log(flattenSource(source));
 
     web3.eth.compile.solidity(source, function(error, result){
@@ -406,7 +394,7 @@ function    doCompileSolidityContract()  {
             setData('compilation_result','Contract#1: '+contract_1,false);
             document.getElementById('compiled_bytecode').value=code_1;
             document.getElementById('compiled_abidefinition').value=JSON.stringify(abi_1);
-            
+
         }
     });
 }
@@ -441,7 +429,7 @@ function    doDeployContract()   {
     }
 
     // 3. This is where the contract gets deployed
-    // Callback method gets called *2* 
+    // Callback method gets called *2*
     // First time : Result = Txn Hash
     // Second time: Result = Contract Address
     var constructor_param = 10;
@@ -519,7 +507,7 @@ function  createContractInstance(addr){
    // var contractData = contract.new.getData(constructor_params, {from:coinbase, gas:10000});
 
     var    address = addr;
-    
+
     if(!address) address = document.getElementById('contractaddress').value;
 
     // Instance needs the address
@@ -553,7 +541,7 @@ function    doContractFunctionCall()  {
             setExecuteResultUI('Call',funcName,'',result,'',false);
         });
 
-        
+
     }
 }
 
@@ -581,7 +569,7 @@ function    doContractSendCall()   {
         // setNum with sendTransaction
         instance.setNum.sendTransaction(parameterValue,txnObject,function(error, result)  {
 
-            console.log('RECVED>>',error,result);   
+            console.log('RECVED>>',error,result);
             if(error){
                 setExecuteResultUI('Send Transaction:   ',funcName,'',error,'',true);
             } else {
@@ -592,14 +580,14 @@ function    doContractSendCall()   {
          // getNum with sendTransaction
         instance.getNum.sendTransaction(txnObject,function(error, result)  {
 
-            console.log('RECVED>>',error,result);   
+            console.log('RECVED>>',error,result);
             if(error){
                 setExecuteResultUI('Send Transaction:   ',funcName,'',error,'',true);
             } else {
                 setExecuteResultUI('Send Transaction:   ',funcName,'',result,result,false);
             }
         });
-    }        
+    }
 }
 
 /**
@@ -662,14 +650,14 @@ function    doFilterStopWatching()  {
 
 /**
  * Get the logs for the specified filter
- * Testnet sample contract address: 
+ * Testnet sample contract address:
  */
 
 function    doFilterGetLogs()  {
 
     // 1. Clear the list
     clearList('get_logs_list');
-    
+
     // 2. Create the filter option
     var options = generateFilterOptions();
     console.log('FILTER Get Options:', JSON.stringify(options));
@@ -716,7 +704,7 @@ function    doContractEventWatchStart() {
         if(error){
             console.error('Contract Event Error');
         } else {
-           
+
         //    console.log("Event.watch="+JSON.stringify(result))
             // increment the count watch_instance_event_count
             contractEventCounter++;

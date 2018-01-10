@@ -11,5 +11,6 @@ div {
   box-shadow: 1px 1px 2px black;
   padding: 30px;
   margin: auto;
+  text-align: center;
 }
 </style>

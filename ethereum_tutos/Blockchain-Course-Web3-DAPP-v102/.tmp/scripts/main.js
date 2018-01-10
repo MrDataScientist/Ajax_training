@@ -1,33 +1,22 @@
 'use strict';
 
 /**
- * web3JS Sample DAPP by http://acloudfan.com
- * Version: 102     May 20th, 2017
- * 
- * Application developed as part of the course on Ethereum Blockchain
- * All Rights Reserved - Please do not share. 
- * Updated versions of the code is available on the link below:
- * APP will be updated time to time so please check back
- * 
- * http://www.acloudfan.com
- * 
- * This DAPP is available on the following link .... to use it you would need MetaMask
- * http://TheDapps.com
- * 
+ * @ autor: Tarik En-Nakdi
+ * web3JS Sample DAPP
  * Geth
  * =====
  * Application developed against Geth/ROPSTEN
- * 
+ *
  * TestRPC
  * =======
  * Some API NOT Supported in TestRPC
  * Etherscan.io links will not be supported for TestRPC
- * 
+ *
  * META MASK
  * =========
  * MetaMask will work - except some for some functions coded SYNCHRONOUSLY
  * You may change it to work with MetaMask
- * 
+ *
  */
 
 // The sample code was compiled in Remix
@@ -94,7 +83,7 @@ function startApp() {
         setData('connect_status', 'Not Connected', true);
     }
 
-    // no action to be taken if this flag is OFF  
+    // no action to be taken if this flag is OFF
     // during development for convinience you may set autoRetrieveFlag=true
     if (!autoRetrieveFlag) return;
 
@@ -110,7 +99,7 @@ function startApp() {
 
 /**
  * This method is called for connecting to the node
- * The Provider URL is provided in a Document element with the 
+ * The Provider URL is provided in a Document element with the
  * id = provider_url
  */
 
@@ -173,7 +162,7 @@ function doGetNodeStatus() {
 
 /**
  * Gets the accounts under the node
- * 
+ *
  */
 
 function doGetAccounts() {
@@ -414,7 +403,7 @@ function doDeployContract() {
         gas: gas
 
         // 3. This is where the contract gets deployed
-        // Callback method gets called *2* 
+        // Callback method gets called *2*
         // First time : Result = Txn Hash
         // Second time: Result = Contract Address
     };var constructor_param = 10;
@@ -631,7 +620,7 @@ function doFilterStopWatching() {
 
 /**
  * Get the logs for the specified filter
- * Testnet sample contract address: 
+ * Testnet sample contract address:
  */
 
 function doFilterGetLogs() {
