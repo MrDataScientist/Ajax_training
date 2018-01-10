@@ -66,7 +66,6 @@ window.addEventListener('load', function () {
  * This method gets invoked when document is ready
  */
 function startApp() {
-
     // If the app is reconnected we should reset the watch
     doFilterStopWatching();
     doContractEventWatchStop();
