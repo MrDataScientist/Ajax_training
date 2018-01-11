@@ -54,3 +54,6 @@ http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
 Webstorm
 Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
 
+## test:
+https://dqju3n35ybvc4.cloudfront.net
+g
