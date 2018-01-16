@@ -93,3 +93,4 @@ tipButton.addEventListener('click', function() {
 ![](images/6_pay_mm_over.png)
 
 
+To be continued 
