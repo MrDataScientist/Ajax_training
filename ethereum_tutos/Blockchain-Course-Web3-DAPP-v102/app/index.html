@@ -193,7 +193,9 @@
       <span id="list_of_compilers" class="notready">...</span>
       <br>
       <button id="button_do_compile" onclick="doCompileSolidityContract()">Compile Code</button><br>
+
       <textarea id="sourcecode" cols="45" rows="10">
+
 pragma solidity ^0.4.6;
 contract MyContract {
 
@@ -215,6 +217,7 @@ contract MyContract {
 }
 
       </textarea>
+
     </div>
     <!-- compilation result -->
     <div class="sidekick">
@@ -230,7 +233,7 @@ contract MyContract {
     <div class="sidekick">
       <h1>Deploy</h1>
       <p>Gas (Wei)
-        <input type="text" id="deployment_estimatedgas" size="10" value="4700000" /></p>
+        <input type="text" id="deployment_estimatedgas" size="10" value="3300000" /></p>
       <button onclick="doDeployContract()">Deploy Contract</button><br>
     </div>
     <!-- deploy result -->

@@ -336,8 +336,6 @@ function    doLockAccount() {
  */
 function doGetCompilers()  {
 
-
-
     web3.eth.getCompilers(function(error, result){
         if(error){
             setData('list_of_compilers',error,true);
