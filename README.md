@@ -65,4 +65,6 @@ https://metamask.github.io/TipButton/
 
 https://github.com/rapidwebltd/php-google-contacts-v3-api
 https://github.com/dwyl/html-form-send-email-via-google-script-without-server
+https://github.com/ry-con/contact_form_with_validation
+https://github.com/50006665/FirebaseContact_Form
 
