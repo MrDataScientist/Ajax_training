@@ -1,0 +1,59 @@
+.addzuyuan{
+    margin: 50px 7px 10px 12px;
+    background-color: #FFFFFF;
+    height: 120px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+.img1{
+    width:40px;
+    height: 40px;
+}
+.img2{
+    margin: 0px;
+    padding: 0px;
+}
+.pp3{
+    padding-left: 15px;
+    margin-top: 10px;
+    color: #555555;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.img3{
+    width: 30px;
+    height:30px;
+}
+.rrow{
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 0px;
+}
+.drop5{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    height: 45px;
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+}
+.use-id{
+    font-size: 10px;
+}
+.drop6{
+    margin-top: 0px;
+        width: 220px;
+        min-height:230px;
+
+}
+.zuyuanbtn{
+    margin-left: 15px;
+}

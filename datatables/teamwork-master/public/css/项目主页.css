@@ -1,0 +1,152 @@
+body {
+  min-height: 1500px;
+  background-color:#FFFFFF;
+
+}
+
+/*两行导航栏*/
+.navbar{
+    padding: 0px;
+    margin: 0px;
+
+}
+.navbar-default{
+
+}
+.hh4{
+    margin-top: 18px;
+    margin-right: 1px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.zuyuan{
+    padding-top: 4px;
+}
+.bar2{
+    background-color: #EEEEEE;
+    border-color: #DDDDDD;
+    height:20px;
+}
+
+.mainbar{
+    margin-left: 400px;
+}
+.interv{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.backcolor{
+    background-color: #EEEEEE;
+    color: #EEEEEE;
+}
+
+.navbar-brand{
+  padding: 0;
+  padding-top: 0px;
+  margin-left: 0;
+}
+.navbar-brand img{
+    margin-left: 40px;
+  width: 50px;
+  height: 50px;
+}
+.navbar-text{
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 0px;
+}
+.navbar-fixed-topp{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 50px;;
+    border-width: 0 0 1px;
+}
+/*显示下拉菜单的*/
+.nav li:hover .dropdown-menu {display: block;}
+
+
+/*addschedule*/
+
+.timedate{
+    width:317px;
+    height: 40px;
+}
+.imgg{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+/*task部分*/
+.mainback{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    width:3500px;
+}
+.threelan{
+    height:1500px;
+    background-color: #EEEEEE;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.hhh4{
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-weight:600;
+    width: 100px;
+
+}
+.buttonn{
+    width:230px;
+    height:60px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.btnpro{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.tianjiatask{
+    background-color: #EEEEEE;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 100px;
+    padding-top: 10px;
+}
+.iinput{
+    width: 235px;
+    margin-left: 13px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.baocun{
+    margin-left: 185px;
+}
+.whitebtn{
+    background-color:  #FFFFFF;
+}
+.deletebtn{
+    margin-top: 10px;
+
+}
+.img3{
+    width: 30px;
+    height:30px;
+}

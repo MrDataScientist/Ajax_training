@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="icon" href="/image/网站图标.jpg">
+
+    <title>个人账号中心-TeamWorking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/主页.css" type="text/css" rel="stylesheet" />
+
+    <script src=""></script>
+
+</head>
+<body style="background-color:rgb(232,232,232)">
+
+<nav class="navbar navbar-default" >
+    <div class=" container-fluid" >
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">  <img alt="Brand" src="/image/网站图标.jpg"></a>
+            <p class="navbar-text">TeamWorking</p>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left" method="get" action="/mainpage">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="在个人项目中搜索" name="project">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <link href="%e4%b8%bb%e9%a1%b5.css" rel="stylesheet" />
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false">用户 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="../persionmanage">账号设置</a></li>
+                        <!--<li><a href="#">退出登录</a></li>-->
+                        <!--<li><a href="#">Something else here</a></li>-->
+                        <li role="separator" class="divider"></li>
+                        <li><a href="../signout">退出登录</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container" style="width:1000px;">
+    <div class="col-xs-4">
+        <!--<div class="container" style=" background-color:white;height:120px;width:350px;padding-left:25px;padding-top:25px;">-->
+            <!--<div class="col-lg-2">-->
+                <!--<img src="/imdefault.jpg.jpg" class="img-circle" />-->
+            <!--</div>-->
+            <!--<div class="col-lg-2" style="margin-left:50px;margin-top:10px">-->
+                <!--<span style="color:black;font-size:30px"><b>AC</b></span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <ul class="list-group" style=" height:80px;width:350px;margin-top:20px;">
+            <li class="list-group-item">
+                <a class="active" href="../persionmanage"><span style="color:gray;font-weight:bold">个人信息</span></a>
+            </li>
+            <a  href="../secretmanage"><li class="list-group-item"><span style="color:gray;font-weight:bold">密码管理</span></a>
+            </li>
+            </li>
+            <a  href="../mainpage"><li class="list-group-item"><span style="color:gray;font-weight:bold">返回主页</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-xs-6" >
+        <form class="form-horizontal" role="form" style="margin-top:20px" method="post"  enctype="multipart/form-data">
+        <div class="container" style="background-color:white; height: 500px; width:600px;margin-left:50px;">
+            <!--<div class="container"style="height:120px;width:600px">-->
+                <!--<div class="col-lg-3">-->
+                    <!--<div class="container"style="margin-left:45px;margin-top:50px">-->
+                         <!--<span style="color:gray;font-weight:bold">头像</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+                <!--<div class="col-lg-1">-->
+                    <!--<img src="/imdefault.jpg.jpg"  style="margin-top:30px"/>-->
+                <!--</div>-->
+                <!--<div class="col-lg-2">-->
+                <!--</div>-->
+                <!--<button type="button" class="btn btn-default" style="color:blue;margin-top:50px">修改头像</button>-->
+            <!--</div>-->
+            <div class="form-group" style="margin-top:50px">
+                <label for=" name" class="col-sm-3 control-label" style="color:gray">
+                   头像
+                </label>
+                <div class="col-sm-7">
+                    <div class="col-lg-1">
+                    <img src="/image/avatar/<%= user.use_img%>" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for=" name" class="col-sm-3 control-label" style="color:gray">
+                    上传头像
+                </label>
+                <div class="col-sm-7">
+                    <input type="file" name="avatar">
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for=" name" class="col-sm-3 control-label" style="color:gray">
+                        姓名
+                    </label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="firstname" placeholder="<%=user.use_name%>" readonly="readonly"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="position" class="col-sm-3 control-label" style="color:gray">职位</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="firstname" placeholder="<%=user.use_position%>" name="position">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber" class="col-sm-3 control-label" style="color:gray">联系电话</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="lastname" placeholder="<%=user.use_contact%>" name="contact">
+                    </div>
+                </div>
+                <!--<div class="form-group">-->
+                    <!--<label for="local" class="col-sm-3 control-label" style="color:gray">所在地</label>-->
+                    <!--<div class="col-sm-7">-->
+                        <!--<input type="text" class="form-control" id="firstname" placeholder="">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="website" class="col-sm-3 control-label" style="color:gray">网址</label>-->
+                    <!--<div class="col-sm-7">-->
+                        <!--<input type="text" class="form-control" id="firstname" placeholder="">-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <div class="form-group" style="color: CornflowerBlue;margin-left:150px">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary btn-lg" style="color:white;width:100px">保存</button>
+                    </div>
+                </div>
+        </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

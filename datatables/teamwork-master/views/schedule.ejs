@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="icon" href="/image/网站图标.jpg">
+
+    <title>项目主页-TeamWorking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="/css/button.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <link href="/css/主页.css" type="text/css" rel="stylesheet" />
+    <link href="/css/项目主页.css" type="text/css" rel="stylesheet" />
+
+    <script src=""></script>
+
+</head>
+<body >
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">  <img alt="Brand" src="/image/网站图标.jpg"></a>
+            <p class="navbar-text">TeamWorking</p>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!--<ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+            </ul>-->
+            <form class="navbar-form navbar-left" method="get" action="/mainpage">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="在个人项目中搜索" name="project">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li><a href="#">论坛</a></li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false">用户 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="/persionmanage">账号设置</a></li>
+                        <!--<li><a href="#">退出登录</a></li>-->
+                        <!--<li><a href="#">Something else here</a></li>-->
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/signout">退出登录</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<nav class="navbar navbar-inverse bar2">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="/mainpage"> <h4 class="hh4"> 首页 </h4> </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <h4 class="hh4"> > </h4>
+                </li>
+                <li>
+                    <h4 class="hh4"><%= projectname%></h4>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left mainbar">
+                <li class="interv"><a href="/projectpage/<%= projectid%>">任务 </a></li>
+                <li class="interv"><a href="/projectpage/<%= projectid%>/file/000000000000000000000000">文件</a></li>
+                <li class="interv"><a href="/projectpage/<%= projectid%>/schedule">日程</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown" style="">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>组员</a>
+                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1" style="width:300px;height:500px;">
+                        <div style="float:right; padding-top:0px;margin-top:0px;margin-right:10px;">
+                            <button type="button" class="close" aria-hidden="true">
+                                &times;
+                            </button>
+                        </div>
+                        <li style="text-align:center;vertical-align:middle;"><strong>项目成员</strong><a href="#"><span></span></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li style="margin-left:5px;margin-right:5px;">
+                            <label for="inputText" class="sr-only">搜索成员，或根据用户名直接搜索</label>
+                            <input type="text" id="use-name" class="form-control" placeholder="搜索成员，或根据用户名直接搜索" required autofocus >
+                        </li>
+                        <li style="height:40px;padding-top:5px;"><a href="/projectpage/<%= projectid%>/addmember"><img src="/image/PlusMember.jpg" alt="邀请新成员" style="margin-right:0px;" />邀请新成员</a></li>
+                        <% results.forEach(function (result) { %>
+                        <li style="height: 40px; padding-top: 15px;margin-top:10px;">
+                            <a href="#">
+                                <div class="col-xs-3" style="margin-left:0px;padding-left:0px;"><img class="img3" src="/image/avatar/<%= result.use_img%>" alt="成员" /></div>
+                                <div class="col-xs-8" style="height:40px;  vertical-align:middle;padding-top:10px;padding-left:0px;"><label for=" user_id" style="vertical-align: middle;"><%= result.use_name%></label></div>
+                            </a>
+                        </li>
+                        <% }) %>
+                    </ul>
+                </li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container" style="background-color:rgb(255, 255, 255);width:1000px;height:60px;border:1px solid silver; margin-top:20px;">
+    <div class="container" style="width:180px;height:40px;margin-top:8px;margin-bottom:5px;margin-left:420px;margin-right:400px;" >
+        <a href="/projectpage/<%= projectid%>/addschedule"><img src="/image/PlusMember.jpg" alt="添加日程"/>添加日程</a>
+    </div>
+</div>
+<%schedule.forEach(function(sch){%>
+<div class="container" style="width:1000px;height:230px;margin-top:20px;border:1px solid silver;">
+    <div class="container" style="width:1000px;height:60px;float:left;margin-left:0px;padding-left:0px;">
+        <div class="col-xs-6" style="border:0px solid silver;height:50px;width:70px;padding-left:5px;padding-bottom:20px;"><p class="text-left" style="font-size:24px;margin-top:5px;">日程</p></div>
+        <div class="col-xs-10" style="border:0px solid silver;height:50px;width:900px;"><p class="text-muted" style="margin-top:10px;margin-left:0px;padding-left:0px;font-size:20px;"><%=sch.sch_name%></p></div>
+    </div>
+    <div class="container" style="width:1000px;height:160px;">
+        <div class="container" style="width:900px;height:140px;border:1px solid silver;margin-top:50px;margin-left:20px;margin-right:30px;">
+            <div class="container" style="margin-top:10px;margin-bottom:10px;margin-left:30px;margin-right:30px;border:0px solid silver;height:50px;width:750px;">
+                <div class="col-xs-1" style="border: 0px solid silver; height: 45px;"><p class="text-primary" style="font-size:40px;"> T </p></div>
+                <div class="col-xs-8" style="margin-left: 0px; border: 0px solid silver;"><p class="text-muted" style="font-size:25px;margin-top:10px;"><%=sch.sch_start%> ~  <%=sch.sch_end%></p></div>
+            </div>
+            <div class="container" style="margin-top:10px;margin-bottom:10px;margin-left:30px;margin-right:30px;border:0px solid silver;height:50px;width:750px;">
+                <div class="col-xs-1" style="border: 0px solid silver; margin-left: 0px; height: 45px;"><p class="text-primary" style="font-size:40px;"> P </p></div>
+                <div class="col-xs-4" style="margin-left: 0px; border: 0px solid silver;height:45px;"><p class="text-muted" style="font-size:25px;margin-top:10px;"><%= sch.sch_place%></p></div>
+                <div class="col-xs-1" style="border:0px solid silver;height:45px;width:90px;"><p class="text-muted" style="font-size: 18px; margin-top: 10px;">参与者</p></div>
+                <div class="col-xs-5" style="border:0px solid silver;height:45px;width:310px;">
+                    <% sch.avatars.forEach(function(ava){%>
+                    <img class="img3" src="/image/avatar/<%= ava%>" alt="用户1的头像"/>
+                    <!--<img class="img3" src="/image/avatar/default.jpg" alt="用户1的头像"/>-->
+                    <!--<img class="img3" src="/image/avatar/default.jpg" alt="用户1的头像"/>-->
+                    <!--<img class="img3" src="/image/avatar/default.jpg" alt="用户1的头像"/>-->
+                    <!---->
+                    <%})%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% })%>
+</body>
+
+</html>

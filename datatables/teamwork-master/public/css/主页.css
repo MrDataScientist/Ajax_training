@@ -1,0 +1,78 @@
+body {
+  min-height: 1500px;
+  background-color:#FFFFFF;
+}
+
+/* 导航栏  */
+.navbar-brand{
+  padding: 0;
+  padding-top: 0px;
+  margin-left: 0;
+}
+.navbar-brand img{
+    margin-left: 40px;
+  width: 50px;
+  height: 50px;
+}
+.navbar-text{
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 0px;
+}
+/*显示下拉菜单的*/
+.nav li:hover .dropdown-menu {display: block;}
+
+
+/*项目显示
+.words{font-size: 40px;
+            letter-spacing: 10px;
+            position: absolute;
+            top:50%;
+            left: 10%;}
+.imgw{position: relative;
+    width:100px;
+    height:100px;
+}
+.img-rounded{
+    width:100px;
+    height:100px;
+}
+*/
+.rowss{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.hh4{
+    margin-bottom: 15px;
+}
+.span{
+
+}
+.button {
+    height:120px;
+    width:220px;
+}
+.span1 {
+    margin-top: 30px;
+}
+.row{
+    margin-bottom: 25px;
+}
+.button-back{
+    background: url(/image/项目图2.jpg);
+}
+
+
+/*addscheme*/
+.timedate{
+    width:317px;
+    height: 40px;
+}
+.imgg{
+    padding-top: 0px;
+    margin-top: 0px;
+}

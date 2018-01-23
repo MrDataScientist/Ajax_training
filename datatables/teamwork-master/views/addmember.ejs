@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link rel="icon" href="/image/网站图标.jpg">
+
+    <title>添加新成员-TeamWorking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="/css/button.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <link href="/css/主页.css" type="text/css" rel="stylesheet" />
+    <link href="/css/项目主页.css" type="text/css" rel="stylesheet" />
+
+    <script src=""></script>
+</head>
+
+<body style="background-color:rgb(128, 128, 128)">
+<div class="container" style="background-color:rgb(255, 255, 255);height:500px;width:400px;margin-left:450px;margin-top:50px;">
+    <a href="#" onClick="history.back(-1);">
+    <div style="float:right; padding-top:0px;margin-top:5px;margin-right:0px;">
+        <button type="button" class="close" aria-hidden="true">
+            &times;
+        </button>
+    </div>
+</a>
+    <div>
+        <h4 style="text-align: center; vertical-align: middle;"><strong>邀请新成员</strong></h4>
+        <hr  />
+    </div>
+    <div>
+        <h5>账号邀请</h5>
+    </div>
+    <form method="get">
+        <div style="margin-top:10px;">
+            <div class="col-xs-9" style="border:0px solid silver;margin-left:0px;padding-left:0px;padding-right:0px;">
+                <label for="inputText" class="sr-only">输入关键字，或者用户名查找</label>
+                <input type="text" id="use-name" class="form-control" placeholder="输入关键字，或者用户名查找" name="name" />
+            </div>
+            <div class="col-xs-3" style="border:0px solid silver;">
+                <button type="submit" class="btn btn-primary " id="search">
+                    搜索</button>
+            </div>
+        </div>
+    </form>
+    <form method="post">
+    <% users.forEach(function(user){ %>
+        <div style="margin-top:20px;padding-left:0px;margin-left:0px;border:0px solid black;height:60px;padding-top:20px;">
+            <li style="height: 40px; padding-top: 10px;margin-top:0px;margin-left:0px;padding-left:0px;border:0px solid silver;list-style-type:none;">
+                <div class="col-xs-2" style="padding-left:0px;height:40px;"><img src="/image/avatar/<%=user.use_img%>" alt="成员" style="height:38px;"/></div>
+                <div class="col-xs-7" style="height:40px;  vertical-align:middle;padding-top:10px;padding-left:0px;"><label for=" user_id" style="vertical-align: middle;"><%=user.use_name%></label></div>
+                <div class="col-xs-3" style="border:0px solid black;padding-top:0px;height:40px;"><button type="submit" class="btn btn-primary " id="add">添加</button></div>
+            </li>
+        </div>
+    <%})%>
+    </form>
+</div>
+</body>
+</html>

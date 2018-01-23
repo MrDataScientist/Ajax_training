@@ -1,0 +1,184 @@
+/*body {
+  min-height: 1000px;
+  background-color:#AAAAAA;
+}*/
+.modal-content{
+    min-height: 500px;
+    background-color:#EEEEEE;
+}
+.mainback1{
+    background-color: #EEEEEE;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:65px;
+    padding: 0px;
+    height:600px;
+}
+.headbox{
+    height:100px;
+    /*border-bottom-style: solid;
+    border-width: 1px;
+    border-color:#AAAAAA;*/
+    padding-top: 5px;
+
+}
+.pp{
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #888888;
+
+}
+.form-control1{
+    background-color: #FFFFFF;
+    border-color: #EEEEEE;
+    color: #111111;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.modal-header{
+    padding-bottom: 0px;
+}
+.line1{
+    margin:0px 15px;
+    /*margin-left: 30px;
+    margin-right: 30px;*/
+    padding: 0px;
+    background-color: #FFFFFF;
+    height: 80px;
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+}
+.col-md-4{
+    margin: 0px;
+    padding: 0px;
+}
+.l1{
+    margin: 0px;
+    padding: 0px;
+    height:80px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+.pp2{
+     padding-left: 15px;
+     margin-top: 10px;
+     color: #888888;
+     margin-bottom: 6px;
+     font-size: 12px;
+
+}
+.dropdown:hover .dropdown-menu {display: block;}
+
+.drop1{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    height: 45px;
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+}
+.img1{
+    width:40px;
+    height: 40px;
+}
+.drop2{
+    width: 220px;
+    min-height:230px;
+}
+.control1{
+    margin: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+.img2{
+    margin: 0px;
+    padding: 0px;
+
+}
+.form-group1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.drop3{
+    margin-left: 15px;
+}
+.drop4{
+    width:150px;
+    height:150px;
+}
+.control-label{
+    color: #555555;
+}
+.addzuyuan{
+    margin: 10px 7px;
+    background-color: #FFFFFF;
+    height: 120px;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+.pp3{
+    padding-left: 15px;
+    margin-top: 10px;
+    color: #555555;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.img3{
+    width: 30px;
+    height:30px;
+}
+.rrow{
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 0px;
+}
+.drop5{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    height: 45px;
+    /*border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;*/
+}
+.use-id{
+    font-size: 10px;
+}
+.drop6{
+    margin-top: 0px;
+        width: 220px;
+        min-height:230px;
+
+}
+.zuyuanbtn{
+    margin-left: 15px;
+}
+.drop7{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 10px;
+}
+.drop8{
+
+        min-width: 150px;
+        min-height:180px;
+
+}
+.okk{
+    margin-left: 10px;
+}
