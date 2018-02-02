@@ -18,12 +18,13 @@
                            role="button"
                            aria-haspopup="true"
                            aria-expanded="false"> Save & Load <span class="caret"></span></a>
+
                         <ul class="dropdown-menu">
-                            <li> <a href="">Save Data</a></li>
+                            <li><a href="">Save Data</a></li>
+                            <li><a href="">Load Data</a></li>
                         </ul>
 
                     </ul>
-
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
