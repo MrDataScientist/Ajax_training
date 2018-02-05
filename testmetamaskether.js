@@ -137,7 +137,7 @@ function doConnect()    {
  * Get the version information for Web3
  */
 
-function    setWeb3Version() {
+function setWeb3Version() {
 
     var versionJson = {};
 
