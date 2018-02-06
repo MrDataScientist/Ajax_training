@@ -1,5 +1,5 @@
 {
-  "name": "blockchain-course-web3",
+  "name": "blockchain-web3",
   "private": true,
   "dependencies": {
     "web3": "^0.18.2"
