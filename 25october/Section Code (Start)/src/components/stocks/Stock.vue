@@ -1,7 +1,7 @@
 <template>
     <div class="col-sm-6 col-md-4">
         <div class="panel panel-success">
-            <div class="panel-deading">
+            <div class="panel-heading">
                 <h3 class="panel-title">
                     NAME
                     <small> (Price: PRICE)</small>
