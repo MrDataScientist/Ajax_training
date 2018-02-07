@@ -1,6 +1,6 @@
 <template>
     <div>
-        <app-stock v-for="Stock in stocks"></app-stock>
+        <app-stock v-for="Stock in stocks" :stock="stock"></app-stock>
     </div>
 </template>
 
@@ -19,7 +19,7 @@
             }
         },
         components:{
-            appStock:stock
+            appStock:Stock
         }
     }
 </script>
