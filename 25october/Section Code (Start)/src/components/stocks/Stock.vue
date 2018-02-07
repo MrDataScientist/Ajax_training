@@ -15,6 +15,14 @@
                         placeholder="Quantity"
                     >
                 </div>
+
+                <div class="pull-left">
+                    <input
+                            type="number"
+                            class="form-control"
+                            placeholder="Quantity"
+                    >
+                </div>
             </div>
         </div>
     </div>
