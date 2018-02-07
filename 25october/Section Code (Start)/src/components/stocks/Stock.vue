@@ -42,7 +42,13 @@
             }
         },
         methods:{
-            
+            buyStock(){
+                const order={
+                    stockId: this.stock.id,
+                    stockPrice: this.stockPrice,
+                    quantity: this.quantity
+                };
+            }
         }
     }
 </script>
