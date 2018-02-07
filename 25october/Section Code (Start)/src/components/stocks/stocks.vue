@@ -1,11 +1,12 @@
 <template>
-    <h1>The stocks Component</h1>
     <div>
-
+        <app-stock v-fo="stock in stocks"></app-stock>
     </div>
 </template>
 
 <script>
+    import Stock from './stock.vue';
+
     export default {
         data(){
             return{
@@ -16,6 +17,9 @@
                     {id:4, name:'BMW', price:145}
                 ]
             }
+        },
+        components:{
+            appStock:stock
         }
     }
 </script>
