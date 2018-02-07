@@ -14,7 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Stock.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stocks.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/stocks/Stocks.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stock.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/stocks/Stock.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
@@ -38,11 +48,11 @@
         <option value="$PROJECT_DIR$/src/components/portfolio/Portfolio.vue" />
         <option value="$PROJECT_DIR$/src/components/portfolio/Stock.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/components/stocks/Stocks.vue" />
         <option value="$PROJECT_DIR$/src/components/Blockchain/Blocks.vue" />
         <option value="$PROJECT_DIR$/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/components/stocks/Stock.vue" />
+        <option value="$PROJECT_DIR$/src/components/stocks/Stocks.vue" />
       </list>
     </option>
   </component>
@@ -173,12 +183,12 @@
       <updated>1517484638671</updated>
       <workItem from="1517484640545" duration="17462000" />
       <workItem from="1517994865459" duration="37000" />
-      <workItem from="1517995732549" duration="7389000" />
+      <workItem from="1517995732549" duration="7905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24888000" />
+    <option name="totallyTimeSpent" value="25404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
@@ -307,14 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/stocks/Stocks.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -335,6 +337,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stocks/Stocks.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>

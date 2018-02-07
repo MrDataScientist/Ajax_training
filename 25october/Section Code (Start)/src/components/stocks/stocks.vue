@@ -19,7 +19,7 @@
             }
         },
         components:{
-            appStock:Stock
+            appStock:stock
         }
     }
 </script>
