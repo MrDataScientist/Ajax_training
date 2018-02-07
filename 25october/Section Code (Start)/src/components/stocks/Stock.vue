@@ -12,7 +12,8 @@
                     <input
                         type="number"
                         class="form-control"
-
+                        
+                    >
 
                 </div>
             </div>
