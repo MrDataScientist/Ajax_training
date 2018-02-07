@@ -10,6 +10,7 @@
                 <ul class="nav navbar-nav">
                     <router-link to="/portfolio" activeClass="active" tag="li"><a>Portfolio</a></router-link>
                     <router-link to="/stocks" activeClass="active" tag="li"><a>Stocks</a></router-link>
+                    <router-link to="/Blockchain" activeClass="active" tag="li"><a>Blocks</a></router-link>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
