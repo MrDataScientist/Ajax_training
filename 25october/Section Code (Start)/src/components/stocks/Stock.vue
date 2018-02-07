@@ -23,11 +23,9 @@
                             placeholder="Quantity"
                     >
                     <div class="pull-right">
-                        <input
-                                type="number"
-                                class="form-control"
-                                placeholder="Quantity"
-                        >
+                        <button
+                                class="btn btn-success"
+                        >Buy</button>
                     </div>
                 </div>
             </div>
