@@ -21,11 +21,13 @@
                             type="number"
                             class="form-control"
                             placeholder="Quantity"
+                            v-model="quantity"
                     >
                     <div class="pull-right">
                         <button
                                 class="btn btn-success"
                                 @click="buyStock"
+                                :disabled="quantity <=0"
                         >Buy</button>
                              <!--   :disabled="quantity <=0"  -->
 
