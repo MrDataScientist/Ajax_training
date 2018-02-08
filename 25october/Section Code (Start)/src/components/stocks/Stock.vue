@@ -8,13 +8,6 @@
                 </h3>
             </div>
             <div class="panel-body">
-                <div class="pull-left">
-                    <input
-                        type="number"
-                        class="form-control"
-                        placeholder="Quantity"
-                    >
-                </div>
 
                 <div class="pull-left">
                     <input
@@ -23,11 +16,12 @@
                             placeholder="Quantity"
                             v-model="quantity"
                     >
+
                     <div class="pull-right">
                         <button
                                 class="btn btn-success"
                                 @click="buyStock"
-                                :disabled="quantity <=0"
+
                         >Buy</button>
                              <!--   :disabled="quantity <=0"  -->
 
