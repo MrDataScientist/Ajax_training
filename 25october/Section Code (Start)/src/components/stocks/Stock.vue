@@ -42,7 +42,7 @@
         },
         methods:{
             buyStock(){
-                const order={
+                const order = {
                     stockId: this.stock.id,
                     stockPrice: this.stock.price,
                     quantity: this.quantity
