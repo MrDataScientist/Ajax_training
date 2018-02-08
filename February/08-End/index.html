@@ -46,7 +46,7 @@
        }
 
        web3.eth.defaultAccount = web3.eth.accounts[0];
-
+console.log(web3.eth.accounts[0]); // ----------------------------->> test
        var CoursetroContract = web3.eth.contract([
 	{
 		"constant": true,
@@ -172,8 +172,8 @@
 	}
 ]);
 
-       var Coursetro = CoursetroContract.at('0x10959A06d550083262726D711A7f301967ca58c4');
-
+       var Coursetro = CoursetroContract.at('0x8034a5fe733b2689e64a802f7102af25d3ef882d');
+console.log(Coursetro); // ----------------------------->> test
        var instructorEvent = Coursetro.instructorInfo({}, 'latest');
 
        instructorEvent.watch(function(error, result) {
