@@ -154,7 +154,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2502" />
     <option name="y" value="96" />
     <option name="width" value="793" />
@@ -241,15 +241,15 @@
       <workItem from="1517484640545" duration="17462000" />
       <workItem from="1517994865459" duration="37000" />
       <workItem from="1517995732549" duration="8457000" />
-      <workItem from="1518100762940" duration="5584000" />
+      <workItem from="1518100762940" duration="6089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31540000" />
+    <option name="totallyTimeSpent" value="32045000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1058" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
