@@ -73,3 +73,9 @@ https://github.com/50006665/FirebaseContact_Form
 connect to db and retrieve data.
 
 
+# Blockchain roadmap
+
+How to make a white paper for regulations
+How to define the business aspects
+
+
