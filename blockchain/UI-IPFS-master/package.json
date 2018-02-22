@@ -12,7 +12,6 @@
     "react-dom": "^15.4.2",
     "web3": "^0.18.4",
     "ipfs-api": "^14.0.0"
-
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
