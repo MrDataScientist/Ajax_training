@@ -1,6 +1,5 @@
 # Ajax_training
 
-
 keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
 IDE : Webstorm, Atom
 
@@ -76,7 +75,7 @@ connect to db and retrieve data.
 
 # Blockchain roadmap
 
-### How to make a white paper for regulations
-### How to define the business aspects
+### - How to make a white paper for regulations
+### - How to define the business aspects
 
 
