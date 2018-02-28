@@ -9,3 +9,9 @@ const mutations = {
     'RND_STOCKS' (state) {
     }
 };
+
+const actions = {
+    buyStock:({commit}, order)=> {
+
+}
+};
