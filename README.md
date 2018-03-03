@@ -78,4 +78,7 @@ connect to db and retrieve data.
 ### - How to make a white paper for regulations
 ### - How to define the business aspects
 
+> MetaMask payment
+use onclick and call function() and upload the js library >> this should work
+
 
