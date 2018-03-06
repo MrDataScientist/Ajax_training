@@ -81,4 +81,4 @@ connect to db and retrieve data.
 > MetaMask payment
 use onclick and call function() and upload the js library >> this should work
 
-
+# Blockchain white paper
