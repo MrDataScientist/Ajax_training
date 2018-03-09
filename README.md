@@ -82,4 +82,7 @@ connect to db and retrieve data.
 use onclick and call function() and upload the js library >> this should work
 
 # Blockchain white paper
-starting doing that from > 7 mars 2018
+starting doing that from > 7 mars 2018 : starting 9 mars 2018
+
+technical schema with a vision.
+describe how your software will look like at the end
