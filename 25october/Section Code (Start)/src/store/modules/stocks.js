@@ -5,14 +5,14 @@ const state = {
 };
 
 const mutations = {
-  'SET_STOCKS' (state, stocks){
-      state.stocks = stocks;
+  'SET_STOCKS' (state, stocks){ //to get the state
+      state.stocks = stocks; // overwriting the stocks here
   },
-    'RND_STOCKS' (state) {
+    'RND_STOCKS' (state) { // randomize
     }
 };
 
-const actions = {
+const actions = { // which actions do I need ? I need to buy stocks
     buyStock:({commit}, order)=> {
         commit();
     },
