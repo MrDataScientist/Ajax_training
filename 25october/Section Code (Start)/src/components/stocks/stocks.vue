@@ -9,7 +9,7 @@
 
     export default {
         components:{
-            appStock:Stock
+            appStock: Stock
         },
         computed: {
             stocks(){
