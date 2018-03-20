@@ -16,15 +16,12 @@
                             placeholder="Quantity"
                             v-model="quantity"
                     >
-
                     <div class="pull-right">
                         <button
                                 class="btn btn-success"
                                 @click="buyStock"
                                 :disabled="quantity <= 0 || !Number.isInteger(quantity)"
                         >Buy</button>
-
-
                     </div>
                 </div>
             </div>
@@ -42,7 +39,7 @@
         },
         methods:{
             buyStock(){
-                const order = {
+                const order = { // this is a javascvript object
                     stockId: this.stock.id,
                     stockPrice: this.stock.price,
                     quantity: this.quantity
