@@ -16,10 +16,15 @@
     export default {
         components: {
             appHeader: Header
+        },
+        created(){
+            this.$store.dispatch('initStocks');
         }
     }
 </script>
 
 <style>
-
+    body {
+        padding:30px;
+    }
 </style>
