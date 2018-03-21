@@ -1,4 +1,3 @@
 <template>
-    <h1>The Blockchain Component</h1>
-
+    <h1>The Block chain Component</h1>
 </template>
