@@ -14,7 +14,7 @@ const mutations = {
 
 const actions = { // which actions do I need ? I need to buy stocks
     buyStock:({commit}, order)=> {
-        commit();
+        commit('BUY_STOCK', order);
     },
     initStocks:({commit}) => {
         commit('SET_STOCKS')

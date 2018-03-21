@@ -1,6 +1,6 @@
 <template>
     <div>
-        <app-stock v-for="Stock in stocks" :stock="stock"></app-stock>
+        <app-stock v-for="stock in stocks" :stock="stock"></app-stock>
     </div>
 </template>
 
@@ -8,12 +8,13 @@
     import Stock from './Stock.vue';
 
     export default {
-        components:{
+        components: {
             appStock: Stock
         },
         computed: {
-            stocks(){
+            stocks() {
                 return this.$store.getters.stocks;
             }
         }
     }
+</script>
