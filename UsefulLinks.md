@@ -4,7 +4,6 @@
      It will be read and overwritten.
      DO NOT EDIT! -->
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>Bookmarks</TITLE>
 <H1>Bookmarks</H1>
 <DL><p>
     <DT><H3 ADD_DATE="1507566979" LAST_MODIFIED="1521466847" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks bar</H3>
