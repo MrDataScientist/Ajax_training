@@ -89,3 +89,4 @@ describe how your software will look like at the end
 
 # Blockchain companies / Laboratories
  1) Foam > geohash  >> company
+ 2) EOS > Blockone
