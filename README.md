@@ -90,3 +90,10 @@ describe how your software will look like at the end
 # Blockchain companies / Laboratories
  1) Foam > geohash  >> company
  2) EOS > Blockone
+ https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
+
+https://github.com/EOSIO
+
+https://eos.io/faq.html
+
+https://block.one
