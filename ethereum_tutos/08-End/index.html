@@ -241,7 +241,7 @@
             $("#countCustomer").html(res.c + ' Customers');
        })
 
-       $("#button").click(function() {
+       $("#button").click(function() {hb
             $("#loader").show();
            Customer.setCustomer(web3.eth.defaultAccount, $("#fName").val(), $("#lName").val(), $("#age").val(), $("#nationality").val(), $("#company").val(), (err, res) => {
                if (err) {
