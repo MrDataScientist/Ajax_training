@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#submit').click(  function () {
+                console.log("click");
+                var sendData = $('#data').val();
+
+                $.ajax({
+                    url: 'localhost',    //Your api url
+                    type: 'PUT',   //type is any HTTP method
+                    data: {
+                        data: sendData
+                    },      //Data as js object
+                    success: function () {
+                    }
+                })
+                ;
+
+            });
+        });
+    </script>
+</head>
+<body>
+<form>
+    Data:<br>
+    <input id="data" type="text" name="data" value="Mickey"><br>
+    <input id="submit" type="button"  value="Submit">
+</form>
+</body>
+</html>
