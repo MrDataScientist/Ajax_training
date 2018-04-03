@@ -5,13 +5,20 @@
 </head>
 <body>
   <button onclick="updateURL();">Update</button>
+
   <script type="text/javascript">
+
     function updateURL() {
+
+      var test="hello";
+
       if (history.pushState) {
-          var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?para=hello';
+          var newurl = window.location.protocol + "//" + window.location.host +"test="+ test;
           window.history.pushState({path:newurl},'',newurl);
+
       }
     }
+
   </script>
 </body>
 </html>

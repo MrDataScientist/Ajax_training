@@ -25,7 +25,11 @@ function myFunction() {
       // or if you want to guarantee it was received, you can poll
       // for that transaction to be mined first.
 
-      renderMessage('The payment has been successfully submitted')
+      //renderMessage('The payment has been successfully submitted')
+      if (history.pushState) {
+          var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?para=hello';
+          window.history.pushState({path:newurl},'',newurl);
+      }
     })
 
   function renderMessage(message) {
