@@ -12,10 +12,12 @@
 
       var test="hello";
 
+      if (history.pushState) {
+          var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname +"test="+ test;
+          window.history.pushState({path:newurl},'',newurl);
 
-          var myURL = document.location;
-          document.location = myURL + "test="+test;
-
+        //  var myURL = document.location;
+        //  document.location = myURL + "test="+test;
     }
 
   </script>
