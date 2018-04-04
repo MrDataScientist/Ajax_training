@@ -26,7 +26,7 @@ function myFunction() {
       // for that transaction to be mined first.
 
       //renderMessage('The payment has been successfully submitted')
-      if (history.pushState) {
+      if (history.pushState) {hjk
           var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?para=hello';
           window.history.pushState({path:newurl},'',newurl);
       }
