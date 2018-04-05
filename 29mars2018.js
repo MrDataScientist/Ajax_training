@@ -1,5 +1,7 @@
 /*
-###web3js is an Ethereum Javascript Api
+### web3js is an Ethereum Javascript Api
+### source: https://github.com/ethereum/web3.js/
+### After installation, you can use this function to call MetaMask
 */
 
 // ***********this function call Metamask to make a payment transafert using ether Tokens**********************************************************
@@ -46,6 +48,6 @@ function MetamaskApi() {
   function renderMessage(message) {
     var messageEl = document.querySelector(".message")
     messageEl.innerHTML = message
-    
+
   }
 }
