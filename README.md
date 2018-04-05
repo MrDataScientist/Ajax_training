@@ -97,3 +97,8 @@ https://github.com/EOSIO
 https://eos.io/faq.html
 
 https://block.one
+
+## Metamask examples:
+- https://github.com/search?p=2&q=metamask+smart+contracts&type=Repositories&utf8=✓
+- 
+
