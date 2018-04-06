@@ -106,3 +106,6 @@ https://block.one
 - https://github.com/saikyerubandi/smart-contract-beginner
 - https://github.com/Felixel42/bachelor-thesis
 - https://github.com/Oaken-Innovations/water-meter-acorn
+
+## Strategy -- tests
+- test
