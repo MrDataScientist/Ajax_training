@@ -1,4 +1,4 @@
-# Ajax_training
+# Coding tests
 
 keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
 
@@ -97,3 +97,15 @@ https://github.com/EOSIO
 https://eos.io/faq.html
 
 https://block.one
+
+## Metamask examples:
+- https://github.com/search?p=2&q=metamask+smart+contracts&type=Repositories&utf8=✓
+- https://github.com/valexiev/dapp-metamask-demo
+- https://github.com/byteblockchainmaster/VueWithEth
+- https://github.com/krisrandall/panda-tokens
+- https://github.com/saikyerubandi/smart-contract-beginner
+- https://github.com/Felixel42/bachelor-thesis
+- https://github.com/Oaken-Innovations/water-meter-acorn
+
+## Strategy -- tests
+- test
