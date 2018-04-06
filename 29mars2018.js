@@ -14,6 +14,7 @@ function MetamaskApi() {
   var orderId = Drupal.settings.ether.orderId;
   var url = Drupal.settings.ether.url;
   var randomKey = Drupal.settings.ether.randomKey;
+
   var MY_ADDRESS = '0xfE7Fb0105f070a17E8fE210e33F0bE034Da1599D'; // A static address on ethereum > you can check this account on etherscan.io
 
 
@@ -42,6 +43,7 @@ function MetamaskApi() {
            // for that transaction to be mined first.
            //renderMessage('The payment has been successfully submitted')
       */
+      renderMessage('The payment has been successfully submitted')
     })
 
 // rendering function
