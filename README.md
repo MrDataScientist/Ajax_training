@@ -1,4 +1,4 @@
-# Ajax_training
+# Coding tests
 
 keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
 
