@@ -107,5 +107,8 @@ https://block.one
 - https://github.com/Felixel42/bachelor-thesis
 - https://github.com/Oaken-Innovations/water-meter-acorn
 
+### Smart contract examples:
+https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
+
 ## Strategy -- tests
 - test
