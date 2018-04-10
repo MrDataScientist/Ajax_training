@@ -111,6 +111,7 @@ https://block.one
 
 ### Smart contract examples:
 https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
+https://github.com/davekaj
 
 ## Strategy -- tests
 - test
