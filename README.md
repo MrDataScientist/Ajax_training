@@ -90,6 +90,7 @@ describe how your software will look like at the end
 # Blockchain companies / Laboratories
  1) Foam > geohash  >> company
  2) EOS > Blockone
+ 3) AWS > BlockApps STRATO Ethereum Blockchain Platform - Developer Edition
  https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
 
 https://github.com/EOSIO
@@ -97,6 +98,7 @@ https://github.com/EOSIO
 https://eos.io/faq.html
 
 https://block.one
+
 
 ## Metamask examples:
 - https://github.com/search?p=2&q=metamask+smart+contracts&type=Repositories&utf8=✓
@@ -106,6 +108,10 @@ https://block.one
 - https://github.com/saikyerubandi/smart-contract-beginner
 - https://github.com/Felixel42/bachelor-thesis
 - https://github.com/Oaken-Innovations/water-meter-acorn
+
+### Smart contract examples:
+https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
+https://github.com/davekaj
 
 ## Strategy -- tests
 - test
