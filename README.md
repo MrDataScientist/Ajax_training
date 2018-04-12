@@ -116,4 +116,5 @@ https://github.com/davekaj
 
 ## Strategy 
 - Define the technical requiments for the Gateway.
+- Define the communication protocols
 - 
