@@ -101,5 +101,5 @@ https://block.one
 https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
 https://github.com/davekaj
 
-## Strategy -- tests
-- test
+## Serverless - top priority
+- https://serverless.com
