@@ -1,35 +1,22 @@
 # Coding tests
 
 keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
-+ Eos + Nim framework
 
 IDE : Webstorm, Atom
 
 AJAX jQuery Resources
-
 compiler for es6/7 :
 https://es6console.com/j988of45/
-
 web API
-
 http://codepen.io/discoveryvip/pen/WGWaky
-
 Get jQuery
-
 https://developers.google.com/speed/libraries/
-
 http://jquery.com/download/
-
 JSON
-
 http://myjson.com/1mjba
-
 https://jsonplaceholder.typicode.com/posts/1
-
 https://api.myjson.com/bins/1mjba
-
 http://beta.json-generator.com/E1sGlr91z
-
 http://www.icndb.com/api/
 
 ##Applications
@@ -114,7 +101,5 @@ https://block.one
 https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
 https://github.com/davekaj
 
-## Strategy 
-- Define the technical requiments for the Gateway.
-- Define the communication protocols
-- 
+## Strategy -- tests
+- test
