@@ -110,3 +110,5 @@ https://github.com/davekaj
 - https://github.com/improvein/ether-node-api
 - https://github.com/blockapps/blockapps-rest
 - https://github.com/search?utf8=%E2%9C%93&q=ethereum+rest+api&type=
+- https://github.com/tocausan/ethereum-wallet-rest-api
+- https://github.com/haopingku/ethereum-restful-api
