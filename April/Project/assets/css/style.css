@@ -1,0 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900)
+
+
+
+
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+} 
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+}
+#h{
+	background: url(../img/header.jpg) no-repeat ;
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	color: white;
+}
+
+.title{
+	top: 30px;
+	left: 45px;
+	font-size: 18px;
+	font-weight: 900;
+	position:absolute; 
+	font-family: 'Lato', sans-serif;
+
+}
+
+.social {
+	top: 30px;
+	right: 45px;
+	font-size: 20px;
+	position: absolute;
+}
+
+.social i {
+	margin-left: 20px;
+}
+
+.social a {
+	color: white;
+}
+
+.col-2{
+	text-align: center;
+    width: 760px;
+    margin: 0 auto;
+    padding-top: 300px;
+
+} 
+
+#h h1{
+
+	font-weight: 700;
+	color: white;
+	font-size: 40px;
+}
+
+.form{
+	margin-top: 50px; margin-bottom: 50px;
+}
+input {
+	font-size: 16px;
+	border-radius: 25px;
+	padding: 15px 30px 16px;
+	border: 1px solid #b9b9af;
+	
+	}
+
+.subscribe {
+	float: left;
+	width: 65%;
+}
+.btn{
+	border-radius: 50px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 17px 5px 17px 5px;
+	background: #03C9A9;
+	color: white
+}
+/*_________________________________________________________*/
+
+#f{
+	height: 350px;
+	/*width: 100%; */
+	padding: 80px;
+}
+
+.column-2
+{
+	width: 50%;
+	float: left;
+}
+
+#f h2{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#f p{
+	font-size: 16px;
+	font-family: 'Lato',sans-serif;
+	line-height: 26px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.img-f{
+	max-width: 100%;
+}
+/*_________________________________________________________*/
+
+#l{
+	height: 450px;
+	background: url(../img/sep.jpg) no-repeat ;
+	background-position: center center;
+	text-align:center;
+	}
+
+.container{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 120px;
+	color: white;
+}
+
+#l h4{
+
+	line-height: 26px;
+
+}
+
+/*_________________________________________________________*/
+#p{
+	height: 850px;
+	padding: 80px;	
+	text-align: center;
+	font-family: 'Lato' , sans-serif;
+}
+
+.col-3{
+
+	width: 33%;
+	float: left;
+
+}
+.price-table {
+  	height: 550px;
+	border: 2px solid #5a5a5a;
+	border-radius: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 20px; 
+}
+
+.p-head {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 80px;
+	border-bottom: 2px solid #ccc;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.features li {
+	color: #333333;
+	border-bottom: 2px solid #ccc;
+	padding: 24px ;
+}
+
+
+.price .detail {
+	font-weight: 700;
+	font-size: 45px;
+	margin: 10px;
+}
+
+.price .sub {
+	font-size: 18px;
+	color: #ccc;
+	position: relative;
+	bottom: 10px;
+	font-weight: 700;
+}
+
+#p .btn{
+	margin-top: 25px;
+	padding-left: 30px;
+    padding-right: 30px;
+}
+/*_________________________________________________________*/
+#s {
+	background: #f2f2f2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.sponsor{
+	margin-right: 125px;
+	margin-left: 125px;
+	height: 80px;
+	text-align: center;
+}
+
+.col-5{
+	width: 20%;
+	float: left;
+	height: 80px;
+}
+
+.sponsor img {
+	width: 100px;
+    height: 50px;
+}
+
+/*_________________________________________________________*/
+
+
+#footer {
+	height:450px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: url(../img/footer.jpg) no-repeat ;
+	color: white;
+	text-align: center;
+}
+
+.footer-container{
+	margin-top: 150px;
+}
+
+#footer i {
+	font-size: 45px;
+	margin: 15px;
+}
+
+#footer a {
+	color: #b9b9b9;
+}
+
+#footer a:hover {
+	color: #03C9A9;
+}
