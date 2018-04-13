@@ -106,7 +106,7 @@ https://github.com/davekaj
 - https://www.udemy.com/learning-koajs-by-building-rest-apis/learn/v4/t/lecture/9279044?start=0
 + how to use POSTMAN and SEQUELIZE and MYSQL with KOAJS
 
-- Monday 
+- Monday ????????????????????
 - https://github.com/improvein/ether-node-api
 - https://github.com/blockapps/blockapps-rest
 - https://github.com/search?utf8=%E2%9C%93&q=ethereum+rest+api&type=
