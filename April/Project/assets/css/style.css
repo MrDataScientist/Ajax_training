@@ -3,14 +3,14 @@
 
 
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6{
 	left: 45px;
 	font-size: 18px;
 	font-weight: 900;
-	position:absolute; 
+	position:absolute;
 	font-family: 'Lato', sans-serif;
 
 }
@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
     padding-top: 300px;
 
-} 
+}
 
 #h h1{
 
@@ -75,7 +75,7 @@ input {
 	border-radius: 25px;
 	padding: 15px 30px 16px;
 	border: 1px solid #b9b9af;
-	
+
 	}
 
 .subscribe {
@@ -147,7 +147,7 @@ input {
 /*_________________________________________________________*/
 #p{
 	height: 850px;
-	padding: 80px;	
+	padding: 80px;
 	text-align: center;
 	font-family: 'Lato' , sans-serif;
 }
@@ -164,7 +164,7 @@ input {
 	border-radius: 25px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin: 20px; 
+	margin: 20px;
 }
 
 .p-head {
