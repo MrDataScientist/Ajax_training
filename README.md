@@ -124,4 +124,12 @@ ops-01
 
 ## koa examples
 - https://github.com/lionsharecapital/lionshare-api
-- 
+- https://github.com/GraphGrail/smart-contracts
+- https://github.com/focaaby/ballot-ethereum
+- https://github.com/yrong/koa-file-upload-all-in-one
+- https://github.com/allegewhd/erc20-token-service
+- https://github.com/allegewhd/erc20-token-service
+- https://github.com/immartian/desktop
+- ULTIMATE SOLUTION
+- https://github.com/datahome73/light-wallet-train/blob/master/index.js
+- https://github.com/immartian/desktop
