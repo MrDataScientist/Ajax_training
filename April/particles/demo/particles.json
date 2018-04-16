@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#fffcfc"
     },
     "shape": {
       "type": "circle",
@@ -48,7 +48,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#fffcfc",
       "opacity": 0.4,
       "width": 1
     },
@@ -87,7 +87,7 @@
         }
       },
       "bubble": {
-        "distance": 400,
+        "distance": 200,
         "size": 40,
         "duration": 2,
         "opacity": 8,
@@ -97,7 +97,7 @@
         "distance": 200
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 8
       },
       "remove": {
         "particles_nb": 2
