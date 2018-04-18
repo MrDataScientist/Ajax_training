@@ -8,7 +8,7 @@ app.use(async (ctx, next) =>{
 })
 
 app.use(async (ctx, next) =>{
-  console.log();
+  console.log(`2nd middleware`);
   return await next();
 })
 
