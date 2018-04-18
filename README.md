@@ -21,13 +21,10 @@ http://www.icndb.com/api/
 
 ##Applications
 
-->http://brackets.io/
-
-->https://www.apachefriends.org/index.html
-
-->https://augur.net
-
-->https://ethereum.org
+- http://brackets.io/
+- https://www.apachefriends.org/index.html
+- https://augur.net
+- https://ethereum.org
 
 REMIX editor for Solidity:(smart contracts)
 http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
@@ -130,6 +127,7 @@ ops-01
 - good //
 - https://github.com/GraphGrail/smart-contracts
 - https://github.com/focaaby/ballot-ethereum
+- progress with middleware and debugging 18/04/2018
 - https://github.com/yrong/koa-file-upload-all-in-one
 - https://github.com/allegewhd/erc20-token-service
 
