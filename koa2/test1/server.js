@@ -1,6 +1,7 @@
 const koa = require('koa');
 const Router = require('koa-router');
 const bodyParser = require('koa-parser');
+const web3 = require('web3');
 
 const app = new koa();
 const PORT = 4000;
@@ -31,24 +32,11 @@ router.get('/', ctx => {
 });
 
 router.post('/posts', ctx => {
-
     console.log(ctx.request.body);
-
     let {id, name, content} = ctx.request.body;
-
-    if(!id){
-        ctx.threw(400, 'id is required field')
-    }
-
-    if(!name){
-        ctx.threw(400, 'name is required field')
-    }
-
-    if(!content){
-        ctx.threw(400, 'content is required field')
-    }
-
-
+    if(!id){ctx.threw(400, 'id is required field')}
+    if(!name){ctx.threw(400, 'name is required field')}
+    if(!content){ctx.threw(400, 'content is required field')}
     posts.push({id, name, content});
     ctx.body = posts;
 })
