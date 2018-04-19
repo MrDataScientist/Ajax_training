@@ -35,6 +35,5 @@ app.use(_.get('/pets/:name', pets.show));
 
 
 app.listen(PORT);
-
 // to show which port our server is running on
 console.log(`server is listening on PORT ${PORT}`);
