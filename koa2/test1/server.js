@@ -9,7 +9,7 @@ const PORT = 4000;
 const router = new Router();
 // welcome to koa application
 router.get('/', (ctx, next) => {
-    console.log('Welcome to Koa a middleware javascript framework!');
+    //console.log('Welcome to Koa a middleware javascript framework!');
     return next();
 });
 
