@@ -1,8 +1,13 @@
 const koa = require('koa');
 const Router = require('koa-router');
-const router = new Router();
+const bodyParser = require('koa-parser');
+
 const app = new koa();
 const PORT = 4000;
+const router = new Router();
+
+app.use(bodyParser());
+
 const posts = [
     {
         "id" : '1',
@@ -21,11 +26,11 @@ const posts = [
     }
 ];
 
-router.get('/', (ctx, next) => {
-    ctx.body = 'Welcome to koa application';
+router.get('/', ctx => {
+    ctx.body = posts;
 });
 
-router.get('/posts', ctx => {
+router.post('/posts', ctx => {
 
     console.log(ctx.request.body);
 
