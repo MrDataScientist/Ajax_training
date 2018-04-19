@@ -1,14 +1,8 @@
 const koa = require('koa');
-// import the koa-router
 const Router = require('koa-router');
-
+const router = new Router();
 const app = new koa();
 const PORT = 4000;
-
-// create a root route
-const router = new Router();
-
-// posts json dummy data
 const posts = [
     {
         "id" : '1',
@@ -25,22 +19,37 @@ const posts = [
         "name" : "Ethereum developer",
         "content" : "you should read this III"
     }
-]
+];
 
-// welcome to koa application
 router.get('/', (ctx, next) => {
     ctx.body = 'Welcome to koa application';
 });
 
-// create a new router
 router.get('/posts', ctx => {
+
+    console.log(ctx.request.body);
+
+    let {id, name, content} = ctx.request.body;
+
+    if(!id){
+        ctx.threw(400, 'id is required field')
+    }
+
+    if(!name){
+        ctx.threw(400, 'name is required field')
+    }
+
+    if(!content){
+        ctx.threw(400, 'content is required field')
+    }
+
+
+    posts.push({id, name, content});
     ctx.body = posts;
 })
 
 app
     .use(router.routes())
     .use(router.allowedMethods());
-
 app.listen(PORT);
-// to show which port our server is running on
 console.log(`server is listening on PORT ${PORT}`);
