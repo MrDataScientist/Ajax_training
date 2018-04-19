@@ -1,14 +1,10 @@
 const koa = require('koa');
 const Router = require('koa-router');
 const bodyParser = require('koa-parser');
-const Web3 = require('web3');
 
 const app = new koa();
 const PORT = 4000;
 const router = new Router();
-const web3 = new Web3();
-
-web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'))
 
 app.use(bodyParser());
 
@@ -29,15 +25,6 @@ const posts = [
         "content" : "you should read this III"
     }
 ];
-
-app.use( async ( ctx ) => {
-    let account = web3.eth.accounts[0]
-    let balance = web3.fromWei(web3.eth.getBalance(web3.eth.accounts[0]),'ether')
-    await ctx.render('index', {
-        account,balance
-    })
-})
-
 
 router.get('/', ctx => {
     ctx.body = posts;
