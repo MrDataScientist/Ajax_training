@@ -1,0 +1,29 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "01-login/package.json",
+        "25october/Section Code (Start)/package.json",
+        "April/Project/package.json",
+        "April/particles/package.json",
+        "February/03-End/package.json",
+        "February/04-End/package.json",
+        "February/05-End/package.json",
+        "February/08-End/package.json",
+        "February/blockchain-demo-master/package.json",
+        "Section Code (Finished)/package.json",
+        "Section Code (Start)/package.json",
+        "api-training/hapi_demo/package.json",
+        "api-training/koa_demo/package.json",
+        "api-training/koa_demo2/package.json",
+        "api-training/strapi_project/my-project/admin/package.json",
+        "api-training/strapi_project/my-project/package.json",
+        "api-training/strapi_project/my-project/plugins/content-manager/package.json",
+        "api-training/strapi_project/my-project/plugins/content-type-builder/package.json",
+        "api-training/strapi_project/my-project/plugins/settings-manager/package.json",
+        "api-training/web3_api/package.json",
+        "blockchain/Section Code (Finished)/package.json"
+      ]
+    }
+  }
+}
