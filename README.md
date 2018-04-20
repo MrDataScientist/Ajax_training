@@ -1,5 +1,7 @@
 # Coding tests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MrDataScientist/Ajax_training.svg)](https://greenkeeper.io/)
+
 keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
 
 IDE : Webstorm, Atom
