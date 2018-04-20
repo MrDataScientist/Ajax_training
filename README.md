@@ -112,12 +112,16 @@ https://github.com/davekaj
 
 
 ## test pass
+testRPC: _
 Muc8am$4
 
 OPS-DEV-01
 217.64.166.142
 user
 ops-01
+## deploy
+217.64.166.154
+devapi-01
 
 ## Crypto APIs
 - https://docs.gdax.com/#sandbox
