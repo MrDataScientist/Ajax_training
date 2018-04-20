@@ -9,6 +9,6 @@
   "author": "Tarik En Nakdi",
   "license": "ISC",
   "dependencies": {
-    "web3": "^0.19.1"
+    "web3": "^0.20.6"
   }
 }
