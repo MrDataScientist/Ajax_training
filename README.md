@@ -151,4 +151,4 @@ devapi-01
 - https://github.com/varsnotwars/solidity-to-json
 - https://github.com/michaelunltd/solidity-basics
 - https://github.com/wangyifan/demo_solc_test
-- 
+- https://github.com/search?l=JavaScript&o=desc&q=solc&s=updated&type=Repositories
