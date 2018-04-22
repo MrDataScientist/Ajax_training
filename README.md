@@ -145,3 +145,4 @@ devapi-01
 >>>>>>>>>><<<
 - https://www.npmjs.com/package/solc
 >>>>>><<<
+- https://github.com/Victory/solc-microservice
