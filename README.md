@@ -148,5 +148,7 @@ devapi-01
 - https://github.com/Victory/solc-microservice
 - https://github.com/srp324/GoalCoin-Philly-Codefest
 - https://github.com/wangyifan/demo_solc_test
-- 
+- https://github.com/varsnotwars/solidity-to-json
+- https://github.com/michaelunltd/solidity-basics
+- https://github.com/wangyifan/demo_solc_test
 - 
