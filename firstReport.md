@@ -447,7 +447,6 @@ By requiring that every data input is initiated through an external transaction,
 Blockchain platforms for developers:
 
 https://monax.io
-
 Banks platform//
 http://coloredcoins.org
 
