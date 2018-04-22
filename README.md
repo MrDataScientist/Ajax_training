@@ -147,4 +147,6 @@ devapi-01
 >>>>>><<<
 - https://github.com/Victory/solc-microservice
 - https://github.com/srp324/GoalCoin-Philly-Codefest
+- https://github.com/wangyifan/demo_solc_test
+- 
 - 
