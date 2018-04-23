@@ -1,6 +1,6 @@
 # Coding tests
 
-keywords : js, web3, vue.js, koa.js, express.js, blockchain, ethereum, solidity
+keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity
 
 IDE : Webstorm, Atom
 
@@ -142,3 +142,15 @@ devapi-01
 - Ethereum wallet with web3 and koa 2 > account[0] and getBalance working 19/04/2018
 - good website for ETH and koa.js
 - https://github.com/validitylabs/
+>>>>>>>>>><<<
+- https://www.npmjs.com/package/solc
+>>>>>><<<
+- https://github.com/Victory/solc-microservice
+- https://github.com/srp324/GoalCoin-Philly-Codefest
+- https://github.com/wangyifan/demo_solc_test
+- https://github.com/varsnotwars/solidity-to-json
+- https://github.com/michaelunltd/solidity-basics
+- https://github.com/wangyifan/demo_solc_test
+- https://github.com/search?l=JavaScript&o=desc&q=solc&s=updated&type=Repositories
+-
+- https://blockgeeks.com/two-node-setup-of-a-private-ethereum/
