@@ -10,19 +10,16 @@ app.use(bodyParser());
 
 const posts = [
     {
-        "SKU" : "1",
-        "price" : "10",
-        "orderID" : "11"
+        "accountAddress" : "0xc697e19613caf7f7d1f4fhh06aab1e20cb79f5a6",
+        "orderID" : "1"
     },
     {
-        "SKU" : "2",
-        "price" : "20",
-        "orderID" : "12"
+        "accountAddress" : "0x00ff53b0cf722ddc0faad7a2ca4d7c9a6764089a ",
+        "orderID" : "2"
     },
     {
-        "SKU" : "3",
-        "price" : "30",
-        "orderID" : "13"
+        "accountAddress" : "0x10959a06d550083262726d711a7f301967ca58c4",
+        "orderID" : "3"
     }
 ];
 
@@ -32,11 +29,10 @@ router.get('/', ctx => {
 
 router.post('/posts', ctx => {
     console.log(ctx.request.body);
-    let {SKU, price, orderID} = ctx.request.body;
-    if(!SKU){ctx.threw(400, 'SKU is required field')}
-    if(!price){ctx.threw(400, 'price is required field')}
+    let {accountAddress, orderID} = ctx.request.body;
+    if(!accountAddress){ctx.threw(400, 'accountAddress is required field')}
     if(!orderID){ctx.threw(400, 'orderID is required field')}
-    posts.push({SKU, price, orderID});
+    posts.push({accountAddress, orderID});
     ctx.body = posts;
 })
 

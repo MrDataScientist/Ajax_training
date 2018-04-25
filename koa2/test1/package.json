@@ -1,7 +1,7 @@
 {
-  "name": "koaApp0",
+  "name": "CBN-Gateway-API",
   "version": "1.0.0",
-  "description": "",
+  "description": "blockchain API",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.5.0",
     "koa-parser": "^1.0.4",
