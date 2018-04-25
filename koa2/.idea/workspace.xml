@@ -3875,9 +3875,6 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/test1/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -3891,11 +3888,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test1/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -3931,8 +3929,8 @@
         <option value="$PROJECT_DIR$/lottery-contract-solidity/package.json" />
         <option value="$PROJECT_DIR$/test1/contracts/CustomerTemplate.sol" />
         <option value="$PROJECT_DIR$/test1/package.json" />
-        <option value="$PROJECT_DIR$/test1/server.js" />
         <option value="$PROJECT_DIR$/test1/README.md" />
+        <option value="$PROJECT_DIR$/test1/server.js" />
       </list>
     </option>
   </component>
@@ -3989,7 +3987,7 @@
             <path>
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4052,12 +4050,12 @@
       <workItem from="1524469781130" duration="9674000" />
       <workItem from="1524573821139" duration="3533000" />
       <workItem from="1524642555782" duration="1097000" />
-      <workItem from="1524643695260" duration="1067000" />
+      <workItem from="1524643695260" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44097000" />
+    <option name="totallyTimeSpent" value="45057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -4328,13 +4326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1/contracts/target/CustomerTemplate_sol_Customer.abi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -4350,8 +4341,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-342">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="37" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
