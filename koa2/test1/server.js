@@ -8,7 +8,7 @@ const router = new Router();
 
 app.use(bodyParser());
 
-const posts = [
+const returnedValues = [
     {
         "accountAddress" : "0xc697e19613caf7f7d1f4fhh06aab1e20cb79f5a6",
         "orderID" : "1"
@@ -24,7 +24,7 @@ const posts = [
 ];
 
 router.get('/', ctx => {
-    ctx.body = posts;
+    ctx.body = returnedValues;
 });
 
 router.post('/posts', ctx => {
@@ -33,8 +33,8 @@ router.post('/posts', ctx => {
     if(!accountAddress){ctx.threw(400, 'accountAddress is required field')}
     if(!orderID){ctx.threw(400, 'orderID is required field')}
     posts.push({accountAddress, orderID});
-    ctx.body = posts;
-})
+    ctx.body = returnedValues;
+});
 
 app
     .use(router.routes())
