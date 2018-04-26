@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/.bin/css-beautify" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/.bin/css-beautify" afterDir="false" />
@@ -4991,6 +4992,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Cleo-Wallet/node_modules" />
     <handled-path value="$PROJECT_DIR$/ethereum-services/node_modules" />
+    <handled-path value="$PROJECT_DIR$/test2/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -4999,6 +5001,7 @@
       <path value="$PROJECT_DIR$/koa-sequelize/package.json" />
       <path value="$PROJECT_DIR$/lottery-contract-solidity/package.json" />
       <path value="$PROJECT_DIR$/test1/package.json" />
+      <path value="$PROJECT_DIR$/test2/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -5093,12 +5096,12 @@
       <workItem from="1524642555782" duration="1097000" />
       <workItem from="1524643695260" duration="2755000" />
       <workItem from="1524650064467" duration="142000" />
-      <workItem from="1524735155483" duration="357000" />
+      <workItem from="1524735155483" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46284000" />
+    <option name="totallyTimeSpent" value="46882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
