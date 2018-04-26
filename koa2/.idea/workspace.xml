@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
@@ -3874,363 +3875,8 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/ansi-styles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/ansi-styles/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/babel-code-frame/node_modules/chalk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/babel-code-frame/node_modules/chalk/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/brace-expansion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/brace-expansion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/cli-truncate/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/cli-truncate/node_modules/ansi-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/cli-truncate/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/cli-truncate/node_modules/strip-ansi/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/cli-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/cli-width/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/clone-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/clone-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/clone-stats/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/clone-stats/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/clone/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/code-point-at/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/code-point-at/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/color-convert/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/color-convert/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/color-name/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/color-name/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/commondir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/commondir/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/concat-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/concat-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/convert-source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/convert-source-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/core-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/core-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/core-util-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/crypto-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/crypto-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/dargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/dargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/date-fns/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/date-fns/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/dateformat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/dateformat/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/decamelize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/decode-uri-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/decode-uri-component/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/deep-extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/deep-extend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/deep-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/deep-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/detect-conflict/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/detect-conflict/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/diff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/diff/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/duplexer3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/duplexer3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/editions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/editions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/ejs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/elegant-spinner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/elegant-spinner/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/emojis-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/emojis-list/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/envinfo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/envinfo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/error-ex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/error-ex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/error-ex/package.json.4071990384" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/escape-string-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/escape-string-regexp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/escodegen/node_modules/esprima/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/escodegen/node_modules/esprima/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/escodegen/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/escodegen/node_modules/source-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/esprima/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/esprima/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/estraverse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/estraverse/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/esutils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/esutils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/exit-hook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/exit-hook/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/expand-brackets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/expand-brackets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/expand-brackets/package.json.2811844668" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/extglob/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/extglob/package.json.2667881995" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/fast-levenshtein/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/fast-levenshtein/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/figures/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/figures/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/filename-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/filename-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/flow-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/flow-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/for-in/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/for-in/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/for-own/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/for-own/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/fs.realpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/fs.realpath/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/get-caller-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/get-caller-file/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/get-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/get-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/p-cancelable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/p-cancelable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/prepend-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/prepend-http/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/url-parse-lax/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/gh-got/node_modules/url-parse-lax/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/glob-base/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/glob-base/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/glob-base/package.json.3260386590" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/glob-parent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/glob-parent/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/glob-parent/package.json.128063419" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/globals/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/globals/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/globby/node_modules/pify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/globby/node_modules/pify/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/graceful-fs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/graceful-fs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/growl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/growl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/handlebars/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/handlebars/node_modules/source-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-ansi/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-ansi/node_modules/ansi-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-ansi/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-color/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-flag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-flag/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-symbol-support-x/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-symbol-support-x/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/has-to-string-tag-x/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/has-to-string-tag-x/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/hosted-git-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/hosted-git-info/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/http-cache-semantics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/http-cache-semantics/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/imurmurhash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/imurmurhash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/imurmurhash/package.json.1328924605" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/inherits/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/inherits/package.json.2136364846" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/ini/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/ini/package.json.2440369515" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/interpret/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/interpret/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/interpret/package.json.3964164148" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/invert-kv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/invert-kv/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/invert-kv/package.json.1839946770" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-arrayish/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-arrayish/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-arrayish/package.json.4240477793" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-buffer/package.json.4179169654" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-builtin-module/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-builtin-module/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-builtin-module/package.json.2961456607" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-dotfile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-dotfile/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-dotfile/package.json.489108990" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-equal-shallow/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-equal-shallow/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-equal-shallow/package.json.274496854" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-extendable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-extendable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-extendable/package.json.3711488560" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-extglob/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-extglob/package.json.1274106661" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-fullwidth-code-point/package.json.4043409962" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-glob/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-glob/package.json.4206118387" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-object/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-object/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-object/package.json.2509287948" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-observable/node_modules/symbol-observable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-observable/node_modules/symbol-observable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-observable/node_modules/symbol-observable/package.json.157957644" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-observable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-observable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-observable/package.json.639330740" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-plain-obj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-plain-obj/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-plain-obj/package.json.3001621006" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-posix-bracket/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-posix-bracket/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-posix-bracket/package.json.3437983212" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-primitive/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-primitive/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-primitive/package.json.2282313125" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-promise/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-promise/package.json.541152188" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-retry-allowed/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-retry-allowed/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-retry-allowed/package.json.2403412253" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-stream/package.json.4069139228" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-utf8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-utf8/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-utf8/package.json.1886052097" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-windows/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/is-windows/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/is-windows/package.json.3022307872" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isarray/package.json.3697476978" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isexe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/isexe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isexe/package.json.3383916490" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isobject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/isobject/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isobject/package.json.199784262" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/esprima/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/esprima/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/esprima/package.json.3362677999" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/has-flag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/has-flag/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/has-flag/package.json.2993435710" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/resolve/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/resolve/package.json.902617431" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/supports-color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/supports-color/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/istanbul/node_modules/supports-color/package.json.2560739165" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/isurl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/isurl/package.json.1749545522" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/commander/package.json.237459629" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/mkdirp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/jade/node_modules/mkdirp/package.json.2481816470" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/keccakjs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/buffers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/callback.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/converters.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/errors.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/json.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/methods.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/new.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/node_misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/persistent.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/scopes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/script.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/include_dirs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_callbacks.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_converters.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_json.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_new.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_private.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/nan_weak.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/tools/1to2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/tools/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/nan/tools/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/binding.gyp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakF-1600-int-set.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakF-1600-interface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakF-1600-reference.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakNISTInterface.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakNISTInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakSponge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/KeccakSponge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/addon.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/brg_endian.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/displayIntermediateValues.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/src/displayIntermediateValues.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/LongMsgKAT_224.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/ShortMsgKAT_224.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/ShortMsgKAT_256.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/ShortMsgKAT_384.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/data/ShortMsgKAT_512.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/generate_tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/sha3/test/unit_tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/bin/exec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/circle.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/docs/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/docs/testrpc-sc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/coverageMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/injector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/instrumentSolidity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/instrumenter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/preprocessor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/lib/truffleConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/assert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/block-gas-limit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/command-options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/empty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/inheritance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/only-call.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/pureview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/requires-externally.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/sign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/sol-parse-fail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/testrpc-options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/totallyPure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/truffle-crash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/truffle-test-fail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/cli/wallet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/comments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/conditional.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/expressions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/if.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/loops.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/return.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/assert/Assert.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/assert/RequireMultiline.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/CLibrary.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Empty.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Events.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Expensive.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Face.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Migrations.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/OnlyCall.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Owned.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Proxy.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/PureView.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Simple.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/SimpleError.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/TotallyPure.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/cli/Wallet.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/comments/postContractComment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/comments/postFunctionDeclarationComment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/comments/postIfStatementComment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/comments/postLineComment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/declarative-exp-assignment-alternate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/identifier-assignment-alternate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/mapping-assignment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/multiline-alternate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/multiline-consequent.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/sameline-alternate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/sameline-consequent.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/conditional/variable-decl-assignment-alternate.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/expressions/new-expression.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/expressions/single-binary-expression.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/abstract.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/chainable-new.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/chainable-value.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/chainable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/constructor-keyword.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/empty-body.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/function-call.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/function.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/function/multiple.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/else-with-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/else-without-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/if-no-brackets-multiline.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/if-no-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/if-with-brackets-multiline.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/if-with-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/if/nested-if-missing-else.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/loops/for-no-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/loops/for-with-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/loops/while-no-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/loops/while-with-brackets.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/return/return-null.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/return/return.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/compilation-error.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/emit-coverage.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/emit-instrument.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/empty-contract-ala-melonport.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/empty-contract-body.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/fn-argument-multiline.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/fn-argument.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/fn-struct.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/library.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/multiple.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/post-close-brace.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/single.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/statements/tuple.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Bounty.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Claimable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/DayLimit.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Killable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/LimitBalance.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Migrations.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Multisig.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/MultisigWallet.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Ownable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/PullPayment.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/SafeMath.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Shareable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/Stoppable.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/BasicToken.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/CrowdsaleToken.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/ERC20.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/ERC20Basic.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/SimpleToken.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/sources/zeppelin/token/StandardToken.sol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/statements.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/util/mockTestCommand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/util/mockTruffle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/util/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/util/vm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/node_modules/solidity-coverage/test/zeppelin.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -4243,7 +3889,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -4300,13 +3957,14 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Cleo-Wallet/node_modules" />
+    <handled-path value="$PROJECT_DIR$/embark-plugins/node_modules" />
     <handled-path value="$PROJECT_DIR$/ethereum-services/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Cleo-Wallet/package.json" />
+      <path value="$PROJECT_DIR$/embark-plugins/package.json" />
       <path value="$PROJECT_DIR$/ethereum-services/package.json" />
-      <path value="$PROJECT_DIR$/koa-sequelize/package.json" />
       <path value="$PROJECT_DIR$/lottery-contract-solidity/package.json" />
       <path value="$PROJECT_DIR$/test1/package.json" />
     </packageJsonPaths>
@@ -4329,6 +3987,11 @@
             <path>
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4393,15 +4056,16 @@
       <workItem from="1524642555782" duration="1097000" />
       <workItem from="1524643695260" duration="2755000" />
       <workItem from="1524650064467" duration="142000" />
-      <workItem from="1524735155483" duration="1714000" />
+      <workItem from="1524735155483" duration="4255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47641000" />
+    <option name="totallyTimeSpent" value="50182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17544784" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -4708,14 +4372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -4725,6 +4381,17 @@
           <first_editor relative-caret-position="366">
             <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
