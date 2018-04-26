@@ -4,21 +4,6 @@ keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity
 
 IDE : Webstorm, Atom
 
-AJAX jQuery Resources
-compiler for es6/7 :
-https://es6console.com/j988of45/
-web API
-http://codepen.io/discoveryvip/pen/WGWaky
-Get jQuery
-https://developers.google.com/speed/libraries/
-http://jquery.com/download/
-JSON
-http://myjson.com/1mjba
-https://jsonplaceholder.typicode.com/posts/1
-https://api.myjson.com/bins/1mjba
-http://beta.json-generator.com/E1sGlr91z
-http://www.icndb.com/api/
-
 ##Applications
 
 - http://brackets.io/
