@@ -1,4 +1,4 @@
-# Coding tests
+# Resources
 
 keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity
 
