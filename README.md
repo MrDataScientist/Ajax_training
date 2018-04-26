@@ -43,7 +43,6 @@ https://github.com/50006665/FirebaseContact_Form
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
 
-
 # Blockchain roadmap
 
 ### - How to make a white paper for regulations
