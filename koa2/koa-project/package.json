@@ -1,0 +1,14 @@
+{
+  "name": "koa-project",
+  "version": "1.0.0",
+  "description": "- npm install\r - npm init\r - npm i mongoose --save\r - npm install koa koa-router --save\r - npm install koa-bodyparser koa-morgan --save",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.16"
+  }
+}
