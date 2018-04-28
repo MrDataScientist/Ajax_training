@@ -1,4 +1,4 @@
-# Resources
+# Resources:
 
 keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity
 
