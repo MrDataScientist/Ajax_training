@@ -126,9 +126,9 @@ devapi-01
 - Ethereum wallet with web3 and koa 2 > account[0] and getBalance working 19/04/2018
 - good website for ETH and koa.js
 - https://github.com/validitylabs/
->>>>>>>>>><<<
+
 - https://www.npmjs.com/package/solc
->>>>>><<<
+
 - https://github.com/Victory/solc-microservice
 - https://github.com/srp324/GoalCoin-Philly-Codefest
 - https://github.com/wangyifan/demo_solc_test
