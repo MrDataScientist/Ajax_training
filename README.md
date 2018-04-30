@@ -135,3 +135,8 @@ devapi-01
 - https://github.com/wangyifan/demo_solc_test
 - https://github.com/search?l=JavaScript&o=desc&q=solc&s=updated&type=Repositories
 - https://blockgeeks.com/two-node-setup-of-a-private-ethereum/
+## notes about koa v2
+use middleswares
+Nested
+koa-router
+create a lib
