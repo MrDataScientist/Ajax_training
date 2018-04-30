@@ -2,12 +2,10 @@
 keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity, solc
 IDE : Webstorm, Atom
 ##Applications
-
 - http://brackets.io/
 - https://www.apachefriends.org/index.html
 - https://augur.net
 - https://ethereum.org
-
 REMIX editor for Solidity:(smart contracts)
 http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
 
