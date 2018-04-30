@@ -27,11 +27,8 @@ Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
 
 ## test:
 https://dqju3n35ybvc4.cloudfront.net
-
 # Metamask
-
 https://metamask.github.io/TipButton/
-
 # Google API + TEAMWORK PM
 
 https://github.com/rapidwebltd/php-google-contacts-v3-api
