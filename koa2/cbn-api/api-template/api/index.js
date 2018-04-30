@@ -7,12 +7,17 @@ const cbngateway = require('./cbngateway')
 
 const api = Router({prefix: '/api'})
 
+
+
 api.use(publicApi.routes())
+
+api.use('/cbngateway', cbngateway.routes())
+
 api.use(auth.routes()) // auth is required from here on
 api.use('/admins', admins.routes())
 api.use('/merchants', merchants.routes())
 
-api.use('/cbngateway', cbngateway.routes())
+
 
 
 module.exports = api

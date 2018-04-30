@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cbn-api/api-template/api/cbngateway.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbn-api/api-template/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
@@ -3892,6 +3890,7 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbn-api/api-template/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cbn-api/api-template/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
@@ -3909,11 +3908,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cbngateway.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/cbngateway.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-952">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -3960,11 +3968,11 @@
         <option value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/index.js" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/api/cbn_gateway.js" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/api/cbngateway.js" />
-        <option value="$PROJECT_DIR$/cbn-api/api-template/api/index.js" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/public/index.html" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/nodemon.json" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/config/local.js" />
         <option value="$PROJECT_DIR$/cbn-api/api-template/app.js" />
+        <option value="$PROJECT_DIR$/cbn-api/api-template/api/index.js" />
       </list>
     </option>
   </component>
@@ -4037,13 +4045,6 @@
               <item name="cbn-api" type="462c0819:PsiDirectoryNode" />
               <item name="api-template" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="cbn-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api-template" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -4055,7 +4056,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="C:\Users\tennakdi\AppData\Roaming\npm\node_modules\prettier" />
@@ -4112,16 +4113,15 @@
       <workItem from="1524815912254" duration="285000" />
       <workItem from="1524829742304" duration="1156000" />
       <workItem from="1525075568394" duration="4572000" />
-      <workItem from="1525085135887" duration="3588000" />
+      <workItem from="1525085135887" duration="5134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60382000" />
+    <option name="totallyTimeSpent" value="61928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16227607" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -4460,13 +4460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/cbngateway.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cbn-api/api-template/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -4495,13 +4488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cbn-api/api-template/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -4519,10 +4505,24 @@
     <entry file="file://$PROJECT_DIR$/cbn-api/api-template/ecosystem.config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/cbngateway.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
