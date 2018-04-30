@@ -1,0 +1,44 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "API Template",
+  "main": "app.js",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "bounce": "1.2.0",
+    "config": "1.29.0",
+    "fs-extra": "5.0.0",
+    "joi": "13.0.2",
+    "jsonwebtoken": "8.1.0",
+    "kcors": "2.2.1",
+    "koa": "2.4.1",
+    "koa-body": "2.5.0",
+    "koa-logger": "3.1.0",
+    "koa-router": "7.3.0",
+    "koa-send": "4.1.2",
+    "koa-static": "4.0.2",
+    "mysql2": "1.5.1",
+    "nodemailer": "4.4.1",
+    "qs": "6.5.1",
+    "request": "2.83.0",
+    "request-promise": "4.2.2",
+    "sequelize": "4.28.6",
+    "winston": "2.4.0",
+    "winston-daily-rotate-file": "1.7.2",
+    "web3": "github:ethereum/web3.js"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.7"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=development && nodemon ./app.js",
+    "prod": "set NODE_ENV=production nodemon ./app.js",
+    "start": "set NODE_ENV=production node ./app.js"
+  },
+  "author": "Erteco",
+  "license": "ISC",
+  "homepage": ""
+}
