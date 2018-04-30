@@ -2,6 +2,1012 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/lib/mediatype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/accept/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/ammo/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/ammo/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/ammo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/ammo/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/ammo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/lib/decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/lib/encoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/b64/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/boom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/boom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/boom/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/boom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/lib/regex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/lib/segment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/call/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox-memory/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox-memory/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox-memory/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox-memory/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox-memory/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/lib/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/lib/policy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/catbox/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/content/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/content/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/content/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/content/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/content/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/cryptiles/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/cryptiles/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/cryptiles/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/cryptiles/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/cryptiles/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/compression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/cors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/ext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/protect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/reply.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/security.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/transmit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/lib/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hapi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/heavy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/lib/escape.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/hoek/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/iron/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/iron/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/iron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/iron/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/iron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/isemail/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/isemail/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/isemail/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/isemail/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/isemail/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/items/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/items/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/items/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/items/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/items/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/func/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/node_modules/isemail/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/node_modules/isemail/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/node_modules/isemail/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/node_modules/isemail/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/node_modules/isemail/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mimos/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mimos/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mimos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mimos/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/mimos/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/nigel/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/nigel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/nigel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/nigel/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/nigel/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/pez/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/pez/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/pez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/pez/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/pez/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/podium/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/punycode/LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/punycode/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/punycode/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/punycode/punycode.es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/punycode/punycode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/lib/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/shot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/cast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/alternatives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/any/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/array/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/boolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/date/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/lazy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/string/ip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/string/rfc3986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/lib/types/string/uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/node_modules/joi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/statehood/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/subtext/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/subtext/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/subtext/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/subtext/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/subtext/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/topo/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/topo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/topo/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/topo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/vise/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/vise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/vise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/vise/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/vise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/lib/payload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/lib/recorder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/lib/tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/node_modules/wreck/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/hapi_demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/implementation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/optional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/bluebird.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/lie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/lie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/native-promise-only.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/native-promise-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/pinkie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/pinkie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/q.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/rsvp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/rsvp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/vow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/vow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/when.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/any-promise/register/when.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/bytes/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/bytes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/bytes/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/bytes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/bytes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/lib/any.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/lib/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/lib/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/lib/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/co/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-disposition/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-disposition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-disposition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-disposition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-disposition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-type/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-type/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/content-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/cookies/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/cookies/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/cookies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/cookies/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/cookies/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/example/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/lib/is_arguments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/lib/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/deep-equal/test/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/delegates/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/destroy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/error-inject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/error-inject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/error-inject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/escape-html/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/incoming_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/json_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/multipart_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/octet_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/lib/querystring_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/formidable/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-assert/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-assert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-assert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-assert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-assert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inflation/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inflation/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inflation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inflation/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inflation/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/.nvmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/test/corejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/is-generator-function/testling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/isarray/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/keygrip/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-body/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-body/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-convert/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-is-json/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-is-json/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-is-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-is-json/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-is-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/history.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/lib/README_tpl.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/lib/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/lib/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/lib/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/koa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/media-typer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/methods/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/methods/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/methods/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/methods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/methods/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/only/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/raw-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/type-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/unpipe/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/unpipe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/unpipe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/unpipe/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/unpipe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/vary/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/implementation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/optional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/bluebird.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/lie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/lie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/native-promise-only.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/native-promise-only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/pinkie.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/pinkie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/q.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/rsvp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/rsvp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/vow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/vow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/when.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/any-promise/register/when.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/co/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/co/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/co/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/co/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/co/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-disposition/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-disposition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-disposition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-disposition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-disposition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-type/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-type/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/content-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/cookies/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/cookies/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/cookies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/cookies/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/cookies/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/example/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/lib/is_arguments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/lib/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/deep-equal/test/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/delegates/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/destroy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/error-inject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/error-inject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/error-inject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/escape-html/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-assert/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-assert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-assert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-assert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-assert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/.nvmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/test/corejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/is-generator-function/testling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/isarray/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/keygrip/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-convert/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-is-json/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-is-json/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-is-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-is-json/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-is-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/history.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/lib/README_tpl.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/lib/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/lib/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/koa-compose/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/koa-compose/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/koa-compose/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/node_modules/koa-compose/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/lib/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/koa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/media-typer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/methods/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/methods/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/methods/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/methods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/methods/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/only/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/type-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/vary/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/koa_demo2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-training/strapi_project/my-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/.bin/css-beautify" beforeDir="false" />
@@ -3892,6 +4898,7 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/koa-project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -3906,9 +4913,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/koa-project/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="cbn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/cbn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-192">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -3944,9 +4973,13 @@
         <option value="$PROJECT_DIR$/test1/package.json" />
         <option value="$PROJECT_DIR$/test1/README.md" />
         <option value="$PROJECT_DIR$/test1/server.js" />
-        <option value="$PROJECT_DIR$/koa-sequelize/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/koa-project/README.md" />
+        <option value="$PROJECT_DIR$/koa-sequelize/package.json" />
+        <option value="$PROJECT_DIR$/koa-sequelize/server.js" />
+        <option value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/server.js" />
+        <option value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/cbn/cbn.js" />
+        <option value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/index.js" />
       </list>
     </option>
   </component>
@@ -3968,23 +5001,28 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/node_modules" />
     <handled-path value="$PROJECT_DIR$/koa-project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa-sequelize/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Cleo-Wallet/package.json" />
+      <path value="$PROJECT_DIR$/cbn-api/CBN-Template/package.json" />
+      <path value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/package.json" />
       <path value="$PROJECT_DIR$/embark-plugins/package.json" />
       <path value="$PROJECT_DIR$/ethereum-services/package.json" />
       <path value="$PROJECT_DIR$/koa-project/package.json" />
+      <path value="$PROJECT_DIR$/koa-sequelize/package.json" />
       <path value="$PROJECT_DIR$/lottery-contract-solidity/package.json" />
       <path value="$PROJECT_DIR$/test1/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2498" />
-    <option name="y" value="2" />
+    <option name="x" value="2095" />
+    <option name="y" value="26" />
     <option name="width" value="1346" />
-    <option name="height" value="1049" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -4001,6 +5039,11 @@
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="cbn-api" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -4012,7 +5055,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/koa-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="C:\Users\tennakdi\AppData\Roaming\npm\node_modules\prettier" />
@@ -4023,6 +5066,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Ajax_training\koa2\cbn-api\cbn-gateway-api\api" />
       <recent name="C:\xampp\htdocs\Ajax_training\koa2\ethereum-services\src" />
       <recent name="C:\xampp\htdocs\Ajax_training\koa2\ethereum-services\target" />
     </key>
@@ -4067,23 +5111,24 @@
       <workItem from="1524735155483" duration="4854000" />
       <workItem from="1524815912254" duration="285000" />
       <workItem from="1524829742304" duration="1156000" />
+      <workItem from="1525075568394" duration="4572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52222000" />
+    <option name="totallyTimeSpent" value="56794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17544784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16227607" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51369864" side_tool="true" visible="true" weight="0.29109588" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5142255" side_tool="true" visible="true" weight="0.11872146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48630136" visible="true" weight="0.29109588" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4857745" visible="true" weight="0.11872146" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46666667" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -4100,6 +5145,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cbn-api/cbn-gateway-api" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4337,13 +5387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1/contracts/CustomerTemplate.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -4368,13 +5411,6 @@
             <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -4413,8 +5449,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-project/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/admins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/merchants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" lean-forward="true" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/api/cbn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cbn-api/cbn-gateway-api/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
