@@ -6,7 +6,13 @@ const app = new koa();
 const PORT = 4000;
 const router = new Router();
 
+const db = require('./models');
+// this will return the promis
+db.sequelize.sync()
+    .then()
+
 app.use(bodyParser());
+
 
 
 app
