@@ -13,7 +13,6 @@ db.sequelize.sync()
     .catch(err => console.log(err));
 
 
-
 app.use(bodyParser());
 
 app

@@ -1,12 +1,12 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var Ethereum_api = sequelize.define('Ethereum_api', {
+  var HashtagSimon = sequelize.define('HashtagSimon', {
     abi: DataTypes.STRING,
     account_addr: DataTypes.STRING,
     version: DataTypes.STRING
   }, {});
-  Ethereum_api.associate = function(models) {
+  HashtagSimon.associate = function(models) {
     // associations can be defined here
   };
-  return Ethereum_api;
+  return HashtagSimon;
 };
