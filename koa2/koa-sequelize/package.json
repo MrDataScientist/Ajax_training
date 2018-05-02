@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Tarik En-Nakdi",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.5.1",
