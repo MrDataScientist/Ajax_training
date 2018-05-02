@@ -3893,6 +3893,289 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/migrations/20180502125137-create-simione.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/models/company.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/cdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/cdl.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/esparse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/esparse.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/esvalidate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/.bin/esvalidate.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/ansicolors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/ansicolors/test/ansicolors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/bin/cdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/cardinal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/.cardinalrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/highlight-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/highlight-self-hide-semicolons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/highlight-self.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/examples/highlight-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/lib/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/lib/highlightFile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/lib/highlightFileSync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-block-comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-diff-spike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-file-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-file-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-git-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-json-file-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-json-file-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-highlight-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/cardinal-smoke.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/block-comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/foo-with-errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/foo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/git-diff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/json.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/fixtures/svn-diff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/test/themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/empty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/hide-semicolons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/jq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/themes/tomorrow-night.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/cardinal/utl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/remove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/removeOne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/splice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/thousand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/benchmark/two_million.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/denque/test/denque.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/LICENSE.BSD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/bin/esparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/bin/esvalidate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/dist/esprima.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/esprima/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/generate-function/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/dist/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/dist/long.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/long/src/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/lru-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/lru-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/lru-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/lru-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/auth_41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/binlog_dump.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/change_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/client_handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/close_statement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/command.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/execute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/prepare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/register_slave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/commands/server_handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/compressed_protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/connection_config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/charset_encodings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/encoding_charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packet_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/auth_switch_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/auth_switch_request_more_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/auth_switch_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/binary_row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/binlog_dump.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/binlog_query_statusvars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/change_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/close_statement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/column_definition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/execute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/handshake_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/packet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/prepare_statement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/prepared_statement_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/register_slave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/resultset_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/ssl_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/packets/text_row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/parsers/binary_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/parsers/parser_cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/parsers/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/parsers/text_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/pool_cluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/pool_config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/pool_connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/results_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/lib/lru-cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/test/foreach.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/node_modules/lru-cache/test/memory-leak.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/test/example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/named-placeholders/test/mocha.opts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/object-assign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/object-assign/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/object-assign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/object-assign/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/pseudomap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/pseudomap/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/config-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/browser/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/browser/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/browser/sample-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/replace-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/examples/sources/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/redeyed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-before-after-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-config-with-undefineds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-function-config-extra-params.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-function-config-skipping-tokens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-function-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-incomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-keywords.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-mixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-script-level-return.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-shebang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-smoke.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-string-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/redeyed/test/redeyed-upcoming.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/lib/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/lib/seq-queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/seq-queue/test/seq-queue-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/yallist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/yallist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/yallist/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/yallist/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-sequelize/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
     </list>
@@ -3908,20 +4191,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/koa-sequelize/models/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -3931,15 +4214,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simione.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/koa-sequelize/models/simione.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -3991,8 +4265,10 @@
         <option value="$PROJECT_DIR$/cbn-api/api-template/api/index.js" />
         <option value="$PROJECT_DIR$/koa-sequelize/README.md" />
         <option value="$PROJECT_DIR$/koa-sequelize/package.json" />
-        <option value="$PROJECT_DIR$/koa-sequelize/config/config.json" />
+        <option value="$PROJECT_DIR$/koa-sequelize/models/simione.js" />
         <option value="$PROJECT_DIR$/koa-sequelize/server.js" />
+        <option value="$PROJECT_DIR$/koa-sequelize/config/config.json" />
+        <option value="$PROJECT_DIR$/koa-sequelize/models/index.js" />
       </list>
     </option>
   </component>
@@ -4135,12 +4411,12 @@
       <workItem from="1525075568394" duration="4572000" />
       <workItem from="1525085135887" duration="5134000" />
       <workItem from="1525097020888" duration="2956000" />
-      <workItem from="1525254605096" duration="4620000" />
+      <workItem from="1525254605096" duration="7090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69504000" />
+    <option name="totallyTimeSpent" value="71974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -4190,13 +4466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ethereum-services/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ethereum-services/src/customer.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -4291,13 +4560,6 @@
             <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="37" lean-forward="true" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -4504,13 +4766,6 @@
     <entry file="file://$PROJECT_DIR$/koa-project/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/migrations/20180502122938-create-company.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -4518,24 +4773,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/config/config.json">
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/models/simione.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/node_modules/mysql2/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -4546,10 +4822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/models/simione.js">
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>

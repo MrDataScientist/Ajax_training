@@ -9,11 +9,12 @@ const router = new Router();
 const db = require('./models');
 // this will return the promis
 db.sequelize.sync()
-    .then()
+    .then(() => console.log('models synced'))
+    .catch(err => console.log(err));
+
+
 
 app.use(bodyParser());
-
-
 
 app
     .use(router.routes())

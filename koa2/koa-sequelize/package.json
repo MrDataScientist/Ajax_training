@@ -11,10 +11,12 @@
   "author": "Tarik En-Nakdi",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
     "koa": "^2.5.1",
     "koa-parser": "^1.0.4",
     "koa-router": "^7.4.0",
-    "mysql2": "^1.5.3",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
     "sequelize": "^4.37.6"
   }
 }
