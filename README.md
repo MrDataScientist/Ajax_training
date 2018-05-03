@@ -80,7 +80,6 @@ https://github.com/davekaj
 - https://github.com/tocausan/ethereum-wallet-rest-api
 - https://github.com/haopingku/ethereum-restful-api
 
-
 ## test pass
 testRPC: _
 Muc8am$4
