@@ -49,7 +49,6 @@ describe how your software will look like at the end
 - https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
 - https://github.com/EOSIO
 - https://eos.io/faq.html
-
 - https://block.one
 
 ## Metamask examples:
