@@ -487,11 +487,11 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/buffer/test/to-string.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/buffer/test/write.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/buffer/test/write_infinity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/bytes/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/caseless/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/caseless/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/caseless/index.js" beforeDir="false" />
@@ -1391,34 +1391,33 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/http-signature/lib/utils.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/http-signature/lib/verify.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/http-signature/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/streams.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/iconv-lite/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/ieee754/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/ieee754/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/ieee754/index.js" beforeDir="false" />
@@ -1584,7 +1583,7 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/node-beautify-tests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/requirejs-html-beautify.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/configerror/.jsbeautifyrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/configerror/subDir1/subDir2/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/configerror/subDir1/subDir2/empty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/archived/index1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/editorconfig/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/editorconfig/cr/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/editorconfig/crlf/.editorconfig" beforeDir="false" />
@@ -1592,7 +1591,7 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/editorconfig/example-base.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/example1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/indent11chars/.jsbeautifyrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/indent11chars/subDir1/subDir2/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/resources/indent11chars/subDir1/subDir2/empty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/run-tests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/sanitytest.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/js-beautify/js/test/shell-smoke-test.sh" beforeDir="false" />
@@ -2863,24 +2862,24 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/punycode/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/punycode/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/punycode/punycode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/dist/qs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/formats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/stringify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/stringify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/formats.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/qs/test/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/query-string/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/query-string/license" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/query-string/package.json" beforeDir="false" />
@@ -2912,30 +2911,30 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/range-parser/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/range-parser/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/range-parser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/browser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/browser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/raw-body/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/readable-stream/.travis.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
@@ -3431,11 +3430,11 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/universalify/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/universalify/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/universalify/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/node_modules/unpipe/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/url-parse-lax/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/url-parse-lax/license" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/url-parse-lax/package.json" beforeDir="false" />
@@ -3906,7 +3905,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleo-Wallet/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cleo-Wallet/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cleo-Wallet/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -3916,7 +3943,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Cleo-Wallet" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -3924,14 +3951,12 @@
         <option value="$PROJECT_DIR$/light-wallet-train/index.js" />
         <option value="$PROJECT_DIR$/light-wallet-train/view/index.ejs" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/test.js" />
-        <option value="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/public/index.html" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/customer.sol" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/package.json" />
         <option value="$PROJECT_DIR$/ethereum-services/src/index.js" />
         <option value="$PROJECT_DIR$/ethereum-services/src/customer.sol" />
         <option value="$PROJECT_DIR$/ethereum-services/README.md" />
-        <option value="$PROJECT_DIR$/Cleo-Wallet/index.js" />
         <option value="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" />
         <option value="$PROJECT_DIR$/lottery-contract-solidity/package.json" />
         <option value="$PROJECT_DIR$/test1/contracts/CustomerTemplate.sol" />
@@ -3957,6 +3982,10 @@
         <option value="$PROJECT_DIR$/koa-sequelize/models/index.js" />
         <option value="$PROJECT_DIR$/koa-sequelize/config/config.json" />
         <option value="$PROJECT_DIR$/koa-sequelize/server.js" />
+        <option value="$PROJECT_DIR$/Cleo-Wallet/archived/index1.js" />
+        <option value="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" />
+        <option value="$PROJECT_DIR$/Cleo-Wallet/test.json" />
+        <option value="$PROJECT_DIR$/Cleo-Wallet/index.js" />
       </list>
     </option>
   </component>
@@ -3978,6 +4007,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Cleo-Wallet/node_modules" />
     <handled-path value="$PROJECT_DIR$/cbn-api/cbn-gateway-api/node_modules" />
     <handled-path value="$PROJECT_DIR$/koa-project/node_modules" />
     <handled-path value="$PROJECT_DIR$/koa-sequelize/node_modules" />
@@ -4011,6 +4041,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4021,13 +4052,17 @@
             <path>
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="Cleo-Wallet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2" type="462c0819:PsiDirectoryNode" />
               <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4095,11 +4130,13 @@
       <workItem from="1525097020888" duration="2956000" />
       <workItem from="1525254605096" duration="11320000" />
       <workItem from="1525349450108" duration="2407000" />
+      <workItem from="1525421433346" duration="9340000" />
+      <workItem from="1525436104002" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78611000" />
+    <option name="totallyTimeSpent" value="88977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -4107,11 +4144,11 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19072708" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5168598" side_tool="true" visible="true" weight="0.3824201" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37671232" side_tool="true" visible="true" weight="0.54882157" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48314014" visible="true" weight="0.3824201" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6232877" visible="true" weight="0.54882157" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46666667" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -4148,27 +4185,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lottery-contract-solidity/compile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -4180,13 +4196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -4262,13 +4271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="38" lean-forward="true" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -4439,16 +4441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -4491,10 +4483,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/archived/index1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/view/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
