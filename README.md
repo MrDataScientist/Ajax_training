@@ -6,8 +6,9 @@ IDE : Webstorm, Atom
 - https://www.apachefriends.org/index.html
 - https://augur.net
 - https://ethereum.org
-REMIX editor for Solidity:(smart contracts)
-http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
+- REMIX editor for Solidity:(smart contracts)
+- http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
+- Solc
 
 ## 2018 what's going on? januar 2018
 
@@ -19,7 +20,6 @@ http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
 #### Editor
 Webstorm
 Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
-
 ## test:
 https://dqju3n35ybvc4.cloudfront.net
 # Metamask
@@ -31,14 +31,12 @@ https://github.com/dwyl/html-form-send-email-via-google-script-without-server
 https://github.com/ry-con/contact_form_with_validation
 https://github.com/50006665/FirebaseContact_Form
 
-
-
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
 
-# Blockchain roadmap
-### - How to make a white paper for regulations
-### - How to define the business aspects
+# Blockchain roadmap.
+### How to make a white paper for regulations
+### How to define the business aspects
 MetaMask payment
 use onclick and call function() and upload the js library >> this should work
 # Blockchain white paper
@@ -52,7 +50,6 @@ describe how your software will look like at the end
 - https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
 - https://github.com/EOSIO
 - https://eos.io/faq.html
-
 - https://block.one
 
 ## Metamask examples:
@@ -79,7 +76,6 @@ https://github.com/davekaj
 - https://github.com/search?utf8=%E2%9C%93&q=ethereum+rest+api&type=
 - https://github.com/tocausan/ethereum-wallet-rest-api
 - https://github.com/haopingku/ethereum-restful-api
-
 
 ## test pass
 testRPC: _
