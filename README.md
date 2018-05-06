@@ -56,9 +56,8 @@ describe how your software will look like at the end
 - https://github.com/Oaken-Innovations/water-meter-acorn
 
 ### Smart contract examples:
-https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
-https://github.com/davekaj
-
+- https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
+- https://github.com/davekaj
 ## Serverless - top priority
 - https://serverless.com
 - https://www.udemy.com/learning-koajs-by-building-rest-apis/learn/v4/t/lecture/9279044?start=0
