@@ -34,6 +34,7 @@ const provider_status = [
     }
 ];
 
+
 const templates = [
     {
         "accountAddress" : "0xc697e19613caf7f7d1f4fhh06aab1e20cb79f5a6",
