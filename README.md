@@ -114,5 +114,12 @@ devapi-01
 use middleswares
 Nested
 koa-router
-create a lib
--
+
+## Blockchain resources
+- https://github.com/amazingandyyy/blockchain-demo
+- https://github.com/amazingandyyy/the-ethereum-blockchain-development-tutorials-draft
+- https://github.com/OpenZeppelin/openzeppelin-solidity
+- https://github.com/amazingandyyy/bitguild-kitties
+- https://github.com/amazingandyyy/car-violation-blockchain-ledger
+- https://github.com/amazingandyyy/algorithms-in-js
+- https://github.com/amazingandyyy/crypto-roger
