@@ -9,14 +9,11 @@ IDE : Webstorm, Atom
 - REMIX editor for Solidity:(smart contracts)
 - http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
 - Solc
-
 ## 2018 what's going on? januar 2018
-
 - start using webstorm more often
 - vue.js components / design / logic (Advancing 3 januar 2018)
 - Vue-resource to connect to servers (4 januar 2018)
 - Advanced Component Usage ()
-
 #### Editor
 Webstorm
 Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
@@ -25,15 +22,12 @@ https://dqju3n35ybvc4.cloudfront.net
 # Metamask
 https://metamask.github.io/TipButton/
 # Google API + TEAMWORK PM
-
 https://github.com/rapidwebltd/php-google-contacts-v3-api
 https://github.com/dwyl/html-form-send-email-via-google-script-without-server
 https://github.com/ry-con/contact_form_with_validation
 https://github.com/50006665/FirebaseContact_Form
-
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
-
 # Blockchain roadmap.
 ### How to make a white paper for regulations
 ### How to define the business aspects
@@ -62,9 +56,8 @@ describe how your software will look like at the end
 - https://github.com/Oaken-Innovations/water-meter-acorn
 
 ### Smart contract examples:
-https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
-https://github.com/davekaj
-
+- https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
+- https://github.com/davekaj
 ## Serverless - top priority
 - https://serverless.com
 - https://www.udemy.com/learning-koajs-by-building-rest-apis/learn/v4/t/lecture/9279044?start=0
