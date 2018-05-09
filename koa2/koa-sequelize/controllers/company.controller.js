@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
      async create(ctx){
 // try
          try {
@@ -14,5 +14,35 @@ module.export = {
          catch (err) {
               ctx.throw(500, err);
          }
-     }
+     },
+    async find(ctx){
+         try{
+             ctx.body = await ctx.db.Company.findAll({});
+             // ctx.body = await ctx.db.Company.findAll({});
+         }
+         catch (err){
+             throw err;
+         }
+    },
+    async findOne(ctx) {
+
+        try {
+            // get the company models
+            // use the find one method from the company
+            // find company on the based on id
+
+            console.log(ctx.params.id)
+            const company = await ctx.db.Company.findOne({
+                where: { id: ctx.params.id }
+            });
+            if (!company) {
+                ctx.throw(404, 'company id is invalid');
+            }
+            ctx.body = company;
+
+        }
+        catch (err) {
+            ctx.throw(500, err);
+        }
+    }
 };
