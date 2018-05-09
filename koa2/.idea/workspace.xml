@@ -4,7 +4,6 @@
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Cleo-Wallet/customer.sol" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Cleo-Wallet/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ethereum_tutos/Blockchain-Course-Web3-DAPP-v102/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ethereum_tutos/Blockchain-Course-Web3-DAPP-v102/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
@@ -3896,11 +3895,6 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/node_modules/lodash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -3914,26 +3908,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cleo-Wallet/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.sol" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -4039,11 +4014,11 @@
       <path value="$PROJECT_DIR$/test1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-39" />
-    <option name="y" value="20" />
-    <option name="width" value="1079" />
-    <option name="height" value="825" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2404" />
+    <option name="y" value="185" />
+    <option name="width" value="1078" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -4060,34 +4035,6 @@
             <path>
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="Cleo-Wallet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4171,25 +4118,24 @@
       <workItem from="1525785073704" duration="366000" />
       <workItem from="1525785713201" duration="431000" />
       <workItem from="1525788541556" duration="672000" />
-      <workItem from="1525789311679" duration="451000" />
+      <workItem from="1525789311679" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112033000" />
+    <option name="totallyTimeSpent" value="113528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1903503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15173867" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32253802" side_tool="true" visible="true" weight="0.45454547" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32244468" side_tool="true" visible="true" weight="0.34246576" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.677462" visible="true" weight="0.45454547" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6775553" visible="true" weight="0.34246576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46666667" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -4556,17 +4502,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cleo-Wallet/customer.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cleo-Wallet/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
         </state>
       </provider>
     </entry>
