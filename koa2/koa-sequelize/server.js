@@ -3,6 +3,7 @@ const Router = require('koa-router');
 const bodyParser = require('koa-parser');
 const _= require('lodash');
 
+// from the routes directory
 const router = require('./routes'); // you dont need to write the index.js
 
 const app = new koa();
