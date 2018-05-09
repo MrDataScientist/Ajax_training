@@ -4,6 +4,7 @@
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Cleo-Wallet/customer.sol" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Cleo-Wallet/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa-sequelize/controllers/template.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
@@ -3895,12 +3896,10 @@
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-sequelize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-sequelize/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/migrations/20180502131739-create-company.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/models/company.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/koa-sequelize/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa-sequelize/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-sequelize/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-contract-solidity/deploy.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -3914,30 +3913,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="template.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/template.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="238">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-sequelize/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -3954,6 +3974,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>solc</find>
+      <find>Company</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3998,13 +4019,14 @@
         <option value="$PROJECT_DIR$/Cleo-Wallet/test.json" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/archived/index2.js" />
         <option value="$PROJECT_DIR$/cbn/server.js" />
-        <option value="$PROJECT_DIR$/koa-sequelize/README.md" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/customer.sol" />
         <option value="$PROJECT_DIR$/Cleo-Wallet/index.js" />
-        <option value="$PROJECT_DIR$/koa-sequelize/controllers/index.js" />
         <option value="$PROJECT_DIR$/koa-sequelize/server.js" />
-        <option value="$PROJECT_DIR$/koa-sequelize/routes/index.js" />
         <option value="$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js" />
+        <option value="$PROJECT_DIR$/koa-sequelize/README.md" />
+        <option value="$PROJECT_DIR$/koa-sequelize/controllers/index.js" />
+        <option value="$PROJECT_DIR$/koa-sequelize/controllers/template.controller.js" />
+        <option value="$PROJECT_DIR$/koa-sequelize/routes/index.js" />
       </list>
     </option>
   </component>
@@ -4051,8 +4073,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2404" />
-    <option name="y" value="185" />
+    <option name="x" value="2236" />
+    <option name="y" value="33" />
     <option name="width" value="1078" />
     <option name="height" value="1038" />
   </component>
@@ -4076,12 +4098,6 @@
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
               <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2" type="462c0819:PsiDirectoryNode" />
-              <item name="koa-sequelize" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
@@ -4172,27 +4188,29 @@
       <workItem from="1525785713201" duration="431000" />
       <workItem from="1525788541556" duration="672000" />
       <workItem from="1525789311679" duration="1946000" />
-      <workItem from="1525853923232" duration="5755000" />
+      <workItem from="1525853923232" duration="11867000" />
+      <workItem from="1525870655015" duration="710000" />
+      <workItem from="1525872252113" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119283000" />
+    <option name="totallyTimeSpent" value="127170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15173867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13593256" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32297155" side_tool="true" visible="true" weight="0.34246576" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3240253" side_tool="true" visible="true" weight="0.2043379" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960339" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6770285" visible="true" weight="0.34246576" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6759747" visible="true" weight="0.2043379" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46666667" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -4229,14 +4247,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/merchants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbn-api/api-template/api/cbn_gateway.js" />
     <entry file="file://$PROJECT_DIR$/cbn-api/api-template/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -4481,16 +4501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -4536,13 +4546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -4550,24 +4553,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/index.js">
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-sequelize/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/template.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/company.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="597">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-sequelize/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>

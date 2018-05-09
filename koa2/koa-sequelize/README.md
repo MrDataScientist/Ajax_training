@@ -9,6 +9,9 @@
 
 ### /generate a model/
 - sequelize model:generate --name Company --attributes name:string,city:string, address:string
+- Template
+- sequelize model:generate --name Template --attributes SKU:string,data:string,version:string,abi:string,bytecode:string
+
 
 ### /run/
 - npm run dev
