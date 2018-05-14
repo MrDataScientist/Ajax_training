@@ -6,7 +6,6 @@ _-Create my Own Token
 
 -Launch my own ICO on the private network.
 -Watching our Token contract in Mist / Ethereum Wallet
-
 -Move Tokens between accounts_
 
 {color:#d04437}Payment Methods:{color}
