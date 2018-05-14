@@ -10,6 +10,7 @@ _-Create my Own Token
 -Move Tokens between accounts_
 
 {color:#d04437}Payment Methods:{color}
+
 -Give the address of the account
 -Use MetaMask
 -Coinbase API
