@@ -3890,6 +3890,7 @@
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/view/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbn-gateway-api/controllers/cbn_catalogue.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/cbn-gateway-api/controllers/cbn_catalogue.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ethereum-services/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum-services/src/index.js" afterDir="false" />
@@ -3907,20 +3908,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cbngateway.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cbngateway.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cbn-gateway-api/api/cbngateway.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="633">
               <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cbn_catalogue.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cbn_catalogue.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cbn-gateway-api/controllers/cbn_catalogue.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -4041,7 +4042,7 @@
       <path value="$PROJECT_DIR$/test1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2236" />
     <option name="y" value="33" />
     <option name="width" value="1078" />
@@ -4161,15 +4162,16 @@
       <workItem from="1525870655015" duration="710000" />
       <workItem from="1525872252113" duration="1065000" />
       <workItem from="1526044817571" duration="8279000" />
-      <workItem from="1526377726152" duration="3647000" />
+      <workItem from="1526377726152" duration="4296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139096000" />
+    <option name="totallyTimeSpent" value="139745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13593256" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -4536,17 +4538,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbn-gateway-api/api/cbngateway.js">
+    <entry file="file://$PROJECT_DIR$/cbn-gateway-api/controllers/cbn_catalogue.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbn-gateway-api/controllers/cbn_catalogue.controller.js">
+    <entry file="file://$PROJECT_DIR$/cbn-gateway-api/api/cbngateway.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="633">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
         </state>
       </provider>
     </entry>
