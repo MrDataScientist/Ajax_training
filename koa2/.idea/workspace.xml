@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b3252c5-5622-4cd5-bfdd-13a738bc80d2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Cleo-Wallet/customer.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cleo-Wallet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cleo-Wallet/node_modules/.bin/css-beautify" beforeDir="false" />
@@ -4046,6 +4047,12 @@
               <item name="koa2" type="462c0819:PsiDirectoryNode" />
               <item name="cbn-gateway-api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="koa2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2" type="462c0819:PsiDirectoryNode" />
+              <item name="cbn-gateway-api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -4134,12 +4141,12 @@
       <workItem from="1525870655015" duration="710000" />
       <workItem from="1525872252113" duration="1065000" />
       <workItem from="1526044817571" duration="8279000" />
-      <workItem from="1526377726152" duration="649000" />
+      <workItem from="1526377726152" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136098000" />
+    <option name="totallyTimeSpent" value="136701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
