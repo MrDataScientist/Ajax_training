@@ -35,6 +35,7 @@
 
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
+
 # Blockchain roadmap.
 
 ### How to make a white paper for regulations
@@ -42,10 +43,12 @@ connect to db and retrieve data.
 ### How to define the business aspects
 MetaMask payment
 use onclick and call function() and upload the js library >> this should work
+
 # Blockchain white paper
 starting doing that from > 7 mars 2018 : starting 9 mars 2018
 technical schema with a vision.
 describe how your software will look like at the end
+
 # Blockchain companies / Laboratories
  1) Foam > geohash  >> company
  2) EOS > Blockone
@@ -73,7 +76,6 @@ describe how your software will look like at the end
 - https://www.udemy.com/learning-koajs-by-building-rest-apis/learn/v4/t/lecture/9279044?start=0
 + how to use POSTMAN and SEQUELIZE and MYSQL with KOAJS
 
-- Monday ????????????????????
 - https://github.com/improvein/ether-node-api
 - https://github.com/blockapps/blockapps-rest
 - https://github.com/search?utf8=%E2%9C%93&q=ethereum+rest+api&type=
@@ -88,12 +90,14 @@ OPS-DEV-01
 217.64.166.142
 user
 ops-01
+
 ## deploy
 217.64.166.154
 devapi-01
 
 ## Crypto APIs
 - https://docs.gdax.com/#sandbox
+
 ## koa examples
 - BAD //
 - https://github.com/lionsharecapital/lionshare-api
