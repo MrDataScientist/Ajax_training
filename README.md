@@ -34,7 +34,9 @@ https://github.com/50006665/FirebaseContact_Form
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
 # Blockchain roadmap.
+
 ### How to make a white paper for regulations
+
 ### How to define the business aspects
 MetaMask payment
 use onclick and call function() and upload the js library >> this should work
@@ -63,6 +65,7 @@ describe how your software will look like at the end
 ### Smart contract examples:
 - https://github.com/davekaj/DApps/tree/master/truffle/patreon_deployed_to_heroku/truffle-boxes-patreon
 - https://github.com/davekaj
+
 ## Serverless - top priority
 - https://serverless.com
 - https://www.udemy.com/learning-koajs-by-building-rest-apis/learn/v4/t/lecture/9279044?start=0
@@ -115,6 +118,7 @@ devapi-01
 - https://github.com/wangyifan/demo_solc_test
 - https://github.com/search?l=JavaScript&o=desc&q=solc&s=updated&type=Repositories
 - https://blockgeeks.com/two-node-setup-of-a-private-ethereum/
+
 ## notes about koa v2
 use middleswares
 Nested
