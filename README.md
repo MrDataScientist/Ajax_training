@@ -123,3 +123,7 @@ koa-router
 - https://github.com/amazingandyyy/car-violation-blockchain-ledger
 - https://github.com/amazingandyyy/algorithms-in-js
 - https://github.com/amazingandyyy/crypto-roger
+
+# Javascript standard style
+- sources
+- https://standardjs.com
