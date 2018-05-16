@@ -1,6 +1,6 @@
 # Resources:
-keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity, solc
-IDE : Webstorm,Standard javascript style
+- keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity, solc
+- IDE : Webstorm,Standard javascript style
 
 ##Applications
 - http://brackets.io/
@@ -18,19 +18,21 @@ IDE : Webstorm,Standard javascript style
 - Advanced Component Usage ()
 
 #### Editor
-Webstorm
-Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
+- Webstorm
+- Cloud9 : https://aws.amazon.com/cloud9/?origin=c9io
 
 ## test:
-https://dqju3n35ybvc4.cloudfront.net
+- https://dqju3n35ybvc4.cloudfront.net
 
 # Metamask
-https://metamask.github.io/TipButton/
+- https://metamask.github.io/TipButton/
+
 # Google API + TEAMWORK PM
-https://github.com/rapidwebltd/php-google-contacts-v3-api
-https://github.com/dwyl/html-form-send-email-via-google-script-without-server
-https://github.com/ry-con/contact_form_with_validation
-https://github.com/50006665/FirebaseContact_Form
+- https://github.com/rapidwebltd/php-google-contacts-v3-api
+- https://github.com/dwyl/html-form-send-email-via-google-script-without-server
+- https://github.com/ry-con/contact_form_with_validation
+- https://github.com/50006665/FirebaseContact_Form
+
 # focus on dashboard using Laravel vue.js ||  Will be done before the end of Mars 2018
 connect to db and retrieve data.
 # Blockchain roadmap.
