@@ -25,15 +25,12 @@ contract Landsat is Owned{
     }
     mapping (address => landsat) landsats;
     address[] public landsatAccts;
-
     event landsatInfo(
       uint orderId,
       uint lineItem,
       uint price,
       uint sku
-
       );
-
     function setlandsat(address _address, uint _sku, uint _price, uint _orderId, uint _lineItem) onlyOwner public {
         var landsat = landsats[_address];
 
@@ -45,17 +42,13 @@ contract Landsat is Owned{
         landsatAccts.push(_address) -1;
         landsatInfo(_orderId, _lineItem, _price, _sku);
     }
-
     function getlandsats() view public returns(address[]) {
         return landsatAccts;
     }
-
     function getlandsat(address _address) view public returns (uint, uint, uint, uint) {
         return (landsats[_address].sku, landsats[_address].price, landsats[_address].orderId, landsats[_address].lineItem);
     }
-
     function countlandsats() view public returns (uint) {
         return landsatAccts.length;
     }
-
 }
