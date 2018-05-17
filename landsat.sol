@@ -8,7 +8,6 @@ contract Owned{
         require(msg.sender == owner);
         _;
     }
-
 }
 contract Cancel is Owned {
     function kill() {
@@ -33,7 +32,6 @@ contract Landsat is Owned{
       );
     function setlandsat(address _address, uint _sku, uint _price, uint _orderId, uint _lineItem) onlyOwner public {
         var landsat = landsats[_address];
-
         landsat.orderId = _orderId;
         landsat.lineItem = _lineItem;
         landsat.price = _price;
