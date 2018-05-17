@@ -23,7 +23,6 @@ contract Landsat is Owned{
         uint lineItem;
         uint sku;
     }
-
     mapping (address => landsat) landsats;
     address[] public landsatAccts;
 
