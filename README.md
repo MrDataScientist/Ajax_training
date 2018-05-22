@@ -12,6 +12,7 @@
 - Solc
 
 ## 2018 what's going on? januar 2018
+
 - start using webstorm more often
 - vue.js components / design / logic (Advancing 3 januar 2018)
 - Vue-resource to connect to servers (4 januar 2018)
