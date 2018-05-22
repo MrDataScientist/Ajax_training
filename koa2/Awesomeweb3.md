@@ -1,4 +1,5 @@
 # Awesome web3
+
 🚀 A list of tools, libs and resources to help you build awesome dapps
 
 *Heads up!* This is a list of resources to help with the browser frontend of dapp development. For resources on how to get up and running with Ethereum and Solidity you might want to check these out:
