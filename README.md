@@ -18,6 +18,7 @@
 - vue.js components / design / logic (Advancing 3 januar 2018)
 - Vue-resource to connect to servers (4 januar 2018)
 - Advanced Component Usage ()
+-
 
 #### Editor
 - Webstorm
