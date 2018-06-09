@@ -1,4 +1,5 @@
 var express = require('express');
+
 var app = express();
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
