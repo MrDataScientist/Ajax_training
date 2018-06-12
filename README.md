@@ -1,6 +1,5 @@
 # Resources:
 - keywords : js, web3, vue.js, koa.js, blockchain, ethereum, solidity, solc
--
 - IDE : Webstorm,Standard javascript style
 
 ## Applications 
