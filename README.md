@@ -116,9 +116,9 @@
 - https://blockgeeks.com/two-node-setup-of-a-private-ethereum/
 
 ## notes about koa v2
-use middleswares
-Nested
-koa-router
+- use middleswares
+- Nested
+- koa-router
 
 ## Blockchain resources
 - https://github.com/amazingandyyy/blockchain-demo
